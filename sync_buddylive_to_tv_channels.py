@@ -3,7 +3,7 @@
 Sync live (tv.m3u + Backup.m3u + TheTVApp.m3u8 + Xumo) into main.m3u.
 - Fetches all four remote playlists
 - Keeps only channels whose display name does NOT start with '[' and is not Fanduel
-- Skips Fanduel (by name or tvg-id) and any stream URL containing moveonjoy
+- Skips Fanduel (by name or tvg-id), BBC America SD/HD, BET HD, and any stream URL containing moveonjoy
 - Writes main.m3u as a fresh file: live + Backup + TheTVApp + Xumo sections
 """
 import argparse
@@ -97,7 +97,7 @@ def main() -> int:
     args = parser.parse_args()
 
     m3u_path = args.m3u
-    ignore_names = {"fanduel"}
+    ignore_names = {"fanduel", "bbc america sd", "bbc america hd", "bet hd"}
 
     # Fetch and filter live (tv.m3u)
     try:
