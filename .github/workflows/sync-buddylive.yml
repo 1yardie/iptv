@@ -1,4 +1,4 @@
-# Hourly: pull live into tv-channels.m3u (ignore channels starting with "[" and Fanduel)
+# Every 3 hours: sync live + Backup + TheTVApp + Xumo + LocalNow + Tubi + Roku + Pluto TV + Plex into main.m3u
 name: Sync live to tv-channels
 on:
   schedule:
@@ -27,4 +27,4 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add main.m3u
-          git diff --staged --quiet || (git commit -m "chore: sync live into main.m3u" && git push)
+          git diff --staged --quiet || (git commit -m "chore: sync live into main.m3u (live/Backup/TheTVApp/Xumo/LocalNow/Tubi/Roku/Pluto/Plex)" && git push)
