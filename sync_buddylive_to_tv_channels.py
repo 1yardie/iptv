@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-Sync live (tv.m3u + Backup.m3u + TheTVApp.m3u8 + Xumo) into main.m3u.
-- Fetches all four remote playlists
+Sync live (tv.m3u + Backup.m3u + TheTVApp.m3u8 + Xumo + LocalNow) into main.m3u.
+- Fetches all five remote playlists
 - Keeps only channels whose display name does NOT start with '[' and is not Fanduel
 - Skips Fanduel (by name or tvg-id), BBC America SD/HD, BET HD, and any stream URL containing moveonjoy
-- Writes main.m3u as a fresh file: live + Backup + TheTVApp + Xumo sections
+- Writes main.m3u as a fresh file: live + Backup + TheTVApp + Xumo + LocalNow sections
 """
 import argparse
 import sys
@@ -15,10 +15,12 @@ LIVE_URL = "https://raw.githubusercontent.com/BuddyChewChew/My-Streams/refs/head
 BACKUP_URL = "https://raw.githubusercontent.com/BuddyChewChew/My-Streams/refs/heads/main/Backup.m3u"
 THETVAPP_URL = "https://raw.githubusercontent.com/BuddyChewChew/My-Streams/refs/heads/main/TheTVApp.m3u8"
 XUMO_URL = "https://raw.githubusercontent.com/BuddyChewChew/xumo-playlist-generator/refs/heads/main/playlists/xumo_playlist.m3u"
+LOCALNOW_URL = "https://www.apsattv.com/localnow.m3u"
 LIVE_SECTION = "# === live ==="
 BACKUP_SECTION = "# === Backup ==="
 THETVAPP_SECTION = "# === TheTVApp ==="
 XUMO_SECTION = "# === Xumo ==="
+LOCALNOW_SECTION = "# === LocalNow ==="
 
 
 def parse_m3u_blocks(text: str) -> list[tuple[str, list[str]]]:
@@ -127,7 +129,14 @@ def main() -> int:
         print(f"Error fetching {XUMO_URL}: {e}", file=sys.stderr)
         return 1
 
-    # Build fresh M3U: header + live + Backup + TheTVApp + Xumo
+    # Fetch and filter LocalNow playlist
+    try:
+        localnow_blocks, localnow_skipped = fetch_and_filter(LOCALNOW_URL, ignore_names)
+    except Exception as e:
+        print(f"Error fetching {LOCALNOW_URL}: {e}", file=sys.stderr)
+        return 1
+
+    # Build fresh M3U: header + live + Backup + TheTVApp + Xumo + LocalNow
     out_lines = ["#EXTM3U", ""]
     out_lines.append(LIVE_SECTION)
     for block in live_blocks:
@@ -145,18 +154,22 @@ def main() -> int:
     for block in xumo_blocks:
         out_lines.extend(block)
         out_lines.append("")
+    out_lines.append(LOCALNOW_SECTION)
+    for block in localnow_blocks:
+        out_lines.extend(block)
+        out_lines.append("")
     out_text = "\n".join(out_lines)
     if not out_text.endswith("\n"):
         out_text += "\n"
 
-    total = len(live_blocks) + len(backup_blocks) + len(tvapp_blocks) + len(xumo_blocks)
+    total = len(live_blocks) + len(backup_blocks) + len(tvapp_blocks) + len(xumo_blocks) + len(localnow_blocks)
     if args.dry_run:
-        print(f"Would write {total} channels to {m3u_path} (live: {len(live_blocks)}, Backup: {len(backup_blocks)}, TheTVApp: {len(tvapp_blocks)}, Xumo: {len(xumo_blocks)}; skipped live: {live_skipped}, Backup: {backup_skipped}, TheTVApp: {tvapp_skipped}, Xumo: {xumo_skipped})")
+        print(f"Would write {total} channels to {m3u_path} (live: {len(live_blocks)}, Backup: {len(backup_blocks)}, TheTVApp: {len(tvapp_blocks)}, Xumo: {len(xumo_blocks)}, LocalNow: {len(localnow_blocks)}; skipped live: {live_skipped}, Backup: {backup_skipped}, TheTVApp: {tvapp_skipped}, Xumo: {xumo_skipped}, LocalNow: {localnow_skipped})")
         print(f"Output would be {len(out_lines)} lines")
         return 0
 
     m3u_path.write_text(out_text, encoding="utf-8")
-    print(f"Synced {total} channels into {m3u_path} (live: {len(live_blocks)}, Backup: {len(backup_blocks)}, TheTVApp: {len(tvapp_blocks)}, Xumo: {len(xumo_blocks)}; skipped live: {live_skipped}, Backup: {backup_skipped}, TheTVApp: {tvapp_skipped}, Xumo: {xumo_skipped})")
+    print(f"Synced {total} channels into {m3u_path} (live: {len(live_blocks)}, Backup: {len(backup_blocks)}, TheTVApp: {len(tvapp_blocks)}, Xumo: {len(xumo_blocks)}, LocalNow: {len(localnow_blocks)}; skipped live: {live_skipped}, Backup: {backup_skipped}, TheTVApp: {tvapp_skipped}, Xumo: {xumo_skipped}, LocalNow: {localnow_skipped})")
     return 0
 
 
