@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """
-Sync live (BuddyChewChew tv.m3u + Backup.m3u) into main.m3u.
-- Fetches both remote playlists
+Sync live (tv.m3u + Backup.m3u + TheTVApp.m3u8 + Xumo) into main.m3u.
+- Fetches all four remote playlists
 - Keeps only channels whose display name does NOT start with '[' and is not Fanduel
-- Writes main.m3u as a fresh file: live section + Backup section
+- Skips Fanduel (by name or tvg-id) and any stream URL containing moveonjoy
+- Writes main.m3u as a fresh file: live + Backup + TheTVApp + Xumo sections
 """
 import argparse
 import sys
@@ -12,8 +13,12 @@ from pathlib import Path
 
 LIVE_URL = "https://raw.githubusercontent.com/BuddyChewChew/My-Streams/refs/heads/main/tv.m3u"
 BACKUP_URL = "https://raw.githubusercontent.com/BuddyChewChew/My-Streams/refs/heads/main/Backup.m3u"
+THETVAPP_URL = "https://raw.githubusercontent.com/BuddyChewChew/My-Streams/refs/heads/main/TheTVApp.m3u8"
+XUMO_URL = "https://raw.githubusercontent.com/BuddyChewChew/xumo-playlist-generator/refs/heads/main/playlists/xumo_playlist.m3u"
 LIVE_SECTION = "# === live ==="
 BACKUP_SECTION = "# === Backup ==="
+THETVAPP_SECTION = "# === TheTVApp ==="
+XUMO_SECTION = "# === Xumo ==="
 
 
 def parse_m3u_blocks(text: str) -> list[tuple[str, list[str]]]:
@@ -67,6 +72,11 @@ def fetch_and_filter(url: str, ignore_names: set[str]) -> tuple[list[list[str]],
         if "fanduel" in extinf_line.lower():
             skipped += 1
             continue
+        # Skip if stream URL contains moveonjoy
+        block_text = "\n".join(block).lower()
+        if "moveonjoy" in block_text:
+            skipped += 1
+            continue
         kept.append(block)
     return kept, skipped
 
@@ -103,7 +113,21 @@ def main() -> int:
         print(f"Error fetching {BACKUP_URL}: {e}", file=sys.stderr)
         return 1
 
-    # Build fresh M3U: header + live section + Backup section
+    # Fetch and filter TheTVApp.m3u8
+    try:
+        tvapp_blocks, tvapp_skipped = fetch_and_filter(THETVAPP_URL, ignore_names)
+    except Exception as e:
+        print(f"Error fetching {THETVAPP_URL}: {e}", file=sys.stderr)
+        return 1
+
+    # Fetch and filter Xumo playlist
+    try:
+        xumo_blocks, xumo_skipped = fetch_and_filter(XUMO_URL, ignore_names)
+    except Exception as e:
+        print(f"Error fetching {XUMO_URL}: {e}", file=sys.stderr)
+        return 1
+
+    # Build fresh M3U: header + live + Backup + TheTVApp + Xumo
     out_lines = ["#EXTM3U", ""]
     out_lines.append(LIVE_SECTION)
     for block in live_blocks:
@@ -113,18 +137,26 @@ def main() -> int:
     for block in backup_blocks:
         out_lines.extend(block)
         out_lines.append("")
+    out_lines.append(THETVAPP_SECTION)
+    for block in tvapp_blocks:
+        out_lines.extend(block)
+        out_lines.append("")
+    out_lines.append(XUMO_SECTION)
+    for block in xumo_blocks:
+        out_lines.extend(block)
+        out_lines.append("")
     out_text = "\n".join(out_lines)
     if not out_text.endswith("\n"):
         out_text += "\n"
 
-    total = len(live_blocks) + len(backup_blocks)
+    total = len(live_blocks) + len(backup_blocks) + len(tvapp_blocks) + len(xumo_blocks)
     if args.dry_run:
-        print(f"Would write {total} channels to {m3u_path} (live: {len(live_blocks)}, Backup: {len(backup_blocks)}; skipped live: {live_skipped}, Backup: {backup_skipped})")
+        print(f"Would write {total} channels to {m3u_path} (live: {len(live_blocks)}, Backup: {len(backup_blocks)}, TheTVApp: {len(tvapp_blocks)}, Xumo: {len(xumo_blocks)}; skipped live: {live_skipped}, Backup: {backup_skipped}, TheTVApp: {tvapp_skipped}, Xumo: {xumo_skipped})")
         print(f"Output would be {len(out_lines)} lines")
         return 0
 
     m3u_path.write_text(out_text, encoding="utf-8")
-    print(f"Synced {total} channels into {m3u_path} (live: {len(live_blocks)}, Backup: {len(backup_blocks)}; skipped live: {live_skipped}, Backup: {backup_skipped})")
+    print(f"Synced {total} channels into {m3u_path} (live: {len(live_blocks)}, Backup: {len(backup_blocks)}, TheTVApp: {len(tvapp_blocks)}, Xumo: {len(xumo_blocks)}; skipped live: {live_skipped}, Backup: {backup_skipped}, TheTVApp: {tvapp_skipped}, Xumo: {xumo_skipped})")
     return 0
 
 
