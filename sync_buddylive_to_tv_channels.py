@@ -10,6 +10,7 @@ Sync live (tv.m3u + Backup.m3u + TheTVApp.m3u8 + Xumo + LocalNow + Tubi + Roku +
 import argparse
 import sys
 import urllib.request
+from datetime import datetime, timezone
 from pathlib import Path
 
 LIVE_URL = "https://raw.githubusercontent.com/BuddyChewChew/My-Streams/refs/heads/main/tv.m3u"
@@ -212,7 +213,11 @@ def main() -> int:
     plex_kept, seen, plex_dup = dedupe_blocks_by_name(plex_blocks, seen)
 
     # Build fresh M3U: header + live + Backup + TheTVApp + Xumo + LocalNow + Tubi + Roku + Pluto TV + Plex
-    out_lines = ["#EXTM3U", ""]
+    out_lines = [
+        "#EXTM3U",
+        f"# Last synced: {datetime.now(timezone.utc).isoformat(timespec='seconds')}Z",
+        "",
+    ]
     out_lines.append(LIVE_SECTION)
     for block in live_kept:
         out_lines.extend(block)
