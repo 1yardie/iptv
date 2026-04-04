@@ -8,7 +8,10 @@ Sync live (tv.m3u + Backup.m3u + TheTVApp.m3u8 + Xumo + LocalNow + Tubi + Roku +
 - Writes main.m3u: live + Backup + TheTVApp + Xumo + LocalNow + Tubi + Roku + Pluto TV + Plex sections
 """
 import argparse
+import errno
 import sys
+import time
+import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
@@ -57,6 +60,49 @@ def parse_m3u_blocks(text: str) -> list[tuple[str, list[str]]]:
     return blocks
 
 
+def _transient_network_error(exc: BaseException) -> bool:
+    """True if retrying the HTTP fetch might succeed (timeouts, overloaded origin, etc.)."""
+    if isinstance(exc, TimeoutError):
+        return True
+    if isinstance(exc, urllib.error.HTTPError):
+        return exc.code in (408, 429, 500, 502, 503, 504)
+    if isinstance(exc, urllib.error.URLError):
+        r = exc.reason
+        if isinstance(r, TimeoutError):
+            return True
+        if isinstance(r, OSError) and r.errno in (
+            errno.ETIMEDOUT,
+            errno.EPIPE,
+            errno.ECONNRESET,
+            errno.ECONNREFUSED,
+        ):
+            return True
+        msg = str(r).lower()
+        if "timed out" in msg or "timeout" in msg:
+            return True
+    return False
+
+
+def fetch_url_text(
+    url: str,
+    *,
+    timeout: float,
+    max_attempts: int,
+    retry_backoff_s: float,
+) -> str:
+    max_attempts = max(1, max_attempts)
+    for attempt in range(max_attempts):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return r.read().decode("utf-8", errors="replace")
+        except Exception as e:
+            if attempt < max_attempts - 1 and _transient_network_error(e):
+                time.sleep(retry_backoff_s * (attempt + 1))
+                continue
+            raise
+
+
 def should_skip(name: str, ignore_name_start: str, ignore_names: set[str]) -> bool:
     if not name:
         return True
@@ -67,11 +113,21 @@ def should_skip(name: str, ignore_name_start: str, ignore_names: set[str]) -> bo
     return False
 
 
-def fetch_and_filter(url: str, ignore_names: set[str]) -> tuple[list[list[str]], int]:
+def fetch_and_filter(
+    url: str,
+    ignore_names: set[str],
+    *,
+    http_timeout: float,
+    http_retries: int,
+    retry_backoff_s: float,
+) -> tuple[list[list[str]], int]:
     """Fetch M3U from url, filter (no '[', no Fanduel). Return (list of channel blocks, skipped count)."""
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        text = r.read().decode("utf-8", errors="replace")
+    text = fetch_url_text(
+        url,
+        timeout=http_timeout,
+        max_attempts=http_retries,
+        retry_backoff_s=retry_backoff_s,
+    )
     blocks = parse_m3u_blocks(text)
     kept = []
     skipped = 0
@@ -132,70 +188,99 @@ def main() -> int:
         action="store_true",
         help="Print what would be done, do not write",
     )
+    parser.add_argument(
+        "--http-timeout",
+        type=float,
+        default=90.0,
+        metavar="SEC",
+        help="Per-attempt socket timeout for each playlist URL (default: 90)",
+    )
+    parser.add_argument(
+        "--http-retries",
+        type=int,
+        default=4,
+        metavar="N",
+        help="Max attempts per URL on transient errors (default: 4)",
+    )
+    parser.add_argument(
+        "--retry-backoff",
+        type=float,
+        default=3.0,
+        metavar="SEC",
+        help="Base seconds between retries; scaled by attempt (default: 3)",
+    )
     args = parser.parse_args()
 
     m3u_path = args.m3u
     ignore_names = {"fanduel", "bbc america sd", "bbc america hd", "bet hd"}
 
+    fetch_kw = dict(
+        http_timeout=args.http_timeout,
+        http_retries=max(1, args.http_retries),
+        retry_backoff_s=max(0.0, args.retry_backoff),
+    )
+
     # Fetch and filter live (tv.m3u)
     try:
-        live_blocks, live_skipped = fetch_and_filter(LIVE_URL, ignore_names)
+        live_blocks, live_skipped = fetch_and_filter(LIVE_URL, ignore_names, **fetch_kw)
     except Exception as e:
         print(f"Error fetching {LIVE_URL}: {e}", file=sys.stderr)
         return 1
 
     # Fetch and filter Backup.m3u
     try:
-        backup_blocks, backup_skipped = fetch_and_filter(BACKUP_URL, ignore_names)
+        backup_blocks, backup_skipped = fetch_and_filter(BACKUP_URL, ignore_names, **fetch_kw)
     except Exception as e:
         print(f"Error fetching {BACKUP_URL}: {e}", file=sys.stderr)
         return 1
 
     # Fetch and filter TheTVApp.m3u8
     try:
-        tvapp_blocks, tvapp_skipped = fetch_and_filter(THETVAPP_URL, ignore_names)
+        tvapp_blocks, tvapp_skipped = fetch_and_filter(THETVAPP_URL, ignore_names, **fetch_kw)
     except Exception as e:
         print(f"Error fetching {THETVAPP_URL}: {e}", file=sys.stderr)
         return 1
 
     # Fetch and filter Xumo playlist
     try:
-        xumo_blocks, xumo_skipped = fetch_and_filter(XUMO_URL, ignore_names)
+        xumo_blocks, xumo_skipped = fetch_and_filter(XUMO_URL, ignore_names, **fetch_kw)
     except Exception as e:
         print(f"Error fetching {XUMO_URL}: {e}", file=sys.stderr)
         return 1
 
     # Fetch and filter LocalNow playlist
     try:
-        localnow_blocks, localnow_skipped = fetch_and_filter(LOCALNOW_URL, ignore_names)
+        localnow_blocks, localnow_skipped = fetch_and_filter(
+            LOCALNOW_URL, ignore_names, **fetch_kw
+        )
     except Exception as e:
         print(f"Error fetching {LOCALNOW_URL}: {e}", file=sys.stderr)
         return 1
 
     # Fetch and filter Tubi playlist
     try:
-        tubi_blocks, tubi_skipped = fetch_and_filter(TUBI_URL, ignore_names)
+        tubi_blocks, tubi_skipped = fetch_and_filter(TUBI_URL, ignore_names, **fetch_kw)
     except Exception as e:
         print(f"Error fetching {TUBI_URL}: {e}", file=sys.stderr)
         return 1
 
     # Fetch and filter Roku playlist
     try:
-        roku_blocks, roku_skipped = fetch_and_filter(ROKU_URL, ignore_names)
+        roku_blocks, roku_skipped = fetch_and_filter(ROKU_URL, ignore_names, **fetch_kw)
     except Exception as e:
         print(f"Error fetching {ROKU_URL}: {e}", file=sys.stderr)
         return 1
 
     # Fetch and filter Pluto TV playlist
     try:
-        pluto_blocks, pluto_skipped = fetch_and_filter(PLUTO_URL, ignore_names)
+        pluto_blocks, pluto_skipped = fetch_and_filter(PLUTO_URL, ignore_names, **fetch_kw)
     except Exception as e:
         print(f"Error fetching {PLUTO_URL}: {e}", file=sys.stderr)
         return 1
 
     # Fetch and filter Plex playlist
     try:
-        plex_blocks, plex_skipped = fetch_and_filter(PLEX_URL, ignore_names)
+        plex_blocks, plex_skipped = fetch_and_filter(PLEX_URL, ignore_names, **fetch_kw)
     except Exception as e:
         print(f"Error fetching {PLEX_URL}: {e}", file=sys.stderr)
         return 1

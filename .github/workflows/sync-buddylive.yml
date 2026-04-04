@@ -20,7 +20,7 @@ jobs:
           python-version: "3.12"
 
       - name: Sync live into main.m3u
-        run: python3 sync_buddylive_to_tv_channels.py
+        run: python3 sync_buddylive_to_tv_channels.py --http-timeout 120 --http-retries 5
 
       - name: Show changes (if any)
         run: |
