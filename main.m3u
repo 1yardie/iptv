@@ -1,5 +1,5 @@
 #EXTM3U
-# Last synced: 2026-06-10T17:55:16+00:00Z
+# Last synced: 2026-06-10T20:24:01+00:00Z
 
 # === live ===
 #EXTINF:-1 tvg-chno="1" tvg-id="A.and.E.HD.East.us2" tvg-name="A&E TV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s51529_dark_360w_270h.png" group-title="TV",A&E TV
@@ -433,18 +433,6 @@ http://realsport.scalecdn.co:8080/live/mediahost247/JD97213hj0fjhgFfdhdgfhja3j12
 
 #EXTINF:-1 tvg-chno="144" tvg-id="Yes.Network.us2" tvg-name="YES Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30017_dark_360w_270h.png" group-title="TV",YES Network
 http://23.237.104.106:8080/USA_YES_NETWORK/index.m3u8
-
-#EXTINF:-1 tvg-chno="196" tvg-id="Live.Event.us" tvg-name="[College Track and Field] Men's & Women's College Track and Field NCAA Outdoor Championships: Men's, Day 1 (RESPRTZ)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[College Track and Field] Men's & Women's College Track and Field NCAA Outdoor Championships: Men's, Day 1 (RESPRTZ)
-#EXTVLCOPT:http-referrer=https://resportz.cfd/live/stream-44.php
-#EXTVLCOPT:http-origin=https://resportz.cfd/live/stream-44.php
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://pontos.phantemlis.top/premium44/index.m3u8?md5v1=H1yrK9AXypHXeOPCOIz6PQ&md5v2=zKfj-xmRYkJlqZ2ZrUypXg&expires=1781110834
-
-#EXTINF:-1 tvg-chno="225" tvg-id="Live.Event.us" tvg-name="[Horse Racing] Live racing from Hamilton, Kempton and Limerick (RESPRTZ)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Horse Racing] Live racing from Hamilton, Kempton and Limerick (RESPRTZ)
-#EXTVLCOPT:http-referrer=https://resportz.cfd/live/stream-555.php
-#EXTVLCOPT:http-origin=https://resportz.cfd/live/stream-555.php
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://pontos.phantemlis.top/premium555/index.m3u8?md5v1=63YHm4XehmZETh_eDIam4g&md5v2=RY8J3DRaq0YRSxWrvwWj9w&expires=1781110840
 
 # === Backup ===
 #EXTINF:-1 group-title="Local TV" tvg-id="KMIZ-DT.us_locals1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/abc-logo-1962-us.png?raw=true", ABC (KMIZ) MO
