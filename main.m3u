@@ -1,12 +1,12 @@
 #EXTM3U
-# Last synced: 2026-06-13T19:19:12+00:00Z
+# Last synced: 2026-06-13T21:59:41+00:00Z
 
 # === live ===
 #EXTINF:-1 tvg-chno="1" tvg-id="A.and.E.HD.East.us2" tvg-name="A&E TV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s51529_dark_360w_270h.png" group-title="TV",A&E TV
 http://23.239.31.26:8989/aande/index.m3u8
 
 #EXTINF:-1 tvg-chno="2" tvg-id="WABC-DT.us_locals1" tvg-name="ABC" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10003_dark_360w_270h.png" group-title="TV",ABC
-http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/112234.ts
+http://stream.cammonitorplus.net/1809/index.m3u8
 
 #EXTINF:-1 tvg-chno="3" tvg-id="ACC.Network.us2" tvg-name="ACC Network" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s111871_dark_360w_270h.png" group-title="TV",ACC Network
 http://23.237.104.106:8080/USA_ACCN/mpegts
@@ -63,7 +63,7 @@ http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/92792.ts
 http://23.237.104.106:8080/USA_CARTOON_NETWORK/index.m3u8
 
 #EXTINF:-1 tvg-chno="21" tvg-id="WCBS-DT.us_locals1" tvg-name="CBS" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" group-title="TV",CBS
-http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2631.ts
+http://stream.cammonitorplus.net/1810/index.m3u8
 
 #EXTINF:-1 tvg-chno="22" tvg-id="CBS.News.National.Stream.us2" tvg-name="CBS News 24/7" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s104846_dark_360w_270h.png" group-title="TV",CBS News 24/7
 https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
@@ -150,7 +150,7 @@ https://jmp2.uk/stvp-IN270000230
 http://23.237.104.106:8080/USA_FOOD_NETWORK/index.m3u8
 
 #EXTINF:-1 tvg-chno="50" tvg-id="WFLD-DT.us_locals1" tvg-name="Fox" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s28719_dark_360w_270h.png" group-title="TV",Fox
-http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2567.ts
+http://stream.cammonitorplus.net/1752/index.m3u8
 
 #EXTINF:-1 tvg-chno="51" tvg-id="Fox.Business.HD.us2" tvg-name="Fox Business" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s58649_dark_360w_270h.png" group-title="TV",Fox Business
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3730.ts
@@ -261,7 +261,7 @@ http://23.237.104.106:8080/USA_NAT_GEO/index.m3u8
 http://23.237.104.106:8080/USA_NBA/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-chno="87" tvg-id="WNBC-DT.us_locals1" tvg-name="NBC" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10991_dark_360w_270h.png" group-title="TV",NBC
-http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2447.ts
+http://stream.cammonitorplus.net/1812/index.m3u8
 
 #EXTINF:-1 tvg-chno="88" tvg-id="NBC.Sports.Bay.Area.HD.us2" tvg-name="NBC Sports Bay Area" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s63138_dark_360w_270h.png" group-title="TV",NBC Sports Bay Area
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2436.ts
@@ -270,7 +270,7 @@ http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2436.ts
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2435.ts
 
 #EXTINF:-1 tvg-chno="90" tvg-id="NBC.Sports.California.SAT.us2" tvg-name="NBC Sports California" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s45540_dark_360w_270h.png" group-title="TV",NBC Sports California
-http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3821.ts
+http://stream.cammonitorplus.net/1795/index.m3u8
 
 #EXTINF:-1 tvg-chno="91" tvg-id="a90a91570ce0536cbb22b591ad7e0da2" tvg-name="NBC Sports NOW" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s114140_dark_360w_270h.png" group-title="TV",NBC Sports NOW
 https://jmp2.uk/stvp-USBD420002446
@@ -433,6 +433,18 @@ http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3972.ts
 
 #EXTINF:-1 tvg-chno="144" tvg-id="Yes.Network.us2" tvg-name="YES Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30017_dark_360w_270h.png" group-title="TV",YES Network
 http://23.237.104.106:8080/USA_YES_NETWORK/index.m3u8
+
+#EXTINF:-1 tvg-chno="333" tvg-id="Live.Event.us" tvg-name="[NCAA Division I, National Championship] Alabama Crimson Tide vs Oklahoma Sooners (iSTRMEAST)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[NCAA Division I, National Championship] Alabama Crimson Tide vs Oklahoma Sooners (iSTRMEAST)
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net/new-stream-embed/51956?ad=111
+#EXTVLCOPT:http-origin=https://gooz.aapmains.net/new-stream-embed/51956?ad=111
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://chatgpt.hereisman.net/playlist/51956/load-playlist
+
+#EXTINF:-1 tvg-chno="357" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Qatar vs Switzerland, 2026 FIFA World Cup, Group Stage (SPRTSPASS)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Qatar vs Switzerland, 2026 FIFA World Cup, Group Stage (SPRTSPASS)
+#EXTVLCOPT:http-referrer=https://sportspass.dad/soccer/fifa2026.html
+#EXTVLCOPT:http-origin=https://sportspass.dad/soccer/fifa2026.html
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://ogilbert.s3.us-east-1.amazonaws.com/btsport.m3u8
 
 # === Backup ===
 #EXTINF:-1 group-title="Local TV" tvg-id="KMIZ-DT.us_locals1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/abc-logo-1962-us.png?raw=true", ABC (KMIZ) MO
