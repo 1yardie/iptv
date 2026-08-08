@@ -1,5 +1,5 @@
 #EXTM3U
-# Last synced: 2026-08-08T15:23:57+00:00Z
+# Last synced: 2026-08-08T18:30:50+00:00Z
 
 # === live ===
 #EXTINF:-1 tvg-chno="1" tvg-id="A.and.E.HD.East.us2" tvg-name="A&E TV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s51529_dark_360w_270h.png" group-title="TV",A&E TV
@@ -24,16 +24,16 @@ http://23.239.31.26:8989/amc/index.m3u8
 http://23.237.104.106:8080/USA_ANIMAL_PLANET/index.m3u8
 
 #EXTINF:-1 tvg-chno="8" tvg-id="ASPiRE.HD.us2" tvg-name="Aspire" tvg-logo="https://i.gyazo.com/0dec42cc5ef48c489cc10db906dc5b9b.png" group-title="TV",Aspire
-https://gpuserver3.tier1streams.com/ASPIRE/index.m3u8
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/21630.ts
 
 #EXTINF:-1 tvg-chno="9" tvg-id="AXS.TV.us2" tvg-name="AXS TV" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s28506_dark_360w_270h.png" group-title="TV",AXS TV
-https://gpuserver3.tier1streams.com/AXS_TV/index.m3u8
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/42309.ts
 
 #EXTINF:-1 tvg-chno="10" tvg-id="BBC.America.HD.us2" tvg-name="BBC America" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s64492_dark_360w_270h.png" group-title="TV",BBC America
 http://23.237.104.106:8080/USA_BBC_AMERICA/index.m3u8
 
 #EXTINF:-1 tvg-chno="11" tvg-id="BBC.One.Lon.HD.uk" tvg-name="BBC One" tvg-logo="https://images.open-epg.com/x364.png" group-title="TV",BBC One
-http://45.90.106.117/cloud/stream/467/bbc1lonhd.ts
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2359.ts
 
 #EXTINF:-1 tvg-chno="12" tvg-id="BBC.News.(North.America).HD.us2" tvg-name="BBC World News" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s89542_dark_360w_270h.png" group-title="TV",BBC World News
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
@@ -45,7 +45,7 @@ http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/21586.ts
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/21585.ts
 
 #EXTINF:-1 tvg-chno="15" tvg-id="BET.HD.us2" tvg-name="BET" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10051_dark_360w_270h.png" group-title="TV",BET
-https://gpuserver3.tier1streams.com/BET_EAST/index.m3u8
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/647385.ts
 
 #EXTINF:-1 tvg-chno="16" tvg-id="Big.Ten.Network.HD.us2" tvg-name="Big Ten Network" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s56783_dark_360w_270h.png" group-title="TV",Big Ten Network
 http://23.237.104.106:8080/USA_BTN/index.m3u8
@@ -60,13 +60,13 @@ http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8
 http://23.237.104.106:8080/USA_BOUNCE/index.m3u8
 
 #EXTINF:-1 tvg-chno="20" tvg-id="Bravo.(Pacific).us2" tvg-name="Bravo TV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10057_dark_360w_270h.png" group-title="TV",Bravo TV
-https://gpuserver3.tier1streams.com/BRAVO/index.m3u8
+http://41.205.93.154/BRAVO/index.m3u8
 
 #EXTINF:-1 tvg-chno="21" tvg-id="BUZZR.Stream.us2" tvg-name="Buzzr" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s93430_dark_360w_270h.png" group-title="TV",Buzzr
 https://buzzrota-web.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="22" tvg-id="CSPAN.us2" tvg-name="C-SPAN" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10161_dark_360w_270h.png" group-title="TV",C-SPAN
-https://gpuserver3.tier1streams.com/C-SPAN_HD/index.m3u8
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/92792.ts
 
 #EXTINF:-1 tvg-chno="23" tvg-id="Cartoon.Network.HD.us2" tvg-name="Cartoon Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s12131_dark_360w_270h.png" group-title="TV",Cartoon Network
 http://23.237.104.106:8080/USA_CARTOON_NETWORK/index.m3u8
@@ -84,7 +84,7 @@ https://dai.google.com/linear/hls/event/7f3Wv6f7QEKfQna22jHqLQ/master.m3u8
 https://gpuserver3.tier1streams.com/CBS_SPORTS_NETWORK/index.m3u8
 
 #EXTINF:-1 tvg-chno="28" tvg-id="Cheddar.us2" tvg-name="Cheddar" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s109346_dark_360w_270h.png" group-title="TV",Cheddar
-https://gpuserver3.tier1streams.com/CHEDDAR_BUSINESS/index.m3u8
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2616.ts
 
 #EXTINF:-1 tvg-chno="29" tvg-id="Cinemax.HD.us2" tvg-name="Cinemax" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s34933_dark_360w_270h.png" group-title="TV",Cinemax
 http://23.237.104.106:8080/USA_CINEMAX/index.m3u8
@@ -99,7 +99,7 @@ http://23.237.104.106:8080/USA_CMT/index.m3u8
 https://amg01079-nbcuuk-amg01079c2-samsung-gb-1258.playouts.now.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="33" tvg-id="CNBC.World.us2" tvg-name="CNBC World" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002NF46H.png?w=360&h=270" group-title="TV",CNBC World
-https://gpuserver3.tier1streams.com/CNBC_WORLD/index.m3u8
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3716.ts
 
 #EXTINF:-1 tvg-chno="34" tvg-id="CNN.HD.us2" tvg-name="CNN" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s58646_dark_360w_270h.png" group-title="TV",CNN
 https://tvsen6.aynaott.com/cnn/index.m3u8
@@ -126,7 +126,7 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-courttv-tablo
 https://gpuserver3.tier1streams.com/COZI_TV/index.m3u8
 
 #EXTINF:-1 tvg-chno="42" tvg-id="Crime.and.Investigation.Network.HD.us2" tvg-name="Crime & Investigation Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s61469_dark_360w_270h.png" group-title="TV",Crime & Investigation Network
-http://23.237.104.106:8080/USA_CRIME_INVESTIGATION/mpegts
+http://23.237.104.106:8080/USA_CRIME_INVESTIGATION/index.m3u8
 
 #EXTINF:-1 tvg-chno="43" tvg-id="KSTW-DT.us_locals1" tvg-name="CW" tvg-logo="https://i.gyazo.com/afd5b481b327d204087dfde6a7741f9d.png" group-title="TV",CW
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/90546.ts
@@ -267,7 +267,7 @@ https://gpuserver4.tier1streams.com/INVESTIGATION_DISCOVERY/index.m3u8
 http://23.237.104.106:8080/USA_ION/index.m3u8
 
 #EXTINF:-1 tvg-chno="89" tvg-id="ITV1.HD.uk" tvg-name="ITV1" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24292_dark_360w_270h.png" group-title="TV",ITV1
-http://45.90.106.126/cloud/stream/5/itv1fhd.ts
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/527497.ts
 
 #EXTINF:-1 tvg-chno="90" tvg-id="Lifetime.HD.us2" tvg-name="Lifetime" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10918_dark_360w_270h.png" group-title="TV",Lifetime
 http://41.205.93.154/LIFETIME/index.m3u8
@@ -390,7 +390,7 @@ https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8
 https://gpuserver5.tier1streams.com/POP/index.m3u8
 
 #EXTINF:-1 tvg-chno="130" tvg-id="Premier.Sports.1.HD.uk" tvg-name="Premier Sports 1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s79027_dark_360w_270h.png" group-title="TV",Premier Sports 1
-http://79.143.16.38/cloud/stream/247/psports1fhd.ts
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/89089.ts
 
 #EXTINF:-1 tvg-chno="131" tvg-id="Premier.Sports.2.HD.uk" tvg-name="Premier Sports 2" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s109162_dark_360w_270h.png" group-title="TV",Premier Sports 2
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/89090.ts
@@ -414,10 +414,10 @@ https://gpuserver5.tier1streams.com/SHOWTIME_EXTREME/index.m3u8
 http://23.237.104.106:8080/USA_SHOWTIME_FAMILY/index.m3u8
 
 #EXTINF:-1 tvg-chno="138" tvg-id="Sky.Sports.Football.HD.uk" tvg-name="Sky Sports Football" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s104327_dark_360w_270h.png" group-title="TV",Sky Sports Football
-http://79.143.16.38/cloud/stream/236/ssfoothvec.ts
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2188.ts
 
 #EXTINF:-1 tvg-chno="139" tvg-id="SkySpMainEvHD.uk" tvg-name="Sky Sports Main Event" tvg-logo="https://images.open-epg.com/x468.png" group-title="TV",Sky Sports Main Event
-http://79.143.16.38/cloud/stream/234/ssmehvec.ts
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2184.ts
 
 #EXTINF:-1 tvg-chno="140" tvg-id="SkySp.News.HD.uk" tvg-name="Sky Sports News" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG0027JYG2.png_dark_360w_270h.png" group-title="TV",Sky Sports News
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2179.ts
@@ -474,7 +474,7 @@ http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3953.ts
 http://23.237.104.106:8080/USA_STARZ_FAMILY/index.m3u8
 
 #EXTINF:-1 tvg-chno="158" tvg-id="STV.HD.uk" tvg-name="STV" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s117217_dark_360w_270h.png" group-title="TV",STV
-http://45.90.106.117/cloud/stream/100/stvhd.ts
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2168.ts
 
 #EXTINF:-1 tvg-chno="159" tvg-id="SundanceTV.HD.us2" tvg-name="Sundance" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16108_dark_360w_270h.png" group-title="TV",Sundance
 https://gpuserver5.tier1streams.com/SUNDANCE/index.m3u8
