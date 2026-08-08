@@ -17,7 +17,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 LIVE_URL = "https://raw.githubusercontent.com/BuddyChewChew/My-Streams/refs/heads/main/tv.m3u"
-BACKUP_URL = "https://raw.githubusercontent.com/BuddyChewChew/My-Streams/refs/heads/main/Backup.m3u"
+BACKUP_URL = "https://raw.githubusercontent.com/BuddyChewChew/My-Streams/main/Backup/backup2.m3u8"
 THETVAPP_URL = "https://raw.githubusercontent.com/BuddyChewChew/My-Streams/refs/heads/main/TheTVApp.m3u8"
 XUMO_URL = "https://raw.githubusercontent.com/BuddyChewChew/xumo-playlist-generator/refs/heads/main/playlists/xumo_playlist.m3u"
 LOCALNOW_URL = "https://www.apsattv.com/localnow.m3u"
