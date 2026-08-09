@@ -1,5 +1,5 @@
 #EXTM3U
-# Last synced: 2026-08-09T18:33:18+00:00Z
+# Last synced: 2026-08-09T21:26:23+00:00Z
 
 # === live ===
 #EXTINF:-1 tvg-chno="1" tvg-id="A.and.E.HD.East.us2" tvg-name="A&E TV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s51529_dark_360w_270h.png" group-title="TV",A&E TV
@@ -294,10 +294,10 @@ https://restream-live.realiptv.to/69922173979534301/P0ZxXMOVz8qnPU4m/333485
 https://gpuserver3.tier1streams.com/EPIX_DRIVE-IN/index.m3u8
 
 #EXTINF:-1 tvg-chno="98" tvg-id="MGM+.Hits.HD.us2" tvg-name="MGM Plus Hits" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s73075_dark_360w_270h.png" group-title="TV",MGM Plus Hits
-https://sra72yz.s.gy/MGM_PLUS_HITS_HD
+https://restream-live.realiptv.to/69922173979534301/P0ZxXMOVz8qnPU4m/3724
 
 #EXTINF:-1 tvg-chno="99" tvg-id="MGM+.Marquee.HD.us2" tvg-name="MGM Plus Marquee" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s74320_dark_360w_270h.png" group-title="TV",MGM Plus Marquee
-https://sra72yz.s.gy/MGM_PLUS_MARQUEE_SD
+https://restream-live.realiptv.to/69922173979534301/P0ZxXMOVz8qnPU4m/4430
 
 #EXTINF:-1 tvg-chno="100" tvg-id="MLB.Network.HD.us2" tvg-name="MLB Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s62081_dark_360w_270h.png" group-title="TV",MLB Network
 https://gpuserver3.tier1streams.com/MLB_Network/index.m3u8
