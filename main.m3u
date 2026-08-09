@@ -1,5 +1,5 @@
 #EXTM3U
-# Last synced: 2026-08-08T21:24:48+00:00Z
+# Last synced: 2026-08-09T01:19:23+00:00Z
 
 # === live ===
 #EXTINF:-1 tvg-chno="1" tvg-id="A.and.E.HD.East.us2" tvg-name="A&E TV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s51529_dark_360w_270h.png" group-title="TV",A&E TV
@@ -63,7 +63,7 @@ http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8
 http://23.237.104.106:8080/USA_BOUNCE/index.m3u8
 
 #EXTINF:-1 tvg-chno="21" tvg-id="Bravo.(Pacific).us2" tvg-name="Bravo TV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10057_dark_360w_270h.png" group-title="TV",Bravo TV
-http://41.205.93.154/BRAVO/index.m3u8
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2655.ts
 
 #EXTINF:-1 tvg-chno="22" tvg-id="BUZZR.Stream.us2" tvg-name="Buzzr" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s93430_dark_360w_270h.png" group-title="TV",Buzzr
 https://buzzrota-web.amagi.tv/playlist.m3u8
@@ -189,7 +189,7 @@ http://stream.cammonitorplus.net/1752/index.m3u8
 https://gpuserver7.tier1streams.com/FOX_BUSINESS_NETWORK/index.m3u8
 
 #EXTINF:-1 tvg-chno="63" tvg-id="Fox.Deportes.HD.us2" tvg-name="Fox Deportes" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s15377_dark_360w_270h.png" group-title="TV",Fox Deportes
-https://bigboss.bemtv.cn/STREAM/1736/playlist.m3u8
+http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8
 
 #EXTINF:-1 tvg-chno="64" tvg-id="Fox.News.Channel.HD.us2" tvg-name="Fox News" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16374_dark_360w_270h.png" group-title="TV",Fox News
 https://gpuserver3.tier1streams.com/FOX_NEWS/index.m3u8
@@ -548,7 +548,7 @@ http://tvsen5.aynascope.net/willowhd/index.m3u8
 #EXTINF:-1 tvg-chno="182" tvg-id="Yes.Network.us2" tvg-name="YES Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30017_dark_360w_270h.png" group-title="TV",YES Network
 http://23.237.104.106:8080/USA_YES_NETWORK/index.m3u8
 
-#EXTINF:-1 tvg-chno="196" tvg-id="Soccer.Dummy.us" tvg-name="[Amistoso] Torneo Friuli Venezia Giulia (Barcelona, Udinese, Nottingham Forest) | Español 1 (PLIBRE)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Amistoso] Torneo Friuli Venezia Giulia (Barcelona, Udinese, Nottingham Forest) | Español 1 (PLIBRE)
+#EXTINF:-1 tvg-chno="189" tvg-id="Soccer.Dummy.us" tvg-name="[Amistoso] Torneo Friuli Venezia Giulia (Barcelona, Udinese, Nottingham Forest) | Español 1 (PLIBRE)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Amistoso] Torneo Friuli Venezia Giulia (Barcelona, Udinese, Nottingham Forest) | Español 1 (PLIBRE)
 #EXTVLCOPT:http-referrer=https://la18hd.su/vivo/canales.php?stream=disney7
 #EXTVLCOPT:http-origin=https://la18hd.su/vivo/canales.php?stream=disney7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
