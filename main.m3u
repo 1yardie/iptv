@@ -1,5 +1,5 @@
 #EXTM3U
-# Last synced: 2026-08-09T21:26:23+00:00Z
+# Last synced: 2026-08-10T01:21:31+00:00Z
 
 # === live ===
 #EXTINF:-1 tvg-chno="1" tvg-id="A.and.E.HD.East.us2" tvg-name="A&E TV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s51529_dark_360w_270h.png" group-title="TV",A&E TV
@@ -150,7 +150,7 @@ https://restream-live.realiptv.to/69922173979534301/P0ZxXMOVz8qnPU4m/2597
 https://gpuserver7.tier1streams.com/SCIENCE_SD/index.m3u8
 
 #EXTINF:-1 tvg-chno="50" tvg-id="Disney.Channel.HD.us2" tvg-name="Disney Channel" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10171_dark_360w_270h.png" group-title="TV",Disney Channel
-https://gpuserver3.tier1streams.com/Disney_Channel_HD/index.m3u8
+https://restream-live.realiptv.to/69922173979534301/P0ZxXMOVz8qnPU4m/3630
 
 #EXTINF:-1 tvg-chno="51" tvg-id="Disney.Junior.HD.(Pacific).us2" tvg-name="Disney Jr" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s60506_dark_360w_270h.png" group-title="TV",Disney Jr
 http://23.237.104.106:8080/USA_DISNEY_JUNIOR/index.m3u8
@@ -291,7 +291,7 @@ https://restream-live.realiptv.to/69922173979534301/P0ZxXMOVz8qnPU4m/721378
 https://restream-live.realiptv.to/69922173979534301/P0ZxXMOVz8qnPU4m/333485
 
 #EXTINF:-1 tvg-chno="97" tvg-id="MGM+.Drive-In.us2" tvg-name="MGM Plus Drive-In" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s68409_dark_360w_270h.png" group-title="TV",MGM Plus Drive-In
-https://gpuserver3.tier1streams.com/EPIX_DRIVE-IN/index.m3u8
+https://restream-live.realiptv.to/69922173979534301/P0ZxXMOVz8qnPU4m/4431
 
 #EXTINF:-1 tvg-chno="98" tvg-id="MGM+.Hits.HD.us2" tvg-name="MGM Plus Hits" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s73075_dark_360w_270h.png" group-title="TV",MGM Plus Hits
 https://restream-live.realiptv.to/69922173979534301/P0ZxXMOVz8qnPU4m/3724
