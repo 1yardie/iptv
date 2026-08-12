@@ -1,5 +1,5 @@
 #EXTM3U
-# Last synced: 2026-08-12T12:58:00+00:00Z
+# Last synced: 2026-08-12T15:54:46+00:00Z
 
 # === live ===
 #EXTINF:-1 tvg-chno="1" tvg-id="A.and.E.HD.East.us2" tvg-name="A&E TV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s51529_dark_360w_270h.png" group-title="TV",A&E TV
@@ -547,12 +547,6 @@ https://primexclusive.day:443/1444576/5450985/27925
 
 #EXTINF:-1 tvg-chno="182" tvg-id="Yes.Network.us2" tvg-name="YES Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30017_dark_360w_270h.png" group-title="TV",YES Network
 http://23.237.104.106:8080/USA_YES_NETWORK/index.m3u8
-
-#EXTINF:-1 tvg-chno="449" tvg-id="UFC.247.Dummy.us" tvg-name="[Ultimate Fighting Championship] Dana White's Contender Series: Season 10, Week 1 | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2017/06/Logo-UFC-500x313.png" group-title="Live Events",[Ultimate Fighting Championship] Dana White's Contender Series: Season 10, Week 1 | English (STRMCNTR)
-#EXTVLCOPT:http-referrer=https://streame.center
-#EXTVLCOPT:http-origin=https://streame.center
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://edgestream2.pro/hls/zeuryuegn48.m3u8
 
 # === Backup ===
 #EXTINF:-1 tvg-name="6-20-26 Update" tvg-id="bud.bud" tvg-logo="https://github.com/BuddyChewChew/My-Streams/blob/main/Backup/dummy-logos/info.png?raw=true" group-title="UPDATES",6-20-26 Update
