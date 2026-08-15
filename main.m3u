@@ -1,5 +1,5 @@
 #EXTM3U
-# Last synced: 2026-08-15T18:21:06+00:00Z
+# Last synced: 2026-08-15T21:15:59+00:00Z
 
 # === live ===
 #EXTINF:-1 tvg-chno="1" tvg-id="A.and.E.HD.East.us2" tvg-name="A&E TV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s51529_dark_360w_270h.png" group-title="TV",A&E TV
@@ -556,12 +556,6 @@ https://restream-live.realiptv.to/Marky0416/2c1744538b/3972
 
 #EXTINF:-1 tvg-chno="185" tvg-id="Yes.Network.us2" tvg-name="YES Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30017_dark_360w_270h.png" group-title="TV",YES Network
 http://23.237.104.106:8080/USA_YES_NETWORK/index.m3u8
-
-#EXTINF:-1 tvg-chno="706" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Manchester United vs AC Milan, 2026 Club Friendly (SPRTSPASS)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Manchester United vs AC Milan, 2026 Club Friendly (SPRTSPASS)
-#EXTVLCOPT:http-referrer=https://sportspass.site/soccer/manutd.html
-#EXTVLCOPT:http-origin=https://sportspass.site/soccer/manutd.html
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-https://cherisetrevisone.s3.us-east-1.amazonaws.com/dodgers.m3u8
 
 # === Backup ===
 #EXTINF:-1 tvg-name="6-20-26 Update" tvg-id="bud.bud" tvg-logo="https://github.com/BuddyChewChew/My-Streams/blob/main/Backup/dummy-logos/info.png?raw=true" group-title="UPDATES",6-20-26 Update
