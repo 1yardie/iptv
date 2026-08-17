@@ -1,5 +1,5 @@
 #EXTM3U
-# Last synced: 2026-08-17T15:20:34+00:00Z
+# Last synced: 2026-08-17T18:31:58+00:00Z
 
 # === live ===
 #EXTINF:-1 tvg-chno="1" tvg-id="A.and.E.HD.East.us2" tvg-name="A&E TV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s51529_dark_360w_270h.png" group-title="TV",A&E TV
@@ -279,7 +279,7 @@ https://ccctv.xyz:2096/live/n24/SUZsBNHv12/89.ts
 http://23.237.104.106:8080/USA_ION/index.m3u8
 
 #EXTINF:-1 tvg-chno="94" tvg-id="ITV1.HD.uk" tvg-name="ITV1" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24292_dark_360w_270h.png" group-title="TV",ITV1
-http://45.90.106.117:80/stream/94/itv1wal.ts
+https://ccctv.xyz:2096/live/n24/SUZsBNHv12/69169.ts
 
 #EXTINF:-1 tvg-chno="95" tvg-id="Law.and.Crime.us2" tvg-name="Law & Crime" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0021EGJM.png?w=360&h=270" group-title="TV",Law & Crime
 https://a-cdn.klowdtv.com/live3/law_720p/playlist.m3u8
@@ -426,40 +426,40 @@ https://ccctv.xyz:2096/live/n24/SUZsBNHv12/8346.ts
 https://ccctv.xyz:2096/live/n24/SUZsBNHv12/82629.ts
 
 #EXTINF:-1 tvg-chno="143" tvg-id="SkySp.Action.uk" tvg-name="Sky Sports Action" tvg-logo="https://images.open-epg.com/x476.png" group-title="TV",Sky Sports Action
-http://89.46.123.7:80/stream/436/ssactionhevc.ts
+https://ccctv.xyz:2096/live/n24/SUZsBNHv12/71719.ts
 
 #EXTINF:-1 tvg-chno="144" tvg-id="SkySp.Cricket.uk" tvg-name="Sky Sports Cricket" tvg-logo="https://images.open-epg.com/x470.png" group-title="TV",Sky Sports Cricket
-http://89.46.123.7:80/stream/431/sscrickethevc.ts
+https://ccctv.xyz:2096/live/n24/SUZsBNHv12/71717.ts
 
 #EXTINF:-1 tvg-chno="145" tvg-id="SkySp.F1.uk" tvg-name="Sky Sports F1" tvg-logo="https://images.open-epg.com/x479.png" group-title="TV",Sky Sports F1
-http://89.46.123.7:80/stream/454/ssf1hevc.ts
+https://ccctv.xyz:2096/live/n24/SUZsBNHv12/71716.ts
 
 #EXTINF:-1 tvg-chno="146" tvg-id="SkySp.Fball.uk" tvg-name="Sky Sports Football" tvg-logo="https://images.open-epg.com/x469.png" group-title="TV",Sky Sports Football
-http://89.46.123.7:80/stream/434/ssfootballhevc.ts
+https://ccctv.xyz:2096/live/n24/SUZsBNHv12/71715.ts
 
 #EXTINF:-1 tvg-chno="147" tvg-id="SkySp.Golf.uk" tvg-name="Sky Sports Golf" tvg-logo="https://images.open-epg.com/x472.png" group-title="TV",Sky Sports Golf
-http://89.46.123.7:80/stream/435/ssgolfhevc.ts
+https://ccctv.xyz:2096/live/n24/SUZsBNHv12/71714.ts
 
 #EXTINF:-1 tvg-chno="148" tvg-id="SkySpMainEvHD.uk" tvg-name="Sky Sports Main Event" tvg-logo="https://images.open-epg.com/x468.png" group-title="TV",Sky Sports Main Event
-http://89.46.123.7:80/stream/432/ssmainhevc.ts
+https://ccctv.xyz:2096/live/n24/SUZsBNHv12/71713.ts
 
 #EXTINF:-1 tvg-chno="149" tvg-id="SkySp.Mix.HD.uk" tvg-name="Sky Sports Mix" tvg-logo="https://images.open-epg.com/x477.png" group-title="TV",Sky Sports Mix
-http://89.46.123.7:80/stream/438/ssmixhevc.ts
+https://ccctv.xyz:2096/live/n24/SUZsBNHv12/71712.ts
 
 #EXTINF:-1 tvg-chno="150" tvg-id="SkySp.News.HD.uk" tvg-name="Sky Sports News" tvg-logo="https://images.open-epg.com/x482.png" group-title="TV",Sky Sports News
-http://89.46.123.7:80/stream/439/ssnewshevc.ts
+https://ccctv.xyz:2096/live/n24/SUZsBNHv12/71710.ts
 
 #EXTINF:-1 tvg-chno="151" tvg-id="SkySp+.uk" tvg-name="Sky Sports Plus" tvg-logo="https://images.open-epg.com/x473.png" group-title="TV",Sky Sports Plus
-http://89.46.123.7:80/stream/437/ssplushevc.ts
+https://ccctv.xyz:2096/live/n24/SUZsBNHv12/103267.ts
 
 #EXTINF:-1 tvg-chno="152" tvg-id="SkySp.PL.HD.uk" tvg-name="Sky Sports Premier League" tvg-logo="https://images.open-epg.com/x467.png" group-title="TV",Sky Sports Premier League
-http://89.46.123.7:80/stream/433/ssprehevc.ts
+https://ccctv.xyz:2096/live/n24/SUZsBNHv12/71711.ts
 
 #EXTINF:-1 tvg-chno="153" tvg-id="SkySp.Racing.HD.uk" tvg-name="Sky Sports Racing" tvg-logo="https://images.open-epg.com/x481.png" group-title="TV",Sky Sports Racing
-http://89.46.123.6:80/stream/281/ssracingsd.ts
+https://ccctv.xyz:2096/live/n24/SUZsBNHv12/71709.ts
 
 #EXTINF:-1 tvg-chno="154" tvg-id="SkySp.Tennis.HD.uk" tvg-name="Sky Sports Tennis" tvg-logo="https://images.open-epg.com/x471.png" group-title="TV",Sky Sports Tennis
-http://89.46.123.7:80/stream/456/sstennisfhd.ts
+https://ccctv.xyz:2096/live/n24/SUZsBNHv12/103268.ts
 
 #EXTINF:-1 tvg-chno="155" tvg-id="Smithsonian.HD.Network.us2" tvg-name="Smithsonian Channel" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s58532_dark_360w_270h.png" group-title="TV",Smithsonian Channel
 https://ccctv.xyz:2096/live/n24/SUZsBNHv12/127.ts
@@ -510,7 +510,7 @@ https://ccctv.xyz:2096/live/n24/SUZsBNHv12/8552.ts
 http://23.237.104.106:8080/USA_STARZ_FAMILY/index.m3u8
 
 #EXTINF:-1 tvg-chno="171" tvg-id="STV.HD.uk" tvg-name="STV" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s117217_dark_360w_270h.png" group-title="TV",STV
-http://45.90.106.117:80/stream/100/stvhd.ts
+https://ccctv.xyz:2096/live/n24/SUZsBNHv12/103254.ts
 
 #EXTINF:-1 tvg-chno="172" tvg-id="SundanceTV.HD.us2" tvg-name="Sundance" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16108_dark_360w_270h.png" group-title="TV",Sundance
 https://ccctv.xyz:2096/live/n24/SUZsBNHv12/8546.ts
@@ -534,10 +534,10 @@ https://ccctv.xyz:2096/live/n24/SUZsBNHv12/148.ts
 https://turnerlive.warnermediacdn.com/hls/live/2023168/tnteast/slate/VIDEO_0_3564000.m3u8
 
 #EXTINF:-1 tvg-chno="179" tvg-id="TNT.Sports.1.HD.uk" tvg-name="TNT Sports 1" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s97542_dark_360w_270h.png" group-title="TV",TNT Sports 1
-http://79.143.16.38:80/stream/243/tnt1fhd.ts
+https://ccctv.xyz:2096/live/n24/SUZsBNHv12/72997.ts
 
 #EXTINF:-1 tvg-chno="180" tvg-id="TNT.Sports.2.HD.uk" tvg-name="TNT Sports 2" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s82449_dark_360w_270h.png" group-title="TV",TNT Sports 2
-http://79.143.16.38:80/stream/244/tnt2fhd.ts
+https://ccctv.xyz:2096/live/n24/SUZsBNHv12/72998.ts
 
 #EXTINF:-1 tvg-chno="181" tvg-id="truTV.HD.us2" tvg-name="truTV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10153_dark_360w_270h.png" group-title="TV",truTV
 https://turnerlive.warnermediacdn.com/hls/live/2023176/trueast/slate/VIDEO_0_3564000.m3u8
