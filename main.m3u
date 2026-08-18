@@ -1,5 +1,5 @@
 #EXTM3U
-# Last synced: 2026-08-18T12:36:12+00:00Z
+# Last synced: 2026-08-18T15:26:26+00:00Z
 
 # === live ===
 #EXTINF:-1 tvg-chno="1" tvg-id="A.and.E.HD.East.us2" tvg-name="A&E TV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s51529_dark_360w_270h.png" group-title="TV",A&E TV
@@ -60,7 +60,7 @@ http://23.237.104.106:8080/USA_BTN/index.m3u8
 https://www.bloomberg.com/media-manifest/streams/us.m3u8
 
 #EXTINF:-1 tvg-chno="20" tvg-id="Boomerang.us2" tvg-name="Boomerang" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s21883_dark_360w_270h.png" group-title="TV",Boomerang
-http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8
+https://ccctv.xyz:2096/live/n24/SUZsBNHv12/1298.ts
 
 #EXTINF:-1 tvg-chno="21" tvg-id="Bounce.TV.us2" tvg-name="Bounce TV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s73067_dark_360w_270h.png" group-title="TV",Bounce TV
 http://23.237.104.106:8080/USA_BOUNCE/index.m3u8
@@ -75,7 +75,7 @@ https://buzzrota-web.amagi.tv/playlist.m3u8
 https://ccctv.xyz:2096/live/n24/SUZsBNHv12/82633.ts
 
 #EXTINF:-1 tvg-chno="25" tvg-id="Cartoon.Network.HD.us2" tvg-name="Cartoon Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s12131_dark_360w_270h.png" group-title="TV",Cartoon Network
-http://23.237.104.106:8080/USA_CARTOON_NETWORK/index.m3u8
+https://ccctv.xyz:2096/live/n24/SUZsBNHv12/1300.ts
 
 #EXTINF:-1 tvg-chno="26" tvg-id="WCBS-DT.us_locals1" tvg-name="CBS" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" group-title="TV",CBS
 http://stream.cammonitorplus.net/1810/index.m3u8
@@ -288,7 +288,7 @@ https://a-cdn.klowdtv.com/live3/law_720p/playlist.m3u8
 http://41.205.93.154/LIFETIME/index.m3u8
 
 #EXTINF:-1 tvg-chno="97" tvg-id="LMN.HD.us2" tvg-name="Lifetime Movie Network" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18480_dark_360w_270h.png" group-title="TV",Lifetime Movie Network
-http://23.237.104.106:8080/USA_LMN/index.m3u8
+https://ccctv.xyz:2096/live/n24/SUZsBNHv12/95.ts
 
 #EXTINF:-1 tvg-chno="98" tvg-id="Marquee.Sports.Network.HD.us2" tvg-name="Marquee Sports Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s113768_dark_360w_270h.png" group-title="TV",Marquee Sports Network
 https://ccctv.xyz:2096/live/n24/SUZsBNHv12/29155.ts
@@ -573,7 +573,7 @@ https://ccctv.xyz:2096/live/n24/SUZsBNHv12/156.ts
 http://23.237.104.106:8080/USA_VH1/index.m3u8
 
 #EXTINF:-1 tvg-chno="192" tvg-id="Vice.HD.us2" tvg-name="Vice TV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18822_dark_360w_270h.png" group-title="TV",Vice TV
-http://23.237.104.106:8080/USA_VICETV/index.m3u8
+https://ccctv.xyz:2096/live/n24/SUZsBNHv12/160.ts
 
 #EXTINF:-1 tvg-chno="193" tvg-id="WE.tv.HD.us2" tvg-name="We Tv" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16409_dark_360w_270h.png" group-title="TV",We Tv
 http://23.237.104.106:8080/USA_WE_TV/index.m3u8
@@ -582,7 +582,13 @@ http://23.237.104.106:8080/USA_WE_TV/index.m3u8
 https://ccctv.xyz:2096/live/n24/SUZsBNHv12/8522.ts
 
 #EXTINF:-1 tvg-chno="195" tvg-id="Yes.Network.us2" tvg-name="YES Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30017_dark_360w_270h.png" group-title="TV",YES Network
-http://23.237.104.106:8080/USA_YES_NETWORK/index.m3u8
+https://ccctv.xyz:2096/live/n24/SUZsBNHv12/8298.ts
+
+#EXTINF:-1 tvg-chno="328" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[MMA] Dana White's Contender Series: Season 10, Week 2 | English (STRMCNTR)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[MMA] Dana White's Contender Series: Season 10, Week 2 | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://streame.center
+#EXTVLCOPT:http-origin=https://streame.center
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://edgestream2.pro/hls/zeuryuegn48.m3u8
 
 # === Backup ===
 #EXTINF:-1 tvg-name="6-20-26 Update" tvg-id="bud.bud" tvg-logo="https://github.com/BuddyChewChew/My-Streams/blob/main/Backup/dummy-logos/info.png?raw=true" group-title="UPDATES",6-20-26 Update
