@@ -1,5 +1,5 @@
 #EXTM3U
-# Last synced: 2026-08-22T18:21:43+00:00Z
+# Last synced: 2026-08-22T21:16:33+00:00Z
 
 # === live ===
 #EXTINF:-1 tvg-chno="1" tvg-id="A.and.E.HD.East.us2" tvg-name="A&E TV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s51529_dark_360w_270h.png" group-title="TV",A&E TV
@@ -575,9 +575,15 @@ https://amg01269-amg01269c1-distrotv-us-5379.playouts.now.amagi.tv/playlist/amg0
 #EXTINF:-1 tvg-chno="192" tvg-id="Yes.Network.us2" tvg-name="YES Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30017_dark_360w_270h.png" group-title="TV",YES Network
 http://23.237.104.106:8080/USA_YES_NETWORK/index.m3u8
 
-#EXTINF:-1 tvg-chno="836" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Brentford vs Tottenham Hotspur, 2026-27 English Premier League (SPRTSPASS)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Brentford vs Tottenham Hotspur, 2026-27 English Premier League (SPRTSPASS)
-#EXTVLCOPT:http-referrer=https://sportspass.site/soccer/spurs.html
-#EXTVLCOPT:http-origin=https://sportspass.site/soccer/spurs.html
+#EXTINF:-1 tvg-chno="338" tvg-id="Live.Event.us" tvg-name="[IndyCar] Freedom 250 Grand Prix of Washington, D.C. | EN (PLYFST)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[IndyCar] Freedom 250 Grand Prix of Washington, D.C. | EN (PLYFST)
+#EXTVLCOPT:http-referrer=https://exposestrat.com
+#EXTVLCOPT:http-origin=https://exposestrat.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cdn2.zohanayaan.com:1686/hls/do82.m3u8?md5=lIqBKYWP_R-52VzG9sBamw&expires=1787437830
+
+#EXTINF:-1 tvg-chno="763" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Espanyol vs Real Madrid, 2026-27 LALIGA (SPRTSPASS)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="Live Events",[Soccer] Espanyol vs Real Madrid, 2026-27 LALIGA (SPRTSPASS)
+#EXTVLCOPT:http-referrer=https://sportspass.site/soccer/realmadrid.html
+#EXTVLCOPT:http-origin=https://sportspass.site/soccer/realmadrid.html
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://storage.googleapis.com/syankees/abc/manifest.m3u8
 
