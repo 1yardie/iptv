@@ -1,5 +1,5 @@
 #EXTM3U
-# Last synced: 2026-09-20T20:13:33+00:00Z
+# Last synced: 2026-09-20T22:54:54+00:00Z
 
 # === live ===
 #EXTINF:-1 tvg-chno="1" tvg-id="A.and.E.HD.East.us2" tvg-name="A&E TV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s51529_dark_360w_270h.png" group-title="TV",A&E TV
@@ -8,12 +8,12 @@ http://23.239.31.26:8989/aande/index.m3u8
 #EXTINF:-1 tvg-chno="2" tvg-id="WABC-DT.us_locals1" tvg-name="ABC" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10003_dark_360w_270h.png" group-title="TV",ABC
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/mbfrwbtjvfgjj.m3u8?s=T6AvGG27TpsJEegY4qV2uQ&e=1789943465
+https://4169it.7odxv0l067ka.net:8443/hls/mbfrwbtjvfgjj.m3u8?s=o8GQiU-Pf3dK_RcNnUbN5A&e=1789963271
 
 #EXTINF:-1 tvg-chno="3" tvg-id="WABC-DT.us_locals1" tvg-name="ABC (Alt)" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10003_dark_360w_270h.png" group-title="TV",ABC (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=ABC&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb354/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMzU0OjE3ODk5MzYyNTA5ODA6Y2RubGl2ZXR2LnR2OmQ4ZjIwMzczMDEwZjZhMjcuOTdhYjc3MTE4OWU0NmZkNzUyNGUyZTIwMTdmZDdlZTQ3NzkyMGRjMzY1MzlkYTA4ZWU5MzgzMTYxNjM2NDU2NA
+https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb354/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMzU0OjE3ODk5NTYwMjY3NDk6Y2RubGl2ZXR2LnR2OjNiNTRmNTZiNGUwYTI4YmMuMDJiNjJkMjM3MTNjZmU4NTEzNjEwMTcyYWM5YTVmNWI4MmQ0Y2ZlNzQxNjY4NGVhYThiMTdlYWRkNTE2ZGQyYg
 
 #EXTINF:-1 tvg-chno="4" tvg-id="ABC.News.Live.us2" tvg-name="ABC News Live" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s113380_dark_360w_270h.png" group-title="TV",ABC News Live
 https://live-manifest.production-public.tubi.io/live/14e4f5f2-9787-4c49-8554-f2ad109764a7/playlist.m3u8
@@ -33,12 +33,12 @@ https://turnerlive.warnermediacdn.com/hls/live/2023183/aseast/noslate/VIDEO_1_51
 #EXTINF:-1 tvg-chno="9" tvg-id="Altitude.Sports.us2" tvg-name="Altitude Sports" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s44263_dark_360w_270h.png" group-title="TV",Altitude Sports
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/r471su16lutzi.m3u8?s=vbvqIwe7wdK3iHaSufZb6w&e=1789943483
+https://4169it.7odxv0l067ka.net:8443/hls/r471su16lutzi.m3u8?s=QMRI1zIkiDvJhlfZ19WQTw&e=1789963229
 
 #EXTINF:-1 tvg-chno="10" tvg-id="Altitude.Sports.us2" tvg-name="Altitude Sports (Alt)" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s44263_dark_360w_270h.png" group-title="TV",Altitude Sports (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Altitude&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb57f/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNTdmOjE3ODk5MzYyMjMyODQ6Y2RubGl2ZXR2LnR2OmE1ODBmMDkyYWRmZDc2Y2IuMWQ1MmYzMTBhMDEwYzM1NDg3ZmI5YmJmMzVkYmEzODFlZDQxYjM4OThlZDczMGQ1MmU5MDQxMjQ0OTk3NWFjNw
+https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb57f/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNTdmOjE3ODk5NTYwNjE5Njc6Y2RubGl2ZXR2LnR2OjUwZTgyM2UxMzQ1MzU2NmUuYjkwZTY4NzljZjkzNTk0YWQwOTQxYTNkMjFmYjQxZWY5NzYwMWJlNTI3Yzg0YjVhNmM1MzJmODY3NjY0NDU2ZA
 
 #EXTINF:-1 tvg-chno="11" tvg-id="AMC.HD.us2" tvg-name="AMC" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10021_dark_360w_270h.png" group-title="TV",AMC
 http://41.205.93.154/AMC/index.m3u8
@@ -61,32 +61,32 @@ https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_ch
 #EXTINF:-1 tvg-chno="17" tvg-id="beIN.SPORTS.1.fr" tvg-name="beIN Sports 1 France" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s89738_dark_360w_270h.png" group-title="TV",beIN Sports 1 France
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/2vrpcn2dav9fb.m3u8?s=MXtB4ZNVWyd-g9nvwxduFQ&e=1789943459
+https://4169it.7odxv0l067ka.net:8443/hls/2vrpcn2dav9fb.m3u8?s=Qf95O3Oc5cwNGHlvCYtsdA&e=1789963228
 
 #EXTINF:-1 tvg-chno="18" tvg-id="beIN.SPORTS.1.fr" tvg-name="beIN Sports 1 France (Alt)" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s89738_dark_360w_270h.png" group-title="TV",beIN Sports 1 France (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=beIN+SPORTS+1&code=fr&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2681d8192bb76ca9a2/playlist.m3u8?token=NmEyODhkMjY4MWQ4MTkyYmI3NmNhOWEyOjE3ODk5MzYyMTAzOTk6Y2RubGl2ZXR2LnR2Ojc3ZDU5MmM2YjcyOGQ1Y2MuMGNiNTE1YjRmMzY5NGVmNTQ4ODdiNTU5NGE3ZTMzYzQ5NzFiNDA2ZGZkNmQyMjU1YzA0N2Q2NDYyM2ZiZmQzYg
+https://cdnlivetv.tv/secure/api/v1/6a288d2681d8192bb76ca9a2/playlist.m3u8?token=NmEyODhkMjY4MWQ4MTkyYmI3NmNhOWEyOjE3ODk5NTYwNzE0NDg6Y2RubGl2ZXR2LnR2OmJhZTZmMTYzOWEwNGNlYjAuNTkzNzc5Y2I2MjYxNzIyZmFjMTEwNzA5YjdiODBmNDk5ZTRlMzY3Mjk2ZjFmZDY4MzJkMjJiNDQ0YmQ4MjZiNA
 
 #EXTINF:-1 tvg-chno="19" tvg-id="beIN.Sports.En.Español.HD.us2" tvg-name="beIN Sports en Español" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s76955_dark_360w_270h.png" group-title="TV",beIN Sports en Español
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/03paxjxwlzhhz.m3u8?s=4_Bnpk9uInEgvJEEFJDUtQ&e=1789943426
+https://4169it.7odxv0l067ka.net:8443/hls/03paxjxwlzhhz.m3u8?s=u1nmbq-YT9fRIu2hObjH4A&e=1789963240
 
 #EXTINF:-1 tvg-chno="20" tvg-id="beIN.Sports.En.Español.HD.us2" tvg-name="beIN Sports en Español (Alt)" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s76955_dark_360w_270h.png" group-title="TV",beIN Sports en Español (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=beIN+SPORTS+N&code=es&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2e81d8192bb76ce5d6/playlist.m3u8?token=NmEyODhkMmU4MWQ4MTkyYmI3NmNlNWQ2OjE3ODk5MzYyNjAyOTM6Y2RubGl2ZXR2LnR2OjYwNWU2NDdiM2Y2YzVlODYuYWM4YmMyMjIyYTljOGY2MTMwZGYxZjE5OGU1NDI4YWYwN2VmZGE5NTY3MDc1ODkyOTE5OTQ0OTEwYTBlMzVjZQ
+https://cdnlivetv.tv/secure/api/v1/6a288d2e81d8192bb76ce5d6/playlist.m3u8?token=NmEyODhkMmU4MWQ4MTkyYmI3NmNlNWQ2OjE3ODk5NTYwODk3ODI6Y2RubGl2ZXR2LnR2OmQ1ZWZlNDY0ZDg1MmRiMmMuODljZWVlZjEwNzYwZDk1ZWMyZDRlMzhlYmIwNTdkZWZhZDY2OTdiMDBjMGI3NTg3YzIwN2U2MWQ1NWIyYjM4Ng
 
 #EXTINF:-1 tvg-chno="21" tvg-id="beIN.Sports.USA.HD.us2" tvg-name="beIN Sports USA" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s76942_dark_360w_270h.png" group-title="TV",beIN Sports USA
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/g8yjusivmv2pw.m3u8?s=t4vSrbw9oybsXESf-5HFNQ&e=1789943455
+https://4169it.7odxv0l067ka.net:8443/hls/g8yjusivmv2pw.m3u8?s=2sbezT9gq2ecYtjlwhneHA&e=1789963225
 
 #EXTINF:-1 tvg-chno="22" tvg-id="beIN.Sports.USA.HD.us2" tvg-name="beIN Sports USA (Alt)" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s76942_dark_360w_270h.png" group-title="TV",beIN Sports USA (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=beIN+SPORTS&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb58e/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNThlOjE3ODk5MzYyMjUwMzY6Y2RubGl2ZXR2LnR2OmQ2ZjA1MjFkZjcxYTIwYzMuNjI0NDg0MTAxNjY3Y2YyN2M1MDE0YzEwM2VmNzRjYWJmYjJlOTdjODlhNjUwMGVjM2JkNzkzNDc3NzhjN2E0NQ
+https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb58e/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNThlOjE3ODk5NTYwNTAzMjc6Y2RubGl2ZXR2LnR2OjQ0NTI5NDIwYzI1ZTUyNDUuNjRjYTFmNGY3MWM4N2ZjZDJhODI1YTAzYmVjNzk4YWEzNzQ5ZjUxZjIxYzU2Y2UwYWIzOTUyODdmOGEyNmQzMw
 
 #EXTINF:-1 tvg-chno="23" tvg-id="plex.tv.beIN.SPORTS.XTRA.plex" tvg-name="beIN Sports XTRA" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s113143_dark_360w_270h.png" group-title="TV",beIN Sports XTRA
 https://dbrb49pjoymg4.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/8a8f4738-31fd-49f4-83a0-95660fe6be33/2.m3u8
@@ -94,12 +94,12 @@ https://dbrb49pjoymg4.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043
 #EXTINF:-1 tvg-chno="24" tvg-id="BET.HD.us2" tvg-name="BET" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10051_dark_360w_270h.png" group-title="TV",BET
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/nesxpwm1tf3s3.m3u8?s=VgOOgLGfVwkY4Aq-RLfoaQ&e=1789943477
+https://4169it.7odxv0l067ka.net:8443/hls/nesxpwm1tf3s3.m3u8?s=oDQieDb56mCb_-IFqNeJww&e=1789963286
 
 #EXTINF:-1 tvg-chno="25" tvg-id="BET.HD.us2" tvg-name="BET (Alt)" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10051_dark_360w_270h.png" group-title="TV",BET (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=BET&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb200/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjAwOjE3ODk5MzYyMTMzNzg6Y2RubGl2ZXR2LnR2OmIwYmQxYjc3NWE0MzkzNjYuYTNmMThlMTVkZWZiZTg5NzJiZjE5MDc0MDU4M2FiMzYzYzk4YmE3YTVhZmMwYzAxOWE4ZmMwZmI2NzNhOTlhZA
+https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb200/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjAwOjE3ODk5NTYwNTMyMDA6Y2RubGl2ZXR2LnR2OmVkNDIyNTdmM2EwMWZhYzIuMjQ3YmQ0MDkzZWEyZGE3ZGIyMmJhZmVhZDRhNWU0ZWIwNDNiNTQ5NDY3YTU1Y2FkMWFjNTUzZWI5NDUzMTZiOA
 
 #EXTINF:-1 tvg-chno="26" tvg-id="Big.Ten.Network.HD.us2" tvg-name="Big Ten Network" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s56783_dark_360w_270h.png" group-title="TV",Big Ten Network
 http://23.237.104.106:8080/USA_BTN/index.m3u8
@@ -128,12 +128,12 @@ https://aegis-cloudfront-1.tubi.video/c71ce9b6-cddb-4cec-b0db-2f09289f8782/maste
 #EXTINF:-1 tvg-chno="34" tvg-id="WCBS-DT.us_locals1" tvg-name="CBS" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" group-title="TV",CBS
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/5sctqsikbd2x1.m3u8?s=12Fv7gU8iBU0Lu_Z-YYXzA&e=1789943433
+https://4169it.7odxv0l067ka.net:8443/hls/5sctqsikbd2x1.m3u8?s=EWgD5va0ZX7I7q6qVmFzZw&e=1789963206
 
 #EXTINF:-1 tvg-chno="35" tvg-id="WCBS-DT.us_locals1" tvg-name="CBS (Alt)" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" group-title="TV",CBS (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=CBS&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb375/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMzc1OjE3ODk5MzYyNjM3ODI6Y2RubGl2ZXR2LnR2OmZjZjQ3NTIyODBlZmQwZmIuZTVhOTA3ZTc3NTQ5MjMyNWY0ZmQ0ZGQ0YWU3ODI0OTllYWQ2N2MwZTgwYTk0Y2M2YzU3MTBhZDAzNjU1NzY5NA
+https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb375/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMzc1OjE3ODk5NTYwNTE0MjE6Y2RubGl2ZXR2LnR2OmJmZjUxYjM5YTg4MzcxYTMuYWQwOTY5NWYzNDVlNTE1YzE0Mjk3YzA4ZmYyYWJkMDI4MGVmOWIwMDQxYTcxYjIzOTZjMWQ4YWM4MmQ2YTA5ZA
 
 #EXTINF:-1 tvg-chno="36" tvg-id="CBS.News.National.Stream.us2" tvg-name="CBS News 24/7" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s104846_dark_360w_270h.png" group-title="TV",CBS News 24/7
 https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
@@ -144,7 +144,7 @@ https://dai.google.com/linear/hls/event/7f3Wv6f7QEKfQna22jHqLQ/master.m3u8
 #EXTINF:-1 tvg-chno="38" tvg-id="CBS.Sports.Network.HD.us2" tvg-name="CBS Sports Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16365_dark_360w_270h.png" group-title="TV",CBS Sports Network
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/4yin2sbr261gy.m3u8?s=kaADTSLKAEdXii9f2M1PWA&e=1789943461
+https://4169it.7odxv0l067ka.net:8443/hls/4yin2sbr261gy.m3u8?s=IOzDgZKOJISPcxYeUoRwCA&e=1789963263
 
 #EXTINF:-1 tvg-chno="39" tvg-id="CHARGE!.us2" tvg-name="Charge!" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s102148_dark_360w_270h.png" group-title="TV",Charge!
 https://fast-channels.sinclairstoryline.com/CHARGE/index.m3u8
@@ -155,12 +155,12 @@ https://hls.livecdn.io/cheddar.com/cheddar/playlist.m3u8
 #EXTINF:-1 tvg-chno="41" tvg-id="CHSN.Chicago.Sports.Network.us2" tvg-name="Chicago Sports Network" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s166708_dark_360w_270h.png" group-title="TV",Chicago Sports Network
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/w09l87yt2psfd.m3u8?s=Sql1QloAcqH5UN8e6vsI2A&e=1789943462
+https://4169it.7odxv0l067ka.net:8443/hls/w09l87yt2psfd.m3u8?s=z0xmk822sFRHWbIh9mizeQ&e=1789963252
 
 #EXTINF:-1 tvg-chno="42" tvg-id="CHSN.Chicago.Sports.Network.us2" tvg-name="Chicago Sports Network (Alt)" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s166708_dark_360w_270h.png" group-title="TV",Chicago Sports Network (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Chicago+Sports+Network&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb311/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMzExOjE3ODk5MzYyMTUxMDU6Y2RubGl2ZXR2LnR2OjNhNDAxODc4ZmFkMTkwZDIuOTg3MDdjM2E2Zjk0YzNiYzJiM2E4N2IyNjI2YWUyMmJlZmNmMzVhZWNiYTBhNDMyNTk0MGVhNmVmYzkyMmViNA
+https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb311/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMzExOjE3ODk5NTYwMjU4MDA6Y2RubGl2ZXR2LnR2OmE4M2EyN2M2NmI0N2FlMDYuMjk0YjYwOGFjZTM4YWU3NTk4ZjAzYWVkMGYzZDIyNDhkZmY0Yzk2NzFjMGJkYjMzNWViZmM2Nzc5MjJhYTk1MQ
 
 #EXTINF:-1 tvg-chno="43" tvg-id="Cinemax.HD.us2" tvg-name="Cinemax" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/cinemax-us.png" group-title="TV",Cinemax
 http://23.237.104.106:8080/USA_CINEMAX/index.m3u8
@@ -185,7 +185,7 @@ https://amg01079-nbcuuk-amg01079c2-samsung-gb-1258.playouts.now.amagi.tv/playlis
 
 #EXTINF:-1 tvg-chno="50" tvg-id="CNN.HD.us2" tvg-name="CNN" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s58646_dark_360w_270h.png" group-title="TV",CNN
 #EXTVLCOPT:http-referrer=https://usnewson.com/watch/cnn-live
-https://p0.usnlive.com/stream/cnn.m3u8
+https://p8.usnlive.com/stream/cnn.m3u8
 
 #EXTINF:-1 tvg-chno="51" tvg-id="plex.tv.CNN.Headlines.plex" tvg-name="CNN Headlines" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s138109_dark_360w_270h.png" group-title="TV",CNN Headlines
 https://dbrb49pjoymg4.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/90541a38-680a-49bd-b338-b360726f0422/3.m3u8
@@ -196,7 +196,7 @@ https://jmp2.uk/stvp-GBBD8000016N
 #EXTINF:-1 tvg-chno="53" tvg-id="Comedy.Central.HD.us2" tvg-name="Comedy Central" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10149_dark_360w_270h.png" group-title="TV",Comedy Central
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/qjn80y9pdws0x.m3u8?s=HLQKwGRg3DgIFj6EVHoQgQ&e=1789943485
+https://4169it.7odxv0l067ka.net:8443/hls/qjn80y9pdws0x.m3u8?s=pu4TTrTuucZaD0HSG2bcEA&e=1789963219
 
 #EXTINF:-1 tvg-chno="54" tvg-id="Comet.us2" tvg-name="Comet TV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s97051_dark_360w_270h.png" group-title="TV",Comet TV
 https://fast-channels.sinclairstoryline.com/COMET/index.m3u8
@@ -210,7 +210,7 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-courttv-tablo
 #EXTINF:-1 tvg-chno="57" tvg-id="COZI.TV.us2" tvg-name="Cozi TV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s78851_dark_360w_270h.png" group-title="TV",Cozi TV
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/r471l0y6gxyva.m3u8?s=DALOBjLce6Hgga_qautWGw&e=1789943476
+https://4169it.7odxv0l067ka.net:8443/hls/r471l0y6gxyva.m3u8?s=rt13iJuGMfMPLGf7lKAiUw&e=1789963270
 
 #EXTINF:-1 tvg-chno="58" tvg-id="Crime.and.Investigation.Network.HD.us2" tvg-name="Crime & Investigation Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s61469_dark_360w_270h.png" group-title="TV",Crime & Investigation Network
 http://23.237.104.106:8080/USA_CRIME_INVESTIGATION/index.m3u8
@@ -218,27 +218,27 @@ http://23.237.104.106:8080/USA_CRIME_INVESTIGATION/index.m3u8
 #EXTINF:-1 tvg-chno="59" tvg-id="WPIX-DT.us_locals1" tvg-name="CW" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s53098_dark_360w_270h.png" group-title="TV",CW
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/jme6hgnqshjil.m3u8?s=7ofItGDfE5_BL0ht-QkSgQ&e=1789943487
+https://4169it.7odxv0l067ka.net:8443/hls/jme6hgnqshjil.m3u8?s=BR5TjTmTS1NNVktVaZdcjg&e=1789963289
 
 #EXTINF:-1 tvg-chno="60" tvg-id="DAZN.1.de" tvg-name="DAZN 1 Germany" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/germany/dazn1-de.png" group-title="TV",DAZN 1 Germany
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/w09l46itcbp37.m3u8?s=9En4oRFa1GK4zHjbCedurg&e=1789943422
+https://4169it.7odxv0l067ka.net:8443/hls/w09l46itcbp37.m3u8?s=pwnuirrIru7PVfiQxVDVVg&e=1789963261
 
 #EXTINF:-1 tvg-chno="61" tvg-id="DAZN.1.de" tvg-name="DAZN 1 Germany (Alt)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/germany/dazn1-de.png" group-title="TV",DAZN 1 Germany (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN+1&code=de&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2b81d8192bb76ccca0/playlist.m3u8?token=NmEyODhkMmI4MWQ4MTkyYmI3NmNjY2EwOjE3ODk5MzYyNDI4MjE6Y2RubGl2ZXR2LnR2OjU2ODkxN2QzNzA2OThhODkuNTIxZmNiYzlmOTE4NjE1MjcxZjNkYWI1OTE1YjUyNzUzNDBiMWI0MDJmN2I5NTc5YjM1NTMyZWE2MThmNTQxNA
+https://cdnlivetv.tv/secure/api/v1/6a288d2b81d8192bb76ccca0/playlist.m3u8?token=NmEyODhkMmI4MWQ4MTkyYmI3NmNjY2EwOjE3ODk5NTYwNTY1MzM6Y2RubGl2ZXR2LnR2OmI2NmI1MzZmNGMzY2JjYzkuYTllZGVhNDcwZjNlMTNjNWY4ZjQ2YTg1MDJlMGM0MTFmZWMyMzliZWFiN2U4MWM2YmFhZDhiN2VjY2ZjOGVlMw
 
 #EXTINF:-1 tvg-chno="62" tvg-id="DAZN.2.de" tvg-name="DAZN 2 Germany" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/germany/dazn2-de.png" group-title="TV",DAZN 2 Germany
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/iths6gv7rrpvo.m3u8?s=qX0ojJfZyRkGGnUV-O72jw&e=1789943433
+https://4169it.7odxv0l067ka.net:8443/hls/iths6gv7rrpvo.m3u8?s=8qGoo8Bkpb1BBLtnXRcIuA&e=1789963273
 
 #EXTINF:-1 tvg-chno="63" tvg-id="DAZN.2.de" tvg-name="DAZN 2 Germany (Alt)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/germany/dazn2-de.png" group-title="TV",DAZN 2 Germany (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN+2&code=de&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2b81d8192bb76ccca2/playlist.m3u8?token=NmEyODhkMmI4MWQ4MTkyYmI3NmNjY2EyOjE3ODk5MzYyMDgzNDI6Y2RubGl2ZXR2LnR2OmNkZDk5Zjk3ZDdmZTY1NmUuMGVkOGM3YWZiYjFhNzQ0ODU5MWY1NDZlY2YxOGNiZGJmNTM0ODQ5OGJiNWM2MGUyNDMxNzcxMDg3MzM1NjkxZA
+https://cdnlivetv.tv/secure/api/v1/6a288d2b81d8192bb76ccca2/playlist.m3u8?token=NmEyODhkMmI4MWQ4MTkyYmI3NmNjY2EyOjE3ODk5NTYwNDc1NDg6Y2RubGl2ZXR2LnR2Ojg1NTBiNzU4M2IxZmQ1NTguMDZmMjZiMzEzMDQ5Yjk2YTdhYWFhYTcxOGEyMGQ2M2FjMGJjMTAxOThkY2Q0ZjM3OGQ5ZGZmM2FjMDgyZDQ0MA
 
 #EXTINF:-1 tvg-chno="64" tvg-id="Destination.America.HD.us2" tvg-name="Destination America" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16617_dark_360w_270h.png" group-title="TV",Destination America
 http://23.237.104.106:8080/USA_DESTINATION_AMERICA/index.m3u8
@@ -251,7 +251,7 @@ https://cache0.wonvt.st/live/1ro2ows1kment903evirn/master.m3u8
 #EXTINF:-1 tvg-chno="66" tvg-id="Discovery.Life.Channel.us2" tvg-name="Discovery Life" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16125_dark_360w_270h.png" group-title="TV",Discovery Life
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/jme63x7q89t4.m3u8?s=2NOzwYWqEjkG6pMzdVuMKw&e=1789943434
+https://4169it.7odxv0l067ka.net:8443/hls/jme63x7q89t4.m3u8?s=ViBB8hiM_dLFAoUOYZADaQ&e=1789963239
 
 #EXTINF:-1 tvg-chno="67" tvg-id="Disney.Channel.HD.us2" tvg-name="Disney Channel" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10171_dark_360w_270h.png" group-title="TV",Disney Channel
 http://212.5.144.156:8080/disney/index.m3u8
@@ -282,12 +282,12 @@ http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8
 #EXTINF:-1 tvg-chno="75" tvg-id="ESPN2.HD.us2" tvg-name="ESPN2" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s12444_dark_360w_270h.png" group-title="TV",ESPN2
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/ul23u7fsejeh6.m3u8?s=KQByMAgYKvGxyMkXgi2ipg&e=1789943428
+https://4169it.7odxv0l067ka.net:8443/hls/ul23u7fsejeh6.m3u8?s=Tx9FoJBgvRPhQwuZVkewOg&e=1789963216
 
 #EXTINF:-1 tvg-chno="76" tvg-id="ESPN2.HD.us2" tvg-name="ESPN2 (Alt)" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s12444_dark_360w_270h.png" group-title="TV",ESPN2 (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN+2&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb59c/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNTljOjE3ODk5MzYyNTI3NzQ6Y2RubGl2ZXR2LnR2OmQ2NTZhY2M1OThmMjNmYjAuYjVlMjVhZmUyN2Y2NTZiOTE1MjY0ZmVjYzE4YmY5Mzk4ODczZTk0MGUwM2RlMjVhZDYyMzhlOWIzYTNlODRmNg
+https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb59c/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNTljOjE3ODk5NTYwMjA5ODk6Y2RubGl2ZXR2LnR2OjQyNDlhNTBlNDM5MmMyNzYuMjJhMzkyODAzMGM5ZDgzYjljMmExMzA5ZGU5YjU2MmNjMmEyZWEwM2Q1MjExNGM0OTkxMmM3OGU5ZjBmZWE5Zg
 
 #EXTINF:-1 tvg-chno="78" tvg-id="Family.Entertainment.Television.us2" tvg-name="FETV" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s73413_dark_360w_270h.png" group-title="TV",FETV
 #EXTVLCOPT:http-referrer=https://tvnow.st/
@@ -303,17 +303,17 @@ http://23.237.104.106:8080/USA_FOOD_NETWORK/index.m3u8
 #EXTINF:-1 tvg-chno="81" tvg-id="WNYW-DT.us_locals1" tvg-name="Fox" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s28719_dark_360w_270h.png" group-title="TV",Fox
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/k5aip5vfha3it.m3u8?s=qe0wy4jCQX9Cp59oB2KIlQ&e=1789943464
+https://4169it.7odxv0l067ka.net:8443/hls/k5aip5vfha3it.m3u8?s=HbBknd8eaj3TX4k66RBl8A&e=1789963282
 
 #EXTINF:-1 tvg-chno="82" tvg-id="WNYW-DT.us_locals1" tvg-name="Fox (Alt)" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s28719_dark_360w_270h.png" group-title="TV",Fox (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=FOX&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb38e/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMzhlOjE3ODk5MzYyNTgxNjg6Y2RubGl2ZXR2LnR2OmFiMzBmZDcxNjA2OGU3NGEuZmI1ZjdkZWM4ZWY4M2QyNDJmMDkwMjFmODUzMTI0NzY4NTQ4ZTRmNDEzODVmZTVlY2M3ZmFiMTdlYWNhMWFjZA
+https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb38e/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMzhlOjE3ODk5NTYwNDAyMzk6Y2RubGl2ZXR2LnR2OjEyY2Q5MGJiYTBiMDg3MjEuNjUxMTVjMmNhN2NmMzkyMzI3OTBiMTYyZWUzOGMzYjdmODllZDU1OWMzMWIzYTc4MmM2YWJhOTNkNzYwOTZhZg
 
 #EXTINF:-1 tvg-chno="83" tvg-id="Fox.Business.HD.us2" tvg-name="Fox Business" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s58649_dark_360w_270h.png" group-title="TV",Fox Business
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/g8yjaymvwb92q.m3u8?s=Ij_H9--cOfa5JTYjw2QK-w&e=1789943406
+https://4169it.7odxv0l067ka.net:8443/hls/g8yjaymvwb92q.m3u8?s=nKZih4bSvNq8Qsni_VIHKQ&e=1789963272
 
 #EXTINF:-1 tvg-chno="84" tvg-id="Fox.Deportes.HD.us2" tvg-name="Fox Deportes" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s15377_dark_360w_270h.png" group-title="TV",Fox Deportes
 http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8
@@ -323,17 +323,17 @@ https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="86" tvg-id="Fox.News.Channel.HD.us2" tvg-name="Fox News" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16374_dark_360w_270h.png" group-title="TV",Fox News
 #EXTVLCOPT:http-referrer=https://usnewson.com/watch/fox-news-live
-https://p0.usnlive.com/stream/foxnews.m3u8
+https://p8.usnlive.com/stream/foxnews.m3u8
 
 #EXTINF:-1 tvg-chno="87" tvg-id="Fox.Soccer.Plus.HD.us2" tvg-name="Fox Soccer Plus" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s66879_dark_360w_270h.png" group-title="TV",Fox Soccer Plus
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/r471lih6bgiq7.m3u8?s=qHVPmecIkJvhIHHmxeSZ5Q&e=1789943486
+https://4169it.7odxv0l067ka.net:8443/hls/r471lih6bgiq7.m3u8?s=Vbe4vC-mwthEnBnQv9cg6g&e=1789963267
 
 #EXTINF:-1 tvg-chno="88" tvg-id="Fox.Soccer.Plus.HD.us2" tvg-name="Fox Soccer Plus (Alt)" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s66879_dark_360w_270h.png" group-title="TV",Fox Soccer Plus (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=FOX+Soccer+Plus&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cbe68/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNiZTY4OjE3ODk5MzYyNjEyNTk6Y2RubGl2ZXR2LnR2OjY2ZTQ4NjAxMjFiYzZkZTguOGQzYjJjZGJhY2ZkZmRjYmIwN2QyZjJkYTYwNzM2ZmJlYTllMjI1ZTkxMjc2YjEwZjMzZTNmOTRmNzg5YzVlMg
+https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cbe68/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNiZTY4OjE3ODk5NTYwMjIxMjI6Y2RubGl2ZXR2LnR2OjRhOTg4MTdkZDEwYWVjNGQuMTI2YWU0NmU0NDgzMzlhZGY4NGYyMTcyZTc0ZmRkZTA1Yzk2NjNiNzI2ZjEwNGUwZTk0NDJhZjZkNDk0M2I1Yw
 
 #EXTINF:-1 tvg-chno="89" tvg-id="FS1.HD.us2" tvg-name="Fox Sports 1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s82541_dark_360w_270h.png" group-title="TV",Fox Sports 1
 http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
@@ -341,7 +341,7 @@ http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
 #EXTINF:-1 tvg-chno="90" tvg-id="FS2.HD.us2" tvg-name="Fox Sports 2" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s33178_dark_360w_270h.png" group-title="TV",Fox Sports 2
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/twou8o4in8988.m3u8?s=wMm4hZSCpooFQR2jSRkvvA&e=1789943456
+https://4169it.7odxv0l067ka.net:8443/hls/twou8o4in8988.m3u8?s=Q6xjmeE1hKY1xH2WQ_YGDw&e=1789963238
 
 #EXTINF:-1 tvg-chno="91" tvg-id="plex.tv.FOX.Weather.plex" tvg-name="Fox Weather" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG0029CYPP.png_dark_360w_270h.png" group-title="TV",Fox Weather
 https://247wlive.foxweather.com/stream/index.m3u8
@@ -355,22 +355,22 @@ http://23.237.104.106:8080/USA_FUSE/index.m3u8
 #EXTINF:-1 tvg-chno="94" tvg-id="FX.HD.us2" tvg-name="FX" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s14321_dark_360w_270h.png" group-title="TV",FX
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/1n5y97ebgc1l2.m3u8?s=qTWEM3mOjnpFqZVAeukFBg&e=1789943419
+https://4169it.7odxv0l067ka.net:8443/hls/1n5y97ebgc1l2.m3u8?s=6fS3bM7aXDYOAJbohrdjWA&e=1789963282
 
 #EXTINF:-1 tvg-chno="95" tvg-id="FX.Movie.Channel.HD.us2" tvg-name="FX Movie Channel" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s70253_dark_360w_270h.png" group-title="TV",FX Movie Channel
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/7i3563dzn391d.m3u8?s=jFH56MhHMwsJb-ZDn09ucA&e=1789943482
+https://4169it.7odxv0l067ka.net:8443/hls/7i3563dzn391d.m3u8?s=Uo1LQOWuFMwEYBzRiDyB8Q&e=1789963259
 
 #EXTINF:-1 tvg-chno="96" tvg-id="FXX.HD.us2" tvg-name="FXX" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s17927_dark_360w_270h.png" group-title="TV",FXX
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/nesxq5q1sd6e9.m3u8?s=2vxiggbg2oGJ-oS6G0WmIQ&e=1789943425
+https://4169it.7odxv0l067ka.net:8443/hls/nesxq5q1sd6e9.m3u8?s=juXcRvco54iP-I-DVVzZPg&e=1789963264
 
 #EXTINF:-1 tvg-chno="97" tvg-id="FYI.Channel.HD.us2" tvg-name="FYI TV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16834_dark_360w_270h.png" group-title="TV",FYI TV
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/mbfrwoyj07vky.m3u8?s=HGuSRZS6PWy5Ij0Q1z60CA&e=1789943418
+https://4169it.7odxv0l067ka.net:8443/hls/mbfrwoyj07vky.m3u8?s=hAfL114uC_Hjs42tTVsyeA&e=1789963262
 
 #EXTINF:-1 tvg-chno="98" tvg-id="plex.tv.Game.Show.Central.plex" tvg-name="Game Show Central" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s116474_dark_360w_270h.png" group-title="TV",Game Show Central
 https://wurlgameshownetwork.global.transmit.live/hls/68d174d50531b397b61a7797/v1/gsn_gameshowchannnel_1/lg_us/latest/main/hls/playlist.m3u8
@@ -381,7 +381,7 @@ https://a-cdn.klowdtv.com/live2/gsn_720p/playlist.m3u8
 #EXTINF:-1 tvg-chno="100" tvg-id="Golf.Channel.HD.us2" tvg-name="Golf Channel" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s14899_dark_360w_270h.png" group-title="TV",Golf Channel
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/mbfrhy3j41sj1.m3u8?s=T8PhhYWieI8EEG2fFU2dPg&e=1789943473
+https://4169it.7odxv0l067ka.net:8443/hls/mbfrhy3j41sj1.m3u8?s=5I9RDoIrBlNZBCf1cpidEw&e=1789963223
 
 #EXTINF:-1 tvg-chno="101" tvg-id="Great.Entertainment.Television.us2" tvg-name="Great Entertainment Television" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002QQ7SV.png?w=360&h=270" group-title="TV",Great Entertainment Television
 https://a-cdn.klowdtv.com/live2/greattv_720p/playlist.m3u8
@@ -389,32 +389,32 @@ https://a-cdn.klowdtv.com/live2/greattv_720p/playlist.m3u8
 #EXTINF:-1 tvg-chno="102" tvg-id="Grit.us2" tvg-name="Grit TV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s89922_dark_360w_270h.png" group-title="TV",Grit TV
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/4yinaw3rfb7ad.m3u8?s=u7dVQcdxTI7xSystFaP_bg&e=1789943466
+https://4169it.7odxv0l067ka.net:8443/hls/4yinaw3rfb7ad.m3u8?s=TywpeGkbPQ2Zyh9VOvLNmg&e=1789963246
 
 #EXTINF:-1 tvg-chno="103" tvg-id="Hallmark.Channel.HD.us2" tvg-name="Hallmark Channel" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11221_dark_360w_270h.png" group-title="TV",Hallmark Channel
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/03paxdnwdn4e3.m3u8?s=y0oTZVd4jNdeTCagjl3IQw&e=1789943445
+https://4169it.7odxv0l067ka.net:8443/hls/03paxdnwdn4e3.m3u8?s=P3qgwxapayXpym1MYd5XzQ&e=1789963229
 
 #EXTINF:-1 tvg-chno="104" tvg-id="Hallmark.Channel.HD.us2" tvg-name="Hallmark Channel (Alt)" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11221_dark_360w_270h.png" group-title="TV",Hallmark Channel (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Hallmark&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb232/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjMyOjE3ODk5MzYyMDg0Njk6Y2RubGl2ZXR2LnR2OjRjZTcyZDYwMTdiNWU0MjMuMDk5ZmVkMWFjYjhiMDk5ZGJlYjEyNWJjZThlNDlmOWMxOTk4M2JlNzRhNGJmZWU2ZDdjMjVjNzcyMDFhODM1YQ
+https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb232/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjMyOjE3ODk5NTYwMTMzNDc6Y2RubGl2ZXR2LnR2Ojg3NTBiMWE0N2JkMjY1ZjYuNTQxZDRkODc3NWExM2QxZWJhODQ2ODIzNDYzMDVkNGI0N2JhNGYyYjkzMDU0ZTQ5NDEzY2JmYWM4YmY2YTUxNA
 
 #EXTINF:-1 tvg-chno="105" tvg-id="Hallmark.Mystery.HD.us2" tvg-name="Hallmark Mystery" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s61522_dark_360w_270h.png" group-title="TV",Hallmark Mystery
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/g8yjax0v9ehcw.m3u8?s=eC3fi3FfZ9uHJ7cTCO9K0g&e=1789943417
+https://4169it.7odxv0l067ka.net:8443/hls/g8yjax0v9ehcw.m3u8?s=DV8Tyv9luVywch3XY1aOng&e=1789963254
 
 #EXTINF:-1 tvg-chno="106" tvg-id="HBO.East.us2" tvg-name="HBO" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10240_dark_360w_270h.png" group-title="TV",HBO
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/qjn80rbplb339.m3u8?s=JB7jD83076SrBmKTT8gv_g&e=1789943480
+https://4169it.7odxv0l067ka.net:8443/hls/qjn80rbplb339.m3u8?s=N633YQta8lz3EL0vy5T3YQ&e=1789963288
 
 #EXTINF:-1 tvg-chno="107" tvg-id="HBO.Comedy.HD.us2" tvg-name="HBO Comedy" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s59839_dark_360w_270h.png" group-title="TV",HBO Comedy
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/86xmsflg15le9.m3u8?s=q-fu2yYcTwjpgSUw4w7TDg&e=1789943420
+https://4169it.7odxv0l067ka.net:8443/hls/86xmsflg15le9.m3u8?s=WGhfTw7zULjOWHBC3DJ_Zg&e=1789963283
 
 #EXTINF:-1 tvg-chno="108" tvg-id="HBO.Zone.HD.us2" tvg-name="HBO Zone" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18431_dark_360w_270h.png" group-title="TV",HBO Zone
 http://23.237.104.106:8080/USA_HBO_ZONE/index.m3u8
@@ -428,7 +428,7 @@ http://212.5.144.156:8080/history/index.m3u8
 #EXTINF:-1 tvg-chno="111" tvg-id="History.HD.us2" tvg-name="History Channel (Alt)" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s87679_dark_360w_270h.png" group-title="TV",History Channel (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=History&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb3a7/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiM2E3OjE3ODk5MzYyMTk0NjE6Y2RubGl2ZXR2LnR2OmNjZDZhMTNlMzAzN2FhMzUuY2EyY2Y2OTY1NmJlZjdlYWFhNTM0MGMyNWEwYzg0ZDJlOTVlMTcwZmUwZTg1YzIxODE3ZjJiMjM1NmQ4NGIzMQ
+https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb3a7/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiM2E3OjE3ODk5NTYwNDc4NDQ6Y2RubGl2ZXR2LnR2OmVhNzkwZjk4ZDM0MDBkMzEuNDQ2ZDU0MWM5MjhlYTg4ZDc4NzRjZmFmYjM5YTViYTUyNzk5MDhiN2M5MzU5MDY0YjM1NDg5OThiOTg3NDg2Yw
 
 #EXTINF:-1 tvg-chno="112" tvg-id="HLN.HD.us2" tvg-name="HLN TV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10145_dark_360w_270h.png" group-title="TV",HLN TV
 http://23.237.104.106:8080/USA_HLN/index.m3u8
@@ -439,7 +439,7 @@ http://23.237.104.106:8080/USA_IFC/index.m3u8
 #EXTINF:-1 tvg-chno="114" tvg-id="Investigation.Discovery.HD.us2" tvg-name="Investigation Discovery" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16615_dark_360w_270h.png" group-title="TV",Investigation Discovery
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/yxtevfj4h2uo2.m3u8?s=5fS8ZbSPbI5QxYgKpt8ogA&e=1789943467
+https://4169it.7odxv0l067ka.net:8443/hls/yxtevfj4h2uo2.m3u8?s=_IdjIetl-2fSicUkhqmMUw&e=1789963231
 
 #EXTINF:-1 tvg-chno="115" tvg-id="ION.Television.HD.us2" tvg-name="ION TV" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18633_dark_360w_270h.png" group-title="TV",ION TV
 http://23.237.104.106:8080/USA_ION/index.m3u8
@@ -453,27 +453,27 @@ https://a-cdn.klowdtv.com/live3/law_720p/playlist.m3u8
 #EXTINF:-1 tvg-chno="118" tvg-id="Lifetime.HD.us2" tvg-name="Lifetime" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10918_dark_360w_270h.png" group-title="TV",Lifetime
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/w09lyl4tohv52.m3u8?s=FmQJNw_NAKPK0NzAdvXS9A&e=1789943439
+https://4169it.7odxv0l067ka.net:8443/hls/w09lyl4tohv52.m3u8?s=0rlF60dtf3H-5ztLiAyvqg&e=1789963276
 
 #EXTINF:-1 tvg-chno="119" tvg-id="Lifetime.HD.us2" tvg-name="Lifetime (Alt)" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10918_dark_360w_270h.png" group-title="TV",Lifetime (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Lifetime&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb247/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjQ3OjE3ODk5MzYyNTg1NzY6Y2RubGl2ZXR2LnR2OjQ5ZDBlMTRmM2I2MTFlZGYuNjExN2M1YzUwMGVkZDFhZDg1OTExNjkxZjZmYTQ1MjRhMWVhMjNkYTA0ZGFkZjFhMTYwYjRhZmQ1YTNhZDdjNg
+https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb247/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjQ3OjE3ODk5NTYwMjg2MzI6Y2RubGl2ZXR2LnR2OjQ2OTkyNDUwZjA3ZDg3ODcuYzA3MGZhMTc0YWU5ZWEzZDU5YWFlYmRlY2FjMDI0Nzc0YjNiNDExNzBmNGQ4MzU1ZTE2MGYxMGM4Mjk3MWIwOQ
 
 #EXTINF:-1 tvg-chno="120" tvg-id="LMN.HD.us2" tvg-name="Lifetime Movie Network" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18480_dark_360w_270h.png" group-title="TV",Lifetime Movie Network
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/yxtev7m4xb172.m3u8?s=_mHSBSzRtAmIuBppayWenQ&e=1789943445
+https://4169it.7odxv0l067ka.net:8443/hls/yxtev7m4xb172.m3u8?s=pqoHByIgVBWpMCpNO6HmSg&e=1789963287
 
 #EXTINF:-1 tvg-chno="121" tvg-id="Marquee.Sports.Network.HD.us2" tvg-name="Marquee Sports Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s113768_dark_360w_270h.png" group-title="TV",Marquee Sports Network
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/5sctq58kb9vq1.m3u8?s=uULBB8nW4Fyt3zAAY-fOZw&e=1789943463
+https://4169it.7odxv0l067ka.net:8443/hls/5sctq58kb9vq1.m3u8?s=VsY1B5RqQb5ymoujQeOPZg&e=1789963250
 
 #EXTINF:-1 tvg-chno="122" tvg-id="Marquee.Sports.Network.HD.us2" tvg-name="Marquee Sports Network (Alt)" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s113768_dark_360w_270h.png" group-title="TV",Marquee Sports Network (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Marquee+Sports+Network&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5ce/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWNlOjE3ODk5MzYyNDk3Nzg6Y2RubGl2ZXR2LnR2OmViM2U4MzU2NTAyMmY5M2UuNzM3NTI2NzIyNmMwNDYwMzM0ZTYyNGYwNTY2MzFjYTMzZTgzNDRkNjQxMTZmNDBiZDMyNGFkN2ZlNDI1ZTU5YQ
+https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5ce/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWNlOjE3ODk5NTYwMDU2NzI6Y2RubGl2ZXR2LnR2OmFkYzJmMjM0MzcxZjg4NTAuODA5MzFiY2M0OTczZTA0ZDQ4NTg3NTkzZTUzYzExODFlOWNiNzMwNTQxNTQ5ZTY2ZTg2NmE1MzYwNWNhMzdhYQ
 
 #EXTINF:-1 tvg-chno="123" tvg-id="Me.TV.Network.us2" tvg-name="MeTV" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s70436_dark_360w_270h.png" group-title="TV",MeTV
 #EXTVLCOPT:http-referrer=https://tvnow.st/
@@ -483,24 +483,24 @@ https://cache0.wonvt.st/live/0lmxu4h1n7licd169kp82/master.m3u8
 #EXTINF:-1 tvg-chno="124" tvg-id="MGM+.HD.us2" tvg-name="MGM+" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s65669_dark_360w_270h.png" group-title="TV",MGM+
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/qjn870kpli1el.m3u8?s=P6mg_TEvsZOcW_wNzgk2xw&e=1789943454
+https://4169it.7odxv0l067ka.net:8443/hls/qjn870kpli1el.m3u8?s=pozu-LzceBPy_ZjjqGEdvA&e=1789963221
 
 #EXTINF:-1 tvg-chno="125" tvg-id="MLB.Network.HD.us2" tvg-name="MLB Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s62081_dark_360w_270h.png" group-title="TV",MLB Network
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/qjn80jmpalfqf.m3u8?s=oYX9dSXfkaVKpwBcZ2DouA&e=1789943412
+https://4169it.7odxv0l067ka.net:8443/hls/qjn80jmpalfqf.m3u8?s=bsTLEF--NfsiDGTjz4A6GA&e=1789963248
 
 #EXTINF:-1 tvg-chno="126" tvg-id="MLB.Network.HD.us2" tvg-name="MLB Network (Alt)" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s62081_dark_360w_270h.png" group-title="TV",MLB Network (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=MLB+Network&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5cf/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWNmOjE3ODk5MzYyMzUxNzk6Y2RubGl2ZXR2LnR2OjJlM2VjOTZiNTIxNGQ0M2EuNGExMjA1NTZkOTNmYjMxOTIwODhlNDI0YjAwZjI0ZjFiMmJkZTc1OTNhYzk2YWMzMTU0NDkwMTJjZDFhYTI5Mg
+https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5cf/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWNmOjE3ODk5NTYwNTEyOTM6Y2RubGl2ZXR2LnR2Ojk4NjQwNjhmZjBiMjFjZDMuZmViMjM1YzVmODUzZjMzODZlZWJjN2RiNWQ3MGU0NmIyZTRhYzQ4MjdiMWZhYTEyYjNiZjM4MjkzMzI3NjU5Mg
 
 #EXTINF:-1 tvg-chno="127" tvg-id="MLB.Network.Strike.Zone.HD.us2" tvg-name="MLB Network Strike Zone" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s75219_dark_360w_270h.png" group-title="TV",MLB Network Strike Zone
 http://23.237.104.106:8080/USA_MLB_STRIKE_ZONE/index.m3u8
 
 #EXTINF:-1 tvg-chno="128" tvg-id="MS.NOW.HD.us2" tvg-name="MS NOW" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG002H5PTP.png_dark_360w_270h.png" group-title="TV",MS NOW
 #EXTVLCOPT:http-referrer=https://usnewson.com/watch/msnbc-live
-https://p0.usnlive.com/stream/msnbc.m3u8
+https://p8.usnlive.com/stream/msnbc.m3u8
 
 #EXTINF:-1 tvg-chno="129" tvg-id="MSG.National.us2" tvg-name="MSG" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10979_dark_360w_270h.png" group-title="TV",MSG
 http://23.237.104.106:8080/USA_MSG/index.m3u8
@@ -523,12 +523,12 @@ http://23.237.104.106:8080/USA_NBA/index.m3u8
 #EXTINF:-1 tvg-chno="135" tvg-id="WNBC-DT.us_locals1" tvg-name="NBC" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10991_dark_360w_270h.png" group-title="TV",NBC
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/g8yj586vwa2is.m3u8?s=_m79Dq8XBhyf5X5OKBd80Q&e=1789943449
+https://4169it.7odxv0l067ka.net:8443/hls/g8yj586vwa2is.m3u8?s=S6pECKJAZL9QjV2j19pY6Q&e=1789963243
 
 #EXTINF:-1 tvg-chno="136" tvg-id="WNBC-DT.us_locals1" tvg-name="NBC (Alt)" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10991_dark_360w_270h.png" group-title="TV",NBC (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=NBC&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb3d1/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiM2QxOjE3ODk5MzYyMjMxNTI6Y2RubGl2ZXR2LnR2OjA5MDQwY2U5MmI0YzIyNjYuYmE5MmM3Y2ViZDY4NGNhZTRjOTI0OTQ4MzQ5M2NiMGMxNjBmMTFiNWMxMDMwMDE5NzU2NzI1ZGU2ODA3ODgyZA
+https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb3d1/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiM2QxOjE3ODk5NTYwODg4MjU6Y2RubGl2ZXR2LnR2OjE2ZGEwN2VjNGVkYTE5MDkuYzdjNzNlYjhhMmIyZmE3ZmZmNjE2ZTJlMWQxZWYwN2I0NTc2NTk5ZTQzNzA1MTc4MzA2ZWZmMjQ2NzdlYWRiOQ
 
 #EXTINF:-1 tvg-chno="137" tvg-id="plex.tv.NBC.News.NOW.plex" tvg-name="NBC News NOW" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s114174_dark_360w_270h.png" group-title="TV",NBC News NOW
 https://xumo-drct-nbcnn-ir8ze.fast.nbcuni.com/live/master.m3u8
@@ -536,17 +536,17 @@ https://xumo-drct-nbcnn-ir8ze.fast.nbcuni.com/live/master.m3u8
 #EXTINF:-1 tvg-chno="138" tvg-id="NBC.Sports.Bay.Area.HD.us2" tvg-name="NBC Sports Bay Area" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s63138_dark_360w_270h.png" group-title="TV",NBC Sports Bay Area
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/6rzbui68uwm9s.m3u8?s=zerWdXm4JsE3-uCBgFEzfA&e=1789943409
+https://4169it.7odxv0l067ka.net:8443/hls/6rzbui68uwm9s.m3u8?s=_OXHYTiS2Gt-a11IVjc48Q&e=1789963285
 
 #EXTINF:-1 tvg-chno="139" tvg-id="NBC.Sports.Boston.HD.us2" tvg-name="NBC Sports Boston" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s49198_dark_360w_270h.png" group-title="TV",NBC Sports Boston
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/fkl79apeqxcia.m3u8?s=ReW3J3TIi_BpIrG4OeRf7g&e=1789943443
+https://4169it.7odxv0l067ka.net:8443/hls/fkl79apeqxcia.m3u8?s=1JkPpV1JTGvUAx6dkRZb8w&e=1789963214
 
 #EXTINF:-1 tvg-chno="140" tvg-id="NBC.Sports.California.SAT.us2" tvg-name="NBC Sports California" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s45540_dark_360w_270h.png" group-title="TV",NBC Sports California
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/3hqc4jd07peem.m3u8?s=nAtZH_ht06opphyr-og6mA&e=1789943470
+https://4169it.7odxv0l067ka.net:8443/hls/3hqc4jd07peem.m3u8?s=v7gpCU5LjlBPBexlwy5sIw&e=1789963268
 
 #EXTINF:-1 tvg-chno="141" tvg-id="plex.tv.NBC.Sports.NOW.plex" tvg-name="NBC Sports NOW" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s114140_dark_360w_270h.png" group-title="TV",NBC Sports NOW
 https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008
@@ -554,17 +554,17 @@ https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_cha
 #EXTINF:-1 tvg-chno="142" tvg-id="NBC.Sports.Philadelphia.HD.us2" tvg-name="NBC Sports Philadelphia" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s32571_dark_360w_270h.png" group-title="TV",NBC Sports Philadelphia
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/qjn87o6plr0rx.m3u8?s=yKpr8SB7lFRU-mBzWBUkPQ&e=1789943444
+https://4169it.7odxv0l067ka.net:8443/hls/qjn87o6plr0rx.m3u8?s=H1rJlFFtpDT-0lley_IFsw&e=1789963253
 
 #EXTINF:-1 tvg-chno="143" tvg-id="New.England.Sports.Network.HD.us2" tvg-name="NESN" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s35038_dark_360w_270h.png" group-title="TV",NESN
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/mbfrwnzj04bg8.m3u8?s=6vthOXxln-vsbZoUodeFGQ&e=1789943469
+https://4169it.7odxv0l067ka.net:8443/hls/mbfrwnzj04bg8.m3u8?s=ITaV8isDovE9wRS_PCAgfw&e=1789963260
 
 #EXTINF:-1 tvg-chno="144" tvg-id="New.England.Sports.Network.HD.us2" tvg-name="NESN (Alt)" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s35038_dark_360w_270h.png" group-title="TV",NESN (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=NESN&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5dc/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWRjOjE3ODk5MzYyNjM5MjQ6Y2RubGl2ZXR2LnR2OjE0ZTcxYzNmMWFkYjZmMTUuNjU3N2I1MGU5NjYwMzZhMjQxMDFiYzY2MDRjZjk3ZTY4NmViN2E5NmZiOGNiZjRhNTIyOGVjNjRiNThjNTlhOQ
+https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5dc/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWRjOjE3ODk5NTYwNTc2MDI6Y2RubGl2ZXR2LnR2OjdiYzllNGE1NTUzMjE4MWMuZTZkYjJjOTU0M2E4Njc1OTdlYTBlMGViODE0YTA4OWU1OTdkMzY2NjlmYWJmOWE2YzI5ZTRiOWYzMTEwMzM4OQ
 
 #EXTINF:-1 tvg-chno="145" tvg-id="Newsmax.TV.HD.us2" tvg-name="Newsmax TV" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s87925_dark_360w_270h.png" group-title="TV",Newsmax TV
 https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8
@@ -575,27 +575,27 @@ https://amg00217-newsmax-newsmax-zeasn-022k9.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-chno="147" tvg-id="NewsNation.us2" tvg-name="NewsNation" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s91096_dark_360w_270h.png" group-title="TV",NewsNation
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/1n5ypu8bgpiw0.m3u8?s=v9o9Fxr2sET8J6VjVSdKrA&e=1789943435
+https://4169it.7odxv0l067ka.net:8443/hls/1n5ypu8bgpiw0.m3u8?s=WIOwNpq-y5ykZvevloR9nA&e=1789963220
 
 #EXTINF:-1 tvg-chno="148" tvg-id="NFL.Network.HD.us2" tvg-name="NFL Network" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s34710_dark_360w_270h.png" group-title="TV",NFL Network
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/86xmlv9g4v55o.m3u8?s=iC35t9-XhEGExnZr4bxBDg&e=1789943448
+https://4169it.7odxv0l067ka.net:8443/hls/86xmlv9g4v55o.m3u8?s=hYRfuWGnUaZmitI_9vcerw&e=1789963230
 
 #EXTINF:-1 tvg-chno="149" tvg-id="NFL.Network.HD.us2" tvg-name="NFL Network (Alt)" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s34710_dark_360w_270h.png" group-title="TV",NFL Network (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=NFL+Network&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb65d/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjVkOjE3ODk5MzYyNjg1Mzc6Y2RubGl2ZXR2LnR2Ojk1YzE0NDZiMWQ4ZDAzMjIuYTU2YjJmM2E5NmE0ZWVkYTc2NWY5NjU1NWM1YTc4MjY0N2E3NzhlN2Y5YTRiOWJlZTU2YWVlY2E0NjY4MDBlNA
+https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb65d/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjVkOjE3ODk5NTYwMDkxNTI6Y2RubGl2ZXR2LnR2OjQ2Y2M3ZTBiOTMyOTEyYmEuYjVmMWUwODlmYWRlMjJjNDU5MDY1NjExYmU2ZGMzMTQ5YzVlNzYwYTMyYTFmZjI2ZGRiMGE5OWYxZDljY2ZiZg
 
 #EXTINF:-1 tvg-chno="150" tvg-id="NHL.Network.HD.us2" tvg-name="NHL Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s58570_dark_360w_270h.png" group-title="TV",NHL Network
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/b1k40pnmdf4dp.m3u8?s=Kz4eKgLFsMpb4RLbpz3SVQ&e=1789943452
+https://4169it.7odxv0l067ka.net:8443/hls/b1k40pnmdf4dp.m3u8?s=L-_gIoIaZQDQSKGFBj7Ibw&e=1789963227
 
 #EXTINF:-1 tvg-chno="151" tvg-id="NHL.Network.HD.us2" tvg-name="NHL Network (Alt)" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s58570_dark_360w_270h.png" group-title="TV",NHL Network (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=NHL+Network&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb69d/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjlkOjE3ODk5MzYyNTgyOTk6Y2RubGl2ZXR2LnR2OjljOGY2MDZlNGUzYjBjZmQuNTU2MTY2NzQ3MjBkMThhYWJmODM0YzAxYzJhYWJjNjBkOTZiMzViMzI5YjI2ZDgxZTNjNjRkMTU1NWEyYTRhNA
+https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb69d/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjlkOjE3ODk5NTYwMzY0MjM6Y2RubGl2ZXR2LnR2OjcyZWFmMmU2MmYwNGQ2NDIuOTViNzNkOGIxYWI2MTc3YmE1ZjY3OTQ5MWEzNGJlMmQ3OGJlZDliYTg0Yjg5MWUyYzEyNzc4YTYwZmYyYjYzMw
 
 #EXTINF:-1 tvg-chno="152" tvg-id="Nick.Jr.HD.us2" tvg-name="Nick Jr" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s19211_dark_360w_270h.png" group-title="TV",Nick Jr
 http://212.5.144.156:8080/nickjr/index.m3u8
@@ -603,12 +603,12 @@ http://212.5.144.156:8080/nickjr/index.m3u8
 #EXTINF:-1 tvg-chno="153" tvg-id="Nickelodeon.HD.us2" tvg-name="Nickelodeon" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11006_dark_360w_270h.png" group-title="TV",Nickelodeon
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/7i356k4zdbf9.m3u8?s=4QleSEyVlSA7ZhZojCkq6g&e=1789943481
+https://4169it.7odxv0l067ka.net:8443/hls/7i356k4zdbf9.m3u8?s=-f0bTrQ9s7tTZq2xRee7nQ&e=1789963224
 
 #EXTINF:-1 tvg-chno="154" tvg-id="Nickelodeon.HD.us2" tvg-name="Nickelodeon (Alt)" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11006_dark_360w_270h.png" group-title="TV",Nickelodeon (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Nickelodeon+TV&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb413/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNDEzOjE3ODk5MzYyMzAwOTM6Y2RubGl2ZXR2LnR2OmEwOWI2N2U0NDc5OTg2ODAuNTc0ZmRlMDM4MGIyNGNkOTdiNmRmMjI1YmYxNjQzYmI0NzU0ZmM3MGFiNWRjOTRhZjIyZjAxNjY0YjhjOTZjZg
+https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb413/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNDEzOjE3ODk5NTYwNjI4NzA6Y2RubGl2ZXR2LnR2OmNhNjRlZWJmZmVmZWMxNGMuYmM3NjdiYmM3ZGYxZWNjZTY5ZDI1YTVkNDI0ZDFmYTAxNTNlNmE5ZDEzYTIyZWVhODJkMzMxZjA1OGU1YzkxZQ
 
 #EXTINF:-1 tvg-chno="155" tvg-id="Nicktoons.us2" tvg-name="Nicktoons" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30420_dark_360w_270h.png" group-title="TV",Nicktoons
 http://41.205.93.154/NICKTOONS/index.m3u8
@@ -622,7 +622,7 @@ http://23.237.104.106:8080/USA_OUTDOOR/index.m3u8
 #EXTINF:-1 tvg-chno="158" tvg-id="Oxygen.True.Crime.HD.us2" tvg-name="Oxygen True Crime" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s70522_dark_360w_270h.png" group-title="TV",Oxygen True Crime
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/cd8okhtaho1uh.m3u8?s=A5YAGiLW8NrlzEfoHXImZw&e=1789943436
+https://4169it.7odxv0l067ka.net:8443/hls/cd8okhtaho1uh.m3u8?s=BClBb_GO_Nh5HgjAnKi-VA&e=1789963274
 
 #EXTINF:-1 tvg-chno="159" tvg-id="Paramount.Network.HD.us2" tvg-name="Paramount Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11163_dark_360w_270h.png" group-title="TV",Paramount Network
 http://23.237.104.106:8080/USA_PARAMOUNT_NETWORK/index.m3u8
@@ -630,27 +630,27 @@ http://23.237.104.106:8080/USA_PARAMOUNT_NETWORK/index.m3u8
 #EXTINF:-1 tvg-chno="160" tvg-id="POP.HD.us2" tvg-name="Pop TV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16715_dark_360w_270h.png" group-title="TV",Pop TV
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/86xmsvug9kmso.m3u8?s=OUp3QfhcIsKa0A-53V4maw&e=1789943475
+https://4169it.7odxv0l067ka.net:8443/hls/86xmsvug9kmso.m3u8?s=ZoRVMOeG66daNiZxg3EuOg&e=1789963249
 
 #EXTINF:-1 tvg-chno="161" tvg-id="Premier.Sports.1.HD.ie" tvg-name="Premier Sports 1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s79027_dark_360w_270h.png" group-title="TV",Premier Sports 1
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/lav3blcujo5l5.m3u8?s=hmCfWmFZdUlPGEpVwhc4aA&e=1789943407
+https://4169it.7odxv0l067ka.net:8443/hls/lav3blcujo5l5.m3u8?s=6BbDlGzNCC6V_XHc_WUT3g&e=1789963269
 
 #EXTINF:-1 tvg-chno="162" tvg-id="Premier.Sports.1.HD.ie" tvg-name="Premier Sports 1 (Alt)" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s79027_dark_360w_270h.png" group-title="TV",Premier Sports 1 (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Premier+Sports+1&code=gb&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc35e/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzVlOjE3ODk5MzYyNjgzOTk6Y2RubGl2ZXR2LnR2OmU2NmI0ZDIzNDk3YTA0NDEuYjI2YmI5ZmQ3ZTExOWRlMTUzMDdmYmQzNmViMjcxZjM3NGJlZjllNGVlOTdkYzc1Y2Q0NDE5ZWFhY2ZkZmY2Mg
+https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc35e/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzVlOjE3ODk5NTYwNjU0ODA6Y2RubGl2ZXR2LnR2OjQyNDVmMzE0NmJlNGQwNTUuODVlZjBjY2Y3MGE4OGRhYjU1MzkxZjg2NmY3MjVhZGU3Yzg1MDdkN2EyMDU1MjFmNjBkOGUzMjExNmZjZWM1ZA
 
 #EXTINF:-1 tvg-chno="163" tvg-id="Premier.Sports.2.HD.ie" tvg-name="Premier Sports 2" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s109162_dark_360w_270h.png" group-title="TV",Premier Sports 2
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/cd8o1e8a67jnv.m3u8?s=hLVEjYy5j_secmtxEH5sFA&e=1789943438
+https://4169it.7odxv0l067ka.net:8443/hls/cd8o1e8a67jnv.m3u8?s=fKD3l9pvr-dc7sf3knT7LQ&e=1789963242
 
 #EXTINF:-1 tvg-chno="164" tvg-id="Premier.Sports.2.HD.ie" tvg-name="Premier Sports 2 (Alt)" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s109162_dark_360w_270h.png" group-title="TV",Premier Sports 2 (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Premier+Sports+2&code=gb&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc361/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzYxOjE3ODk5MzYyNDk2MzY6Y2RubGl2ZXR2LnR2OmRiMjllZmIxYjY4Y2MyNDYuZWE3ZTJlYWYyMjExYmVlMWExMzhjMDY4MjNlOGNjYWNlMzUwNWE3YzRjOGZmNDg5YWQ4ZmMxYjRlOGVlYmYxYQ
+https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc361/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzYxOjE3ODk5NTYwNDEyNDM6Y2RubGl2ZXR2LnR2OjU1YzcyZmI5OWNhYWJjOWQuOGQ5MTZlZjVhZTNmNzRmOTVmNjk2OTVjNTc0YTdjZDJiZmU1ODE2YWQxNTUzZWE3Mzg3ZjA5OGZiYjVlNDM4NQ
 
 #EXTINF:-1 tvg-chno="165" tvg-id="RACER.Network.HD.us2" tvg-name="RACER Network" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s45169_dark_360w_270h.png" group-title="TV",RACER Network
 http://23.237.104.106:8080/USA_MAV_TV/index.m3u8
@@ -672,17 +672,17 @@ http://23.237.104.106:8080/USA_SEC_NETWORK/index.m3u8
 #EXTINF:-1 tvg-chno="170" tvg-id="Paramount+.with.Showtime.HD.us2" tvg-name="Showtime" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/showtime-us.png" group-title="TV",Showtime
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/w09lyuotog7qn.m3u8?s=bjQ5tPe_0mxrPBZSpOrbPg&e=1789943446
+https://4169it.7odxv0l067ka.net:8443/hls/w09lyuotog7qn.m3u8?s=G46WAogCl2WPfEtFBB31fA&e=1789963216
 
 #EXTINF:-1 tvg-chno="171" tvg-id="Paramount+.with.Showtime.HD.us2" tvg-name="Showtime (Alt)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/showtime-us.png" group-title="TV",Showtime (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Showtime&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb465/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNDY1OjE3ODk5MzYyODgwNzQ6Y2RubGl2ZXR2LnR2OmE1ZWQ0OTMyMzE0NzZiM2MuOWQ5NThhN2Y2MjdiYWY3ODY4ZWVkZGUyOTg4MThkMTNhOGMzNjI4YThkOTJkM2E1MDk3M2NhNTY4N2RmNmU4ZQ
+https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb465/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNDY1OjE3ODk5NTYwMTM0OTE6Y2RubGl2ZXR2LnR2OjBjNWVhZTA3MmQzNGZlNTQuMDU5MGZiNjdkNmRkZGZiMWNiZGE2MDViNTRkNTBmZjRkNDhmZmVjZTgzZjBlZDRjMDE1MDIxY2FmYzJkN2RiMg
 
 #EXTINF:-1 tvg-chno="172" tvg-id="Showtime.2.HD.us2" tvg-name="Showtime 2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/showtime-2-us.png" group-title="TV",Showtime 2
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/1n5y09nbyu42m.m3u8?s=RtM31pAjQ7JheneBBqoRHw&e=1789943488
+https://4169it.7odxv0l067ka.net:8443/hls/1n5y09nbyu42m.m3u8?s=5WfiN4HwdvvNxxwQ8ByJVQ&e=1789963270
 
 #EXTINF:-1 tvg-chno="173" tvg-id="Showtime.Familyzone.HD.us2" tvg-name="Showtime Family Zone" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s25274_dark_360w_270h.png" group-title="TV",Showtime Family Zone
 http://23.237.104.106:8080/USA_SHOWTIME_FAMILY/index.m3u8
@@ -696,12 +696,12 @@ http://stream.bottledesk.net/p/AQNASgYGemc/index.m3u8
 #EXTINF:-1 tvg-chno="176" tvg-id="SkySp.Cricket.uk" tvg-name="Sky Sports Cricket" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/sky-sports-cricket-icon-uk.png" group-title="TV",Sky Sports Cricket
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/4yie4i7r31zjc.m3u8?s=pkmqzjE2Cl4MNl9aFo01UQ&e=1789943408
+https://4169it.7odxv0l067ka.net:8443/hls/4yie4i7r31zjc.m3u8?s=1Ake9WRSssAqc5jr8Xb4GQ&e=1789963259
 
 #EXTINF:-1 tvg-chno="177" tvg-id="SkySp.Cricket.uk" tvg-name="Sky Sports Cricket (Alt)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/sky-sports-cricket-icon-uk.png" group-title="TV",Sky Sports Cricket (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky+Sports+Cricket&code=gb&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc31a/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzFhOjE3ODk5MzYyNzQ2Nzc6Y2RubGl2ZXR2LnR2OjdlM2YzNjY5NjFhYzU5OWEuMmRjYmQzNTZjMmZjOTA5OThiZDk1MTU0YWY3YjlkNGZkZDE2NDRiODQyMjk4ZjBhNDcwZmE2OThkMDdhZWJhMA
+https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc31a/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzFhOjE3ODk5NTYwMjIyNTY6Y2RubGl2ZXR2LnR2OmY4NGFjNGZhYWQ5ZThjZTEuN2MyNmNhMGYxNGQ5NjI5ZGM5NWU5ZWU2NDkzNGMzZWQ3NDExNGE1YWQzZTU4NGM3OWUzZmFkZWMxNzMyZDg4MQ
 
 #EXTINF:-1 tvg-chno="178" tvg-id="SkySp.F1.uk" tvg-name="Sky Sports F1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/sky-sports-f1-icon-uk.png" group-title="TV",Sky Sports F1
 http://stream.bottledesk.net/p/AwZGQwwEZA/index.m3u8
@@ -709,47 +709,47 @@ http://stream.bottledesk.net/p/AwZGQwwEZA/index.m3u8
 #EXTINF:-1 tvg-chno="179" tvg-id="SkySp.Fball.uk" tvg-name="Sky Sports Football" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/sky-sports-football-icon-uk.png" group-title="TV",Sky Sports Football
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/4yie4nwr22yw8.m3u8?s=yolZKPn6xP2KOSucCOSUog&e=1789943441
+https://4169it.7odxv0l067ka.net:8443/hls/4yie4nwr22yw8.m3u8?s=50ZasrLnmo1GBC4G93qGFA&e=1789963276
 
 #EXTINF:-1 tvg-chno="180" tvg-id="SkySp.Fball.uk" tvg-name="Sky Sports Football (Alt)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/sky-sports-football-icon-uk.png" group-title="TV",Sky Sports Football (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky+Sports+Football&code=gb&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc340/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzQwOjE3ODk5MzYyNzkwMTE6Y2RubGl2ZXR2LnR2OmQ0NTZlZGRkZjc3ZWI0NGMuNjk5N2Q4MGQ2ZjI1OGI1OTEzZjM1MTEyYjFlMjg2ZGU2NjNkMDFhNTM0MzI0MjU4ZDgyYzFiYThiZDdlMjU3YQ
+https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc340/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzQwOjE3ODk5NTYwMTkwODM6Y2RubGl2ZXR2LnR2OjkyYzViMjliNWVmMTI5MWEuOGI2ZTYzYTIxN2Q2NjY5NGU1ZGViMmY1MGJlNjU3NGQyYzRjOTVkNzVjYTJiYTA2ZDYwMTQyYWFiMjk0NTZmOA
 
 #EXTINF:-1 tvg-chno="181" tvg-id="SkySp.Golf.uk" tvg-name="Sky Sports Golf" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/sky-sports-golf-icon-uk.png" group-title="TV",Sky Sports Golf
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/sud0scy52el7o.m3u8?s=akdS840MaCOiZAuJDP6v0Q&e=1789943478
+https://4169it.7odxv0l067ka.net:8443/hls/sud0scy52el7o.m3u8?s=drurSfRD6GeguIt88OFOLA&e=1789963212
 
 #EXTINF:-1 tvg-chno="182" tvg-id="SkySp.Golf.uk" tvg-name="Sky Sports Golf (Alt)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/sky-sports-golf-icon-uk.png" group-title="TV",Sky Sports Golf (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky+Sports+Golf&code=gb&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc31d/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzFkOjE3ODk5MzYyMTIyNzQ6Y2RubGl2ZXR2LnR2OmU0YWE4OWFhZjZkZWEyN2UuNDc3MWFhZjllNjFiM2Q1OGEzNTU3NzE1ZDI1MGY4MGI0YzFhYTU2YjUxN2NkNzI3ZjNiZmM2ZGM2ZjZjYzYzZQ
+https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc31d/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzFkOjE3ODk5NTYwNzg0ODc6Y2RubGl2ZXR2LnR2OmY3Nzg3NTY2ZWFhMWM4OTcuYzJiOGI2OWYzMTE0ZmRjYjE1ZmQ4YWIxYjQ1MmExZmJjNTg3ZGRhNTc1ZmNkNjc5NjdkY2JkZmI2NDZkMmI5ZA
 
 #EXTINF:-1 tvg-chno="183" tvg-id="SkySpMainEvHD.uk" tvg-name="Sky Sports Main Event" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/sky-sports-main-event-icon-uk.png" group-title="TV",Sky Sports Main Event
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/w09awsnt26ml8.m3u8?s=4oTJLJhhQUe0pSnNSJrFzg&e=1789943432
+https://4169it.7odxv0l067ka.net:8443/hls/w09awsnt26ml8.m3u8?s=mNzxdmvOSRcrlOEP8aW4Dw&e=1789963222
 
 #EXTINF:-1 tvg-chno="184" tvg-id="SkySpMainEvHD.uk" tvg-name="Sky Sports Main Event (Alt)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/sky-sports-main-event-icon-uk.png" group-title="TV",Sky Sports Main Event (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky+Sports+Main+Event&code=gb&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc30f/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzBmOjE3ODk5MzYyMTI0MTI6Y2RubGl2ZXR2LnR2OjZiNGZmMDNmOWFkMzNjMDguODA3MzY3MjkwYmMwOWYwMzhlNTY4YjE5NjllODJmODU4MjUxMzM0YTcxZGM2NmY1OTk1ZWU3NjkyZTk4NmE2MQ
+https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc30f/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzBmOjE3ODk5NTYwNDMyODk6Y2RubGl2ZXR2LnR2OjQ1Y2E5ZGZmM2VjMTQyNmUuYjNlNjExNjM5NDdiNTRiMGU0Yzg5MTU2NzAwODJkMTU5OWUzMTg5MTkwYTg2NzkwZTQ3ZmUxZDBkMzdhNzc3Zg
 
 #EXTINF:-1 tvg-chno="185" tvg-id="SkySp.Mix.HD.uk" tvg-name="Sky Sports Mix" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/sky-sports-mix-icon-uk.png" group-title="TV",Sky Sports Mix
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/5sctm32krbvko.m3u8?s=FAl5eh4sHASJ9FkswHrVww&e=1789943416
+https://4169it.7odxv0l067ka.net:8443/hls/5sctm32krbvko.m3u8?s=gqchO_KA86Z2mHj9Di6lzg&e=1789963281
 
 #EXTINF:-1 tvg-chno="186" tvg-id="SkySp.Mix.HD.uk" tvg-name="Sky Sports Mix (Alt)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/sky-sports-mix-icon-uk.png" group-title="TV",Sky Sports Mix (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky+Sports+Mix&code=gb&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc32d/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzJkOjE3ODk5MzYyNTYzODg6Y2RubGl2ZXR2LnR2OmQ4NTY4N2RiOThiZTQxZWQuYzFhZDJmNzM2MWJkODljNDJkMTQzNzQ0OTIwY2ZmZjMzZmVhYjcyMjBiNjA3ZjRhOWYzNTZkZGViY2YyODRhNQ
+https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc32d/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzJkOjE3ODk5NTYwMTU1NzM6Y2RubGl2ZXR2LnR2OjIzM2MzODNjYjEyYWIxZjMuNDY4MThlN2U4MWNjYWNhYWY4NzRmMDNhMTU2ODlhNzY3YmRlNjg0OTQ1NGIzNTczOTI3MTA1MjQ3OTU3NWZjOA
 
 #EXTINF:-1 tvg-chno="187" tvg-id="SkySp.News.HD.uk" tvg-name="Sky Sports News" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/sky-sports-news-icon-uk.png" group-title="TV",Sky Sports News
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/pq1gwkt9vawvd.m3u8?s=lLWPAbcVJlT_09X49pX9ig&e=1789943460
+https://4169it.7odxv0l067ka.net:8443/hls/pq1gwkt9vawvd.m3u8?s=9cjPIeELvilixSRKuSo8GQ&e=1789963284
 
 #EXTINF:-1 tvg-chno="188" tvg-id="SkySp.PL.HD.uk" tvg-name="Sky Sports Premier League" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/sky-sports-premier-league-icon-uk.png" group-title="TV",Sky Sports Premier League
 http://stream.bottledesk.net/p/AAxBRQEBc2c/index.m3u8
@@ -757,37 +757,37 @@ http://stream.bottledesk.net/p/AAxBRQEBc2c/index.m3u8
 #EXTINF:-1 tvg-chno="189" tvg-id="SkySp.Racing.HD.uk" tvg-name="Sky Sports Racing" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/sky-sports-racing-icon-uk.png" group-title="TV",Sky Sports Racing
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/2vrpks1d3kboi.m3u8?s=vZSjIc31uPPcwqeqhsiQ3Q&e=1789943427
+https://4169it.7odxv0l067ka.net:8443/hls/2vrpks1d3kboi.m3u8?s=NfvRvr9yu2tULh9D2IyvoA&e=1789963251
 
 #EXTINF:-1 tvg-chno="190" tvg-id="SkySp.Racing.HD.uk" tvg-name="Sky Sports Racing (Alt)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/sky-sports-racing-icon-uk.png" group-title="TV",Sky Sports Racing (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky+Sports+Racing&code=gb&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc333/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzMzOjE3ODk5MzYyMjIyMjE6Y2RubGl2ZXR2LnR2OmMyZmE0MjllZWQ1NDQ5M2MuYTMzNWMwZDA0NGFiYzk4MGM0NzQ3YTQ5YjE1N2I1YjY5YzM4NDJhY2JiNmM1OTJkMjJiOGEzMzZmZmNiZjQ4Yg
+https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc333/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzMzOjE3ODk5NTYwMTM2MjQ6Y2RubGl2ZXR2LnR2OmFmMzBjZDQxODQzYmI4ODMuYmMxMjJhOGYxZWI1OTE4MzQ3OWRjNGZmOWMxYzFhN2JlMGFhODdjYTkwOTZlNTZlMGQzNWFjNTNiZjM3MjBmOA
 
 #EXTINF:-1 tvg-chno="191" tvg-id="SkySp.Tennis.HD.uk" tvg-name="Sky Sports Tennis" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/sky-sports-tennis-icon-uk.png" group-title="TV",Sky Sports Tennis
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/xzwkxbaysw6z9.m3u8?s=qlcV5QqvjAILfkoKRZNlbQ&e=1789943427
+https://4169it.7odxv0l067ka.net:8443/hls/xzwkxbaysw6z9.m3u8?s=RtWKN9dw4ldXmmqPrZl0Pg&e=1789963207
 
 #EXTINF:-1 tvg-chno="192" tvg-id="SkySp.Tennis.HD.uk" tvg-name="Sky Sports Tennis (Alt)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/sky-sports-tennis-icon-uk.png" group-title="TV",Sky Sports Tennis (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky+Sports+Tennis&code=gb&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc320/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzIwOjE3ODk5MzYyMjA0MDk6Y2RubGl2ZXR2LnR2OjRjMWVkMDI0ZDAxOGMyMzMuZTFiMWU2YzgzYmUwZmQxNjY4MGZmMmZlYzRmZmFjNTQ4MDU2NzQ3YTY3NGUxYzU0MzZhNDA4M2MzOTMzY2I5Nw
+https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc320/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzIwOjE3ODk5NTYwMTU0MzA6Y2RubGl2ZXR2LnR2OjZkYjYzYmEyMzNlNzU2YTIuNzc5YjYzMmI2OTNhNTdiN2QzZDljNjRmNzA0ZTQ0NWFmNTM1MGM5ZWI5NWY5MmRlZmY2NTI5ZTQ1NDliYmE0Zg
 
 #EXTINF:-1 tvg-chno="193" tvg-id="Smithsonian.HD.Network.us2" tvg-name="Smithsonian Channel" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s58532_dark_360w_270h.png" group-title="TV",Smithsonian Channel
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/w09lrshtcksj7.m3u8?s=J99rXZbijpzp5NyfG1Pypg&e=1789943453
+https://4169it.7odxv0l067ka.net:8443/hls/w09lrshtcksj7.m3u8?s=zVVjCicvhcsNOWWOENsruw&e=1789963214
 
 #EXTINF:-1 tvg-chno="194" tvg-id="Space.City.Home.Network.HD.us2" tvg-name="Space City Home Network" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s77744_dark_360w_270h.png" group-title="TV",Space City Home Network
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/7i35dvoz51kg9.m3u8?s=BXipYlZdoiwNngWkB6gjTQ&e=1789943413
+https://4169it.7odxv0l067ka.net:8443/hls/7i35dvoz51kg9.m3u8?s=coPkzN7RSaIcvoA5cdTysg&e=1789963275
 
 #EXTINF:-1 tvg-chno="195" tvg-id="Space.City.Home.Network.HD.us2" tvg-name="Space City Home Network (Alt)" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s77744_dark_360w_270h.png" group-title="TV",Space City Home Network (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Space+City+Home+Network&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb52c/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNTJjOjE3ODk5MzYyMDk0MjQ6Y2RubGl2ZXR2LnR2OjdhMzkyNjA3N2Y3NGRjZTMuMzE5ZTRhMjg2Mzc0Y2RmOGZjYjIzNWRkM2VmNDc4ZTI4ZTRlY2Q5OWVlYmU0NjZkNmQ0ZDZhNTU5MzA0MjExYw
+https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb52c/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNTJjOjE3ODk5NTYwMjExMjI6Y2RubGl2ZXR2LnR2Ojc5Yzc0MmRkNzI0OTY2M2YuMDU1MTAzOGJkOGY4MWQzYTFlYmQ2ZjJhMzdlMzE5YWIxZDc2ZmZkODFhYjllYWVhZGExNTc0NjgxNGYzZDFlOQ
 
 #EXTINF:-1 tvg-chno="196" tvg-id="Spectrum.News+.us2" tvg-name="Spectrum News+" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s133897_dark_360w_270h.png" group-title="TV",Spectrum News+
 https://dbrb49pjoymg4.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/589e9668-62d2-4ace-b695-14ea749d4ec0/2.m3u8
@@ -795,62 +795,62 @@ https://dbrb49pjoymg4.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043
 #EXTINF:-1 tvg-chno="197" tvg-id="Spectrum.SportsNet.LA.Dodgers.HD.us2" tvg-name="Spectrum SportsNet LA Dodgers" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s87024_dark_360w_270h.png" group-title="TV",Spectrum SportsNet LA Dodgers
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/z70k2twxht85r.m3u8?s=Rs1FBOHIr8StO16fjdwShw&e=1789943476
+https://4169it.7odxv0l067ka.net:8443/hls/z70k2twxht85r.m3u8?s=mg9cyCfPMCTdTzH87i0UjQ&e=1789963235
 
 #EXTINF:-1 tvg-chno="198" tvg-id="Spectrum.SportsNet.Lakers.HD.us2" tvg-name="Spectrum SportsNet Lakers" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s77422_dark_360w_270h.png" group-title="TV",Spectrum SportsNet Lakers
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/7i35dq8zqmlmg.m3u8?s=Tl3aEDKV4FVHD9f3CpFIVw&e=1789943472
+https://4169it.7odxv0l067ka.net:8443/hls/7i35dq8zqmlmg.m3u8?s=kgD6wjiXNUxcFRC9QW-ugA&e=1789963279
 
 #EXTINF:-1 tvg-chno="199" tvg-id="Sportsnet.360.HD.ca2" tvg-name="Sportsnet 360" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s49952_dark_360w_270h.png" group-title="TV",Sportsnet 360
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/yxte26m49l79g.m3u8?s=nXmWfPjbIpChqQrQyXmybQ&e=1789943484
+https://4169it.7odxv0l067ka.net:8443/hls/yxte26m49l79g.m3u8?s=ltHilsCVcc1yu9e-zZgAFw&e=1789963249
 
 #EXTINF:-1 tvg-chno="200" tvg-id="Sportsnet.360.HD.ca2" tvg-name="Sportsnet 360 (Alt)" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s49952_dark_360w_270h.png" group-title="TV",Sportsnet 360 (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sportsnet+360&code=ca&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc2a5/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMmE1OjE3ODk5MzYyNTg0MzY6Y2RubGl2ZXR2LnR2OjJkNDM3NzRkMTIxYTJiNTUuMTM5Yjk3OTlhNDBhY2EzNDgwYWI2ZmI1ZTA0ZjIxMjAwYmJmZmZiODllMmMzNWE5NWQxNjU1ZDQ5ZjBjYTBkOA
+https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc2a5/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMmE1OjE3ODk5NTYwMjMyMzc6Y2RubGl2ZXR2LnR2OmUyMzQ5NTZjMzBjY2FiMzMuZjlhYTA3YTQ3ZmVmN2I1ZGM0MmI1NWI2M2YwMWFlMWY2ZDIzMDBiMTc3OTFmMzIwNjc5MGEyZTM0Mjg1ZTA5YQ
 
 #EXTINF:-1 tvg-chno="201" tvg-id="Sportsnet.East.ca2" tvg-name="Sportsnet East" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s62109_dark_360w_270h.png" group-title="TV",Sportsnet East
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/k5aijn9f1mny9.m3u8?s=Sa4wt2-RY083o2VLmcicfQ&e=1789943418
+https://4169it.7odxv0l067ka.net:8443/hls/k5aijn9f1mny9.m3u8?s=PzF68euqTzLpGSlC3aPZ-g&e=1789963244
 
 #EXTINF:-1 tvg-chno="202" tvg-id="Sportsnet.East.ca2" tvg-name="Sportsnet East (Alt)" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s62109_dark_360w_270h.png" group-title="TV",Sportsnet East (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sportsnet+East&code=ca&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc168/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTY4OjE3ODk5MzYyNDk5MTY6Y2RubGl2ZXR2LnR2OmIxOTliNTBhODY3ODVjMDguZGFlMjdjNDc4ZTFhNzA1YWY4NzUwYWMwZWQ4ZWMyNWQwMDkwZTE3NmI3OGIwY2Y0NmExYTQwM2FkZTM4MzVmYw
+https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc168/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTY4OjE3ODk5NTYwMzc2NjE6Y2RubGl2ZXR2LnR2OjE2MWU4ZWQzMWVhOTIxMWYuNDI3Yjc4ZmQxNzczZmMxZDBjYjZmNjA5ZTc2OGRlOWE5MDY5NTViYTBiY2I1Njk5ZjY1YzQ3MzkwMGNjZDYzYQ
 
 #EXTINF:-1 tvg-chno="203" tvg-id="SNY.SportsNet.New.York.HD.us2" tvg-name="SportsNet New York" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50038_dark_360w_270h.png" group-title="TV",SportsNet New York
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/w09l6oltjmrer.m3u8?s=Z1evzH8GKYTUZY6I1kgSDg&e=1789943410
+https://4169it.7odxv0l067ka.net:8443/hls/w09l6oltjmrer.m3u8?s=RVRrdDh82dR5XDqzXcuWnQ&e=1789963245
 
 #EXTINF:-1 tvg-chno="204" tvg-id="SNY.SportsNet.New.York.HD.us2" tvg-name="SportsNet New York (Alt)" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50038_dark_360w_270h.png" group-title="TV",SportsNet New York (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=SportsNet+New+York&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb52e/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNTJlOjE3ODk5MzYyNDQ2MjE6Y2RubGl2ZXR2LnR2Ojc5OWVhZjkzNGUzNmZhODcuYzA5MTFkMGZkNTg0MmU0ZWMzN2ZjZDg4OTUzYjM2ODA2ZTE0MjBlOGQwNGMxNzEzYjI5ZGQxOWEwYzI4MjgzZg
+https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb52e/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNTJlOjE3ODk5NTYwNDIzNDI6Y2RubGl2ZXR2LnR2OmZjNTE4N2IyZWYwYmYzZTguYmIwNzExYmYxM2VlZDY3ZDAzZDA1MGNjNjQxOTE0ZjA0Y2NkYzMwYWRmNTExMGVkNzYyNjc3OTQ3MjJhODI4Mg
 
 #EXTINF:-1 tvg-chno="205" tvg-id="Sportsnet.One.ca2" tvg-name="Sportsnet One" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s68859_dark_360w_270h.png" group-title="TV",Sportsnet One
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/r471cvg6ltzg1.m3u8?s=Q5rqj-VzrL84HBOFqT27sA&e=1789943405
+https://4169it.7odxv0l067ka.net:8443/hls/r471cvg6ltzg1.m3u8?s=vykexrtn2UoamYBrCTNHvQ&e=1789963218
 
 #EXTINF:-1 tvg-chno="206" tvg-id="Sportsnet.One.ca2" tvg-name="Sportsnet One (Alt)" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s68859_dark_360w_270h.png" group-title="TV",Sportsnet One (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sportsnet+One&code=ca&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc2b0/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMmIwOjE3ODk5MzYyNjQ4NTg6Y2RubGl2ZXR2LnR2OjI3NDIyNTA5ZTE3OTU4YmQuZGVlODQyMjFmZWI4MzI2NzNiNjRjMTZmMjMzYjk5MDI2ZjZjY2YwMDZiY2MzN2QxNzlkM2I5MjZjYzhmZmM2Mg
+https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc2b0/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMmIwOjE3ODk5NTYwNTIzMDg6Y2RubGl2ZXR2LnR2OmU2Zjc4ZjYwMWIxOGMzZjcuMThkM2M2NmVjOWZlZTM3MjJiZGYzMWY3MjFhYmJmMjQ1OTcyNWZkNzM4NTdiNjQxOTU1MWQ5OThiMDUzOWUxOA
 
 #EXTINF:-1 tvg-chno="207" tvg-id="SportsNet.Pittsburgh.HD.us2" tvg-name="SportsNet Pittsburgh" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s26028_dark_360w_270h.png" group-title="TV",SportsNet Pittsburgh
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/acghmbfldigu4.m3u8?s=hb4jJa5io2oO4JOpHyW6aA&e=1789943482
+https://4169it.7odxv0l067ka.net:8443/hls/acghmbfldigu4.m3u8?s=NWJilGdiAxeguESHKhWxiQ&e=1789963208
 
 #EXTINF:-1 tvg-chno="208" tvg-id="Starz.HD.us2" tvg-name="Starz" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s12719_dark_360w_270h.png" group-title="TV",Starz
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/9pbvtd8ohr1j3.m3u8?s=PSJ6kCL6VtvDwS_cYtdnPQ&e=1789943429
+https://4169it.7odxv0l067ka.net:8443/hls/9pbvtd8ohr1j3.m3u8?s=cXBOo78R2CZuK-OoQGwABg&e=1789963210
 
 #EXTINF:-1 tvg-chno="209" tvg-id="Starz.Cinema.HD.us2" tvg-name="Starz Cinema" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s67236_dark_360w_270h.png" group-title="TV",Starz Cinema
 http://23.237.104.106:8080/USA_STARZ_CINEMA/index.m3u8
@@ -861,47 +861,47 @@ http://23.237.104.106:8080/USA_STARZ_COMEDY/index.m3u8
 #EXTINF:-1 tvg-chno="211" tvg-id="Starz.Edge.HD.us2" tvg-name="Starz Edge" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16311_dark_360w_270h.png" group-title="TV",Starz Edge
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/vg4qe0z2z8raf.m3u8?s=OhHxMHAh5OYHTZSPrLRnKQ&e=1789943437
+https://4169it.7odxv0l067ka.net:8443/hls/vg4qe0z2z8raf.m3u8?s=TWZ1Jx5ph_d6czcmRO1tXQ&e=1789963280
 
 #EXTINF:-1 tvg-chno="212" tvg-id="Starz.Encore.HD.us2" tvg-name="Starz Encore" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10178_dark_360w_270h.png" group-title="TV",Starz Encore
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/mbfricrjvkn2f.m3u8?s=GXGcpfKFt6JcKvULbADfvg&e=1789943423
+https://4169it.7odxv0l067ka.net:8443/hls/mbfricrjvkn2f.m3u8?s=J8A02kCvQRqXOXt3lqg2Mg&e=1789963257
 
 #EXTINF:-1 tvg-chno="213" tvg-id="Starz.Encore.Action.HD.us2" tvg-name="Starz Encore Action" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/starz-encore-action-us.png" group-title="TV",Starz Encore Action
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/6rzb5h38rx5y5.m3u8?s=9fDfcoR9XhURfl5yqx9mhA&e=1789943479
+https://4169it.7odxv0l067ka.net:8443/hls/6rzb5h38rx5y5.m3u8?s=353dG3VV_5E9Jl4HWwW_MQ&e=1789963278
 
 #EXTINF:-1 tvg-chno="214" tvg-id="Starz.Encore.Black.us2" tvg-name="Starz Encore Black" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/starz-encore-black-us.png" group-title="TV",Starz Encore Black
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/b1k4tdem0n9da.m3u8?s=DfTAg1IMo2pbNvnrWUSvpA&e=1789943471
+https://4169it.7odxv0l067ka.net:8443/hls/b1k4tdem0n9da.m3u8?s=JFMR7qShnVVyqs3wlo4XaA&e=1789963265
 
 #EXTINF:-1 tvg-chno="215" tvg-id="Starz.Encore.Classic.us2" tvg-name="Starz Encore Classic" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/starz-encore-classic-us.png" group-title="TV",Starz Encore Classic
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/jme67l3q9lttd.m3u8?s=YALKdVTMa9sTgvE8dxP97w&e=1789943438
+https://4169it.7odxv0l067ka.net:8443/hls/jme67l3q9lttd.m3u8?s=1ZRcyJYFuTLRp7_9TMj9MA&e=1789963232
 
 #EXTINF:-1 tvg-chno="216" tvg-id="Starz.Encore.Family.SD.us2" tvg-name="Starz Encore Family" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/starz-encore-family-us.png" group-title="TV",Starz Encore Family
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/6rzb53n81jliz.m3u8?s=OLYyz83tVq_N2r2LZa1hLw&e=1789943447
+https://4169it.7odxv0l067ka.net:8443/hls/6rzb53n81jliz.m3u8?s=Jc-aopyXDczielWfVpCEbg&e=1789963264
 
 #EXTINF:-1 tvg-chno="217" tvg-id="Starz.Encore.Suspense.us2" tvg-name="Starz Encore Suspense" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/starz-encore-suspense-us.png" group-title="TV",Starz Encore Suspense
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/6rzb53081bemb.m3u8?s=ojlBQIKlem1syNCzZ7sU_w&e=1789943431
+https://4169it.7odxv0l067ka.net:8443/hls/6rzb53081bemb.m3u8?s=DJXG342rwsb--3fiNjR4Eg&e=1789963258
 
 #EXTINF:-1 tvg-chno="218" tvg-id="Starz.Encore.Westerns.SD.us2" tvg-name="Starz Encore Westerns" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s14765_dark_360w_270h.png" group-title="TV",Starz Encore Westerns
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/7i35djizuq3mt.m3u8?s=Q--t3sS-AxoZiYvnAwh3HQ&e=1789943440
+https://4169it.7odxv0l067ka.net:8443/hls/7i35djizuq3mt.m3u8?s=4HMwojR13aNk2yOGTKwYlw&e=1789963235
 
 #EXTINF:-1 tvg-chno="219" tvg-id="Starz.in.Black.HD.us2" tvg-name="Starz In Black" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s67235_dark_360w_270h.png" group-title="TV",Starz In Black
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/vg4qe0v2wbzud.m3u8?s=ayRG4rYBzo3sw3e3VwYTRw&e=1789943451
+https://4169it.7odxv0l067ka.net:8443/hls/vg4qe0v2wbzud.m3u8?s=KdXx4EWAHsjLb4KdgYIeIA&e=1789963256
 
 #EXTINF:-1 tvg-chno="220" tvg-id="Starz.Kids.HD.us2" tvg-name="Starz Kids & Family" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s19635_dark_360w_270h.png" group-title="TV",Starz Kids & Family
 http://23.237.104.106:8080/USA_STARZ_FAMILY/index.m3u8
@@ -912,7 +912,7 @@ http://176.65.153.4:4007/play/a073/index.m3u8
 #EXTINF:-1 tvg-chno="222" tvg-id="SundanceTV.HD.us2" tvg-name="Sundance" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16108_dark_360w_270h.png" group-title="TV",Sundance
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/twou8zlih1na7.m3u8?s=JKPGoK1Ob-W3Av1iHxll3w&e=1789943411
+https://4169it.7odxv0l067ka.net:8443/hls/twou8zlih1na7.m3u8?s=rZgPp1ocPoiTuko9YYmC-w&e=1789963237
 
 #EXTINF:-1 tvg-chno="223" tvg-id="Syfy.HD.us2" tvg-name="Syfy" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11097_dark_360w_270h.png" group-title="TV",Syfy
 http://23.237.104.106:8080/USA_SYFY/index.m3u8
@@ -938,12 +938,12 @@ https://db691j6te7mt4.cloudfront.net/out/v1/f65bdb9d5ac1498ba700027b5ca8a383/ind
 #EXTINF:-1 tvg-chno="230" tvg-id="TLC.HD.(US).us2" tvg-name="TLC" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11158_dark_360w_270h.png" group-title="TV",TLC
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/sudw1iu511sdo.m3u8?s=EwHmEtiA8HnaIfDR18XNKA&e=1789943414
+https://4169it.7odxv0l067ka.net:8443/hls/sudw1iu511sdo.m3u8?s=411WglntpBAcUcSyY5uIIA&e=1789963247
 
 #EXTINF:-1 tvg-chno="231" tvg-id="TLC.HD.(US).us2" tvg-name="TLC (Alt)" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11158_dark_360w_270h.png" group-title="TV",TLC (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=TLC&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb29d/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjlkOjE3ODk5MzYyODAwMjY6Y2RubGl2ZXR2LnR2OjkzMTA2ZTE2ZWNjNjhlNzAuOTc1N2YyMmI0ZjVjY2JmNzM1MTAxNGZkMGMzY2RlZjQ5MGQ4MDZlOTc1ZmM5MDc4NWVlMjJhMjJlYWI3NzliNA
+https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb29d/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjlkOjE3ODk5NTYwODYyMzE6Y2RubGl2ZXR2LnR2OjBhMjExZDk0M2UzODQwOTkuNWIxOTI4MTE2YTQ4NjVlM2EwYTEzMzQyNDk4ZDBhYzhlYWYxMmVlY2ZiODFkZTMzY2NjYWYxZDA5Mzk5OWMyNA
 
 #EXTINF:-1 tvg-chno="232" tvg-id="TNT.HD.us2" tvg-name="TNT" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11164_dark_360w_270h.png" group-title="TV",TNT
 https://turnerlive.warnermediacdn.com/hls/live/2023168/tnteast/slate/VIDEO_0_3564000.m3u8
@@ -951,42 +951,42 @@ https://turnerlive.warnermediacdn.com/hls/live/2023168/tnteast/slate/VIDEO_0_356
 #EXTINF:-1 tvg-chno="233" tvg-id="TNT.Sports.1.HD.uk" tvg-name="TNT Sports 1" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s97542_dark_360w_270h.png" group-title="TV",TNT Sports 1
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/hoj2hgv3jm5s5.m3u8?s=H3cgEOPvVu2pGz1PMblJaQ&e=1789943415
+https://4169it.7odxv0l067ka.net:8443/hls/hoj2hgv3jm5s5.m3u8?s=AHeqgBMqba8Cukpf0V0rgw&e=1789963212
 
 #EXTINF:-1 tvg-chno="234" tvg-id="TNT.Sports.1.HD.uk" tvg-name="TNT Sports 1 (Alt)" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s97542_dark_360w_270h.png" group-title="TV",TNT Sports 1 (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=TNT+Sports+1&code=gb&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc344/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzQ0OjE3ODk5MzYyMzkzMDk6Y2RubGl2ZXR2LnR2OmZmNzhhYjQ0OGVjYTM5MWMuOTNhZjZmNGQwNjY0NGRhZWFkMzU4NjVmYzBjYmYxNjRmNjliZjcyNDczZDcyMzNmM2Q3OWZmMzIyOWFkNTRjYQ
+https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc344/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzQ0OjE3ODk5NTYwMjA4NTQ6Y2RubGl2ZXR2LnR2OmM1ZDllZjIyNTE5Yjk4OWUuNzJhYzkwNmY0ZGI1ZjAyODMzY2Q4MWI3OGY0NmZjNWRiZDBjYzBmZmFjYjVmNTBjZjBhYTVkYTczNjgwYzBiMQ
 
 #EXTINF:-1 tvg-chno="235" tvg-id="TNT.Sports.2.HD.uk" tvg-name="TNT Sports 2" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s82449_dark_360w_270h.png" group-title="TV",TNT Sports 2
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/xzwkxkvydnp9p.m3u8?s=33dsSx7x3agAadi3GYNqKg&e=1789943474
+https://4169it.7odxv0l067ka.net:8443/hls/xzwkxkvydnp9p.m3u8?s=0MhagigXYxdG0EljM4pVwg&e=1789963233
 
 #EXTINF:-1 tvg-chno="236" tvg-id="TNT.Sports.2.HD.uk" tvg-name="TNT Sports 2 (Alt)" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s82449_dark_360w_270h.png" group-title="TV",TNT Sports 2 (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=TNT+Sports+2&code=gb&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc347/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzQ3OjE3ODk5MzYyODcxNDA6Y2RubGl2ZXR2LnR2Ojc1NjE3Y2QxYzZmMTM4NzcuMjJmYzMyOTAwZDg3Mjk3ZWQ2YjY0MjYzMDFjMWM5MDQzODczYmU4MDJkYzkzMTM3MWNkMGFjYTczYmY3MTQwZg
+https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc347/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzQ3OjE3ODk5NTYwNDEzNzA6Y2RubGl2ZXR2LnR2OmVlZmRlOGU3N2M4NzIyYTAuOThlZTU1MTdmYTUwYWRlMzMzMDFhNTBmOGYyY2IyNThmZDEzMGUzZmVjNWQ1ODdmMTdmOWEzYjNkM2U5M2EzMg
 
 #EXTINF:-1 tvg-chno="237" tvg-id="TNT.Sports.3.HD.uk" tvg-name="TNT Sports 3" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s117230_dark_360w_270h.png" group-title="TV",TNT Sports 3
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/jmerjrzqyawrv.m3u8?s=acfs58s91725AVAjOE16tg&e=1789943442
+https://4169it.7odxv0l067ka.net:8443/hls/jmerjrzqyawrv.m3u8?s=LCXeMS8zyLKDNcydyqLCvg&e=1789963217
 
 #EXTINF:-1 tvg-chno="238" tvg-id="TNT.Sports.3.HD.uk" tvg-name="TNT Sports 3 (Alt)" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s117230_dark_360w_270h.png" group-title="TV",TNT Sports 3 (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=TNT+Sports+3&code=gb&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc34a/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzRhOjE3ODk5MzYyMTEzNDA6Y2RubGl2ZXR2LnR2OjRiNTI5MWEzOTM4YmIwYTcuYmQxZTBhMzU2ODJhNzU2YjdiNTdmYTVhZGRjOGQwZjE4MmZiYzE1OTA2M2E3M2JiYjJiYTRiNThmNTE3ZThkMg
+https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc34a/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzRhOjE3ODk5NTYwMTczNjQ6Y2RubGl2ZXR2LnR2OmY0MmZiMDM5ZWY4NTUyNDkuOTNlYzcxYjYwNmJlMTU5ZTA3ZmQ3NjRjMTJkNGFiMzE1NWNjNWM0MzMxN2RhZWU4MzIxMGFjYmIxYzFjMmY4Zg
 
 #EXTINF:-1 tvg-chno="239" tvg-id="TNT.Sports.4.HD.uk" tvg-name="TNT Sports 4" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s46594_dark_360w_270h.png" group-title="TV",TNT Sports 4
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/cd89c93ark6g5.m3u8?s=LHIp4MdT5I6f5JFQU0sZPg&e=1789943468
+https://4169it.7odxv0l067ka.net:8443/hls/cd89c93ark6g5.m3u8?s=TVNF08l9XClXjhw4fn6Gew&e=1789963233
 
 #EXTINF:-1 tvg-chno="240" tvg-id="TNT.Sports.4.HD.uk" tvg-name="TNT Sports 4 (Alt)" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s46594_dark_360w_270h.png" group-title="TV",TNT Sports 4 (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=TNT+Sports+4&code=gb&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc34e/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzRlOjE3ODk5MzYyNzIwMzA6Y2RubGl2ZXR2LnR2OmUyOGM5MTQ0MzdhMmE2ZWIuMDNiY2YzNDBmNDQ1ODUyZmQ3Mzc4MzI1NWNmNGJlMTE0MTg0ZThlNTZkMDhiN2E2MTIxODdjZGZlOWE4Yzc2Mw
+https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc34e/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzRlOjE3ODk5NTYwNzA1MDc6Y2RubGl2ZXR2LnR2OmU0MjdmNzkzOGU2YzZhODUuMmRkOGQzMDQwZjllMWUyYTcyNWZjZTlhNzkxNDMxMWE3ZDdjMzcwNTVhMmYzYmEyNDA5NjQ1ZDJhNTRlYWFjYg
 
 #EXTINF:-1 tvg-chno="241" tvg-id="TNT.HD.(Pacific).us2" tvg-name="TNT West" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11164_dark_360w_270h.png" group-title="TV",TNT West
 https://turnerlive.warnermediacdn.com/hls/live/2023170/tntwest/slate/VIDEO_0_3564000.m3u8
@@ -1000,52 +1000,52 @@ https://turnerlive.warnermediacdn.com/hls/live/2023178/truwest/slate/VIDEO_0_356
 #EXTINF:-1 tvg-chno="244" tvg-id="TSN.1.ca2" tvg-name="TSN 1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11182_dark_360w_270h.png" group-title="TV",TSN 1
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/3hqcw6t0elbue.m3u8?s=E9WlGCjmMdvn_MDJaGfIug&e=1789943430
+https://4169it.7odxv0l067ka.net:8443/hls/3hqcw6t0elbue.m3u8?s=tDsJbM12ztazOVlAiPwcOg&e=1789963241
 
 #EXTINF:-1 tvg-chno="245" tvg-id="TSN.1.ca2" tvg-name="TSN 1 (Alt)" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11182_dark_360w_270h.png" group-title="TV",TSN 1 (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=TSN+1&code=ca&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc172/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTcyOjE3ODk5MzYyMjkxMjk6Y2RubGl2ZXR2LnR2Ojk0NTZhZWFlOTlkMTkwMWQuZGM0ZDgxZWZiNWM4OGJkNDYxZDNiYmFjMjQxYTQxNDg5ZTM4ZTUzOTJmNGJiOGIyMjYzNmNlYzhkMGI2ZmE4Nw
+https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc172/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTcyOjE3ODk5NTYwMjc2NzE6Y2RubGl2ZXR2LnR2OjNlNDE3YWZkMjFhMTAwMjQuOTQ4ZDE4ZmI0MjcyZDA0MjM1NGNiMDkyZjQwMjMyZDY2YTI2ZDA0NDlmZDA1MjVmOTBjOTk5NGM2MmNkNmJhNA
 
 #EXTINF:-1 tvg-chno="246" tvg-id="TSN.2.ca2" tvg-name="TSN 2" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s61474_dark_360w_270h.png" group-title="TV",TSN 2
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/twou7v8ixp8qi.m3u8?s=NwSUGnFJPV-qbnIY5zotIQ&e=1789943459
+https://4169it.7odxv0l067ka.net:8443/hls/twou7v8ixp8qi.m3u8?s=owgMoAKxnY8WtP8y72iIwA&e=1789963238
 
 #EXTINF:-1 tvg-chno="247" tvg-id="TSN.2.ca2" tvg-name="TSN 2 (Alt)" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s61474_dark_360w_270h.png" group-title="TV",TSN 2 (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=TSN+2&code=ca&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc173/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTczOjE3ODk5MzYyNTAwODY6Y2RubGl2ZXR2LnR2OjlhNDI4NGQ4MmM5MzcxMjIuODg5OTEzNDEwY2Q0M2UwYzFiZDhlYTc5ZmU0YjRkMGUyYjY4NzFmNDQwNDBhZjNkN2Y0ODNjOWJjMWFhMmFiNA
+https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc173/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTczOjE3ODk5NTYwNTY2NzI6Y2RubGl2ZXR2LnR2OmMwNmJkNWE0OTMyZWU0MWQuZWQ0YjE1ZTg0ZmIxNjE3OTAzYTE5ZjE1NDNmYzFiMzBjMWI1ODYzNjFmYmFmODBhMWRjM2IxY2NjOWEyZWMyYg
 
 #EXTINF:-1 tvg-chno="248" tvg-id="TSN.3.ca2" tvg-name="TSN 3" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s90119_dark_360w_270h.png" group-title="TV",TSN 3
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/b1k4jtrmdn9wi.m3u8?s=Jd30nXuy5XqXNiSAOf3RiA&e=1789943454
+https://4169it.7odxv0l067ka.net:8443/hls/b1k4jtrmdn9wi.m3u8?s=XCovK2lBoHanFUnMaIXPFA&e=1789963277
 
 #EXTINF:-1 tvg-chno="249" tvg-id="TSN.3.ca2" tvg-name="TSN 3 (Alt)" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s90119_dark_360w_270h.png" group-title="TV",TSN 3 (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=TSN+3&code=ca&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc176/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTc2OjE3ODk5MzYyMTY4ODY6Y2RubGl2ZXR2LnR2OjYxMTEwNTUwMmQ5MDE1MjguMjIxYWY5MTIyZDNjNzhkNzk5ODZiZmNhOGI0NzE1MTExMDEzMzVlMmEzYWZhMTdlYWNiY2M1YTViMDczOTU0Yg
+https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc176/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTc2OjE3ODk5NTYwMzc1MzM6Y2RubGl2ZXR2LnR2OmY1NzQ5MjYwYWM2MTU3YzYuMzJjZGI5YzdjZDNlOGZlZGY5YjhjNDZmZDM5NzE1MmNhNjIyMjk5NTY1M2FkNjRjMDRmZTRjMzkxYWNjOTZhZA
 
 #EXTINF:-1 tvg-chno="250" tvg-id="TSN.4.ca2" tvg-name="TSN 4" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s90122_dark_360w_270h.png" group-title="TV",TSN 4
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/xzwf4apyuv95u.m3u8?s=uKkbeFt_KFBiprJ_ZAEnCw&e=1789943457
+https://4169it.7odxv0l067ka.net:8443/hls/xzwf4apyuv95u.m3u8?s=4cdjeAjq14vpCYNxpOYu1A&e=1789963209
 
 #EXTINF:-1 tvg-chno="251" tvg-id="TSN.4.ca2" tvg-name="TSN 4 (Alt)" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s90122_dark_360w_270h.png" group-title="TV",TSN 4 (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=TSN+4&code=ca&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc177/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTc3OjE3ODk5MzYyNDEwMzI6Y2RubGl2ZXR2LnR2OjhmNzMwZDBlMzdlMTIzYjkuYmM1MWJkNmZiYjMyYjZiZDgwNmZkMTcyODFjYjdmN2Q2YzhhYWY3NGUxMjA5OTAwOGUxODdiYzRiNjk3YmQ2OA
+https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc177/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTc3OjE3ODk5NTYwNTc3MzU6Y2RubGl2ZXR2LnR2OmVjYjdlMjI2YjgwMWE0ODAuOWU5NmIwNTE4MjU2NzEzNzBlY2U5YTg1MTZlMjFmOGZhMjU2MzE3YTA3YTc2YjUzODEyY2IxOGM5ZWE2ZTQwYw
 
 #EXTINF:-1 tvg-chno="252" tvg-id="TSN.5.ca2" tvg-name="TSN 5" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s90124_dark_360w_270h.png" group-title="TV",TSN 5
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/1n5ymwsb1k4v.m3u8?s=C_L4DjgCwUolOdKWgumogQ&e=1789943424
+https://4169it.7odxv0l067ka.net:8443/hls/1n5ymwsb1k4v.m3u8?s=avbGWcDzrJtNDjNKTwqs9A&e=1789963266
 
 #EXTINF:-1 tvg-chno="253" tvg-id="TSN.5.ca2" tvg-name="TSN 5 (Alt)" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s90124_dark_360w_270h.png" group-title="TV",TSN 5 (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=TSN+5&code=ca&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc179/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTc5OjE3ODk5MzYyODkwODE6Y2RubGl2ZXR2LnR2OjY0ZWUzZmJiMmViNjE4YTQuMDRkMWI3ZGMyOTA4YTM0ZGIzMzI0NDk5MDg0ZjBhNmMwZDBkYjhhMGMwOGFkNTY3ZDI5OTY3ZTUwMjUyMzRhZg
+https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc179/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTc5OjE3ODk5NTYwMTM3NDg6Y2RubGl2ZXR2LnR2OjFhOGUxN2VjMGFiOWIzZDMuZTRkM2ZjYWNhMTdhYTcxOWVkNDI3MjkzZmJmMTE4OGI2M2Y0OTc3NDQyYTJjN2QxOWE2MjVkYTlkZjk3MTI4NA
 
 #EXTINF:-1 tvg-chno="254" tvg-id="TUDN.us2" tvg-name="TUDN" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s75176_dark_360w_270h.png" group-title="TV",TUDN
 https://streaming-live-fcdn.api.prd.univisionnow.com/tudn/tudn.isml/hls/tudn.m3u8
@@ -1056,27 +1056,27 @@ https://turnerlive.warnermediacdn.com/hls/live/2023186/tcmeast/noslate/VIDEO_1_5
 #EXTINF:-1 tvg-chno="256" tvg-id="TV.Land.HD.us2" tvg-name="TV Land" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16123_dark_360w_270h.png" group-title="TV",TV Land
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/efuzqr0naj4dc.m3u8?s=v4oijQehzw0lYlLIJOoEsg&e=1789943467
+https://4169it.7odxv0l067ka.net:8443/hls/efuzqr0naj4dc.m3u8?s=2DQLO-mpdjjNJEIUj7Ek5g&e=1789963255
 
 #EXTINF:-1 tvg-chno="257" tvg-id="TV.ONE.HD.us2" tvg-name="TV One" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s35513_dark_360w_270h.png" group-title="TV",TV One
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/cd8onuga6138z.m3u8?s=RnVlxOvt40udVM6Qx2vrFA&e=1789943450
+https://4169it.7odxv0l067ka.net:8443/hls/cd8onuga6138z.m3u8?s=ZPrP0l3hGmF5I1XQudc9xQ&e=1789963226
 
 #EXTINF:-1 tvg-chno="258" tvg-id="TV.ONE.HD.us2" tvg-name="TV One (Alt)" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s35513_dark_360w_270h.png" group-title="TV",TV One (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=TV+ONE&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb406/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNDA2OjE3ODk5MzYyNjY2MTY6Y2RubGl2ZXR2LnR2OjBjY2Q3MDI5NDFhMjZlMzQuZDdjMTM4YjM0NWM5YjQ1ZWI0ZGQ2MzczMjkxMTg0ZjYxZjIwMjk1NjQ3MjBlNzdjNDZmYjliMjk0ZTNiOWZkYg
+https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb406/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNDA2OjE3ODk5NTYwMzY1NzE6Y2RubGl2ZXR2LnR2OjczODA0Y2U0OWFlNDZjMjYuOGRkNDNlZWFlMDczNzRmMzhjYjY5NGU2NmIyZGNkZjBkNzMxMWFmOWY4OGQwN2RmMGNiOWZiMmNhYzk3NzczMw
 
 #EXTINF:-1 tvg-chno="259" tvg-id="USA.Network.HD.us2" tvg-name="USA Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11207_dark_360w_270h.png" group-title="TV",USA Network
 #EXTVLCOPT:http-referrer=https://lineagest.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/2vrps3hdkvum8.m3u8?s=YW14mlS0RHnoF4KmYTs4_A&e=1789943421
+https://4169it.7odxv0l067ka.net:8443/hls/2vrps3hdkvum8.m3u8?s=OyKZOjXcBYtvhip2LzoFhg&e=1789963211
 
 #EXTINF:-1 tvg-chno="260" tvg-id="USA.Network.HD.us2" tvg-name="USA Network (Alt)" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11207_dark_360w_270h.png" group-title="TV",USA Network (Alt)
 #EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=USA+Network&code=us&user=cdnlivetv&plan=free
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb34e/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMzRlOjE3ODk5MzYyNTU0MTk6Y2RubGl2ZXR2LnR2OmU4Yzg3MjlhZTU2Mzc1ZjQuM2I1OTliNTI2ZjA3ZGY3OGQ0MjQxMTY1ODFlNjljYmNiZTFhYWQ1Nzc1NmM2NTY3YjY2Y2I3MTc2ZTI4MjA0Zg
+https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb34e/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMzRlOjE3ODk5NTYwMzQ2Mzk6Y2RubGl2ZXR2LnR2OjI1NzM4YjBiMTMzNjkxZDUuODkwYzdmZTFkNWIxN2Y3YmVjNmZiYmI4ZjY5ZTcxODAxZGM3YWY3NWIzMTBmZjU3MGYxMWM2NmU0YjEyYjUxYQ
 
 #EXTINF:-1 tvg-chno="261" tvg-id="VH1.HD.us2" tvg-name="VH1" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11218_dark_360w_270h.png" group-title="TV",VH1
 http://23.237.104.106:8080/USA_VH1/index.m3u8
