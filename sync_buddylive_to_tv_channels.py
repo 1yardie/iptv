@@ -35,6 +35,11 @@ ROKU_SECTION = "# === Roku ==="
 PLUTO_SECTION = "# === Pluto TV ==="
 PLEX_SECTION = "# === Plex ==="
 
+# Preserve verified direct feeds when upstream playlists are refreshed.
+STREAM_URL_OVERRIDES = {
+    "million dollar listing vault": "https://xumo-xumoent-ch838-coy7x.fast.nbcuni.com/live/master.m3u8",
+}
+
 
 def parse_m3u_blocks(text: str) -> list[tuple[str, list[str]]]:
     """Parse M3U into (display_name, block_lines). Block = EXTINF + optional # lines + URL line."""
@@ -145,6 +150,9 @@ def fetch_and_filter(
         if "moveonjoy" in block_text:
             skipped += 1
             continue
+        stream_url = STREAM_URL_OVERRIDES.get(name.lower())
+        if stream_url:
+            block[-1] = stream_url
         kept.append(block)
     return kept, skipped
 
