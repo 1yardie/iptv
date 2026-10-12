@@ -1,0 +1,2456 @@
+{
+  "reviewed_date": "2026-10-12",
+  "remove": [
+    {
+      "section": "live",
+      "name": "BBC One",
+      "tvg_id": "BBC.One.Lon.HD.uk",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "live",
+      "name": "beIN Sports en Español",
+      "tvg_id": "beIN.Sports.En.Español.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "live",
+      "name": "BET",
+      "tvg_id": "BET.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "live",
+      "name": "CNBC",
+      "tvg_id": "CNBC.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "live",
+      "name": "CW",
+      "tvg_id": "WPIX-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "live",
+      "name": "DAZN 2 Germany",
+      "tvg_id": "DAZN.2.de",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "live",
+      "name": "Discovery Life",
+      "tvg_id": "Discovery.Life.Channel.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "live",
+      "name": "Disney XD",
+      "tvg_id": "Disney.XD.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "live",
+      "name": "FETV",
+      "tvg_id": "Family.Entertainment.Television.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "live",
+      "name": "Fox",
+      "tvg_id": "WNYW-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "live",
+      "name": "Fox Soccer Plus",
+      "tvg_id": "Fox.Soccer.Plus.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "live",
+      "name": "Fox Sports 2",
+      "tvg_id": "FS2.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "live",
+      "name": "Freeform TV",
+      "tvg_id": "Freeform.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "live",
+      "name": "FX",
+      "tvg_id": "FX.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "live",
+      "name": "Hallmark Mystery",
+      "tvg_id": "Hallmark.Mystery.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "live",
+      "name": "HBO Comedy",
+      "tvg_id": "HBO.Comedy.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "live",
+      "name": "HBO Zone",
+      "tvg_id": "HBO.Zone.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "live",
+      "name": "Marquee Sports Network",
+      "tvg_id": "Marquee.Sports.Network.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "live",
+      "name": "NBC Sports California",
+      "tvg_id": "NBC.Sports.California.SAT.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "live",
+      "name": "NESN",
+      "tvg_id": "New.England.Sports.Network.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "live",
+      "name": "Reelz Channel",
+      "tvg_id": "ReelzChannel.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "live",
+      "name": "Showtime",
+      "tvg_id": "Paramount+.with.Showtime.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "live",
+      "name": "Sky Sports Racing",
+      "tvg_id": "SkySp.Racing.HD.uk",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "live",
+      "name": "Space City Home Network",
+      "tvg_id": "Space.City.Home.Network.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "live",
+      "name": "Starz Encore Family",
+      "tvg_id": "Starz.Encore.Family.SD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "live",
+      "name": "TLC",
+      "tvg_id": "TLC.HD.(US).us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "live",
+      "name": "TSN 1",
+      "tvg_id": "TSN.1.ca2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "live",
+      "name": "TSN 5",
+      "tvg_id": "TSN.5.ca2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "live",
+      "name": "dura - 1/16 de final: Alexander Zverev vs. Quentin Halys | Disney+ (TVF90)",
+      "tvg_id": "Tennis.Dummy.us",
+      "reason": "event_specific"
+    },
+    {
+      "section": "live",
+      "name": "dura - 1/16 de final: Alexander Zverev vs. Quentin Halys | ESPN 3 (TVF90)",
+      "tvg_id": "Tennis.Dummy.us",
+      "reason": "event_specific"
+    },
+    {
+      "section": "live",
+      "name": "dura - 1/16 de final: Alexander Zverev vs. Quentin Halys | ESPN 3 | HD (TVF90)",
+      "tvg_id": "Tennis.Dummy.us",
+      "reason": "event_specific"
+    },
+    {
+      "section": "live",
+      "name": "dura - 1/16 de final: Alexander Zverev vs. Quentin Halys | ESPN 3 | OP2 (TVF90)",
+      "tvg_id": "Tennis.Dummy.us",
+      "reason": "event_specific"
+    },
+    {
+      "section": "live",
+      "name": "dura - 1/16 de final: Alexander Zverev vs. Quentin Halys | ESPN 3 | OP3 (TVF90)",
+      "tvg_id": "Tennis.Dummy.us",
+      "reason": "event_specific"
+    },
+    {
+      "section": "Backup",
+      "name": "ABC (WPVI) Philadelphia",
+      "tvg_id": "WPVI-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "ABC (WLS) Chicago IL",
+      "tvg_id": "WLS-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "ABC (WNEP) Scranton PA",
+      "tvg_id": "WNEP-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "CBS (KYW) Philadelphia",
+      "tvg_id": "KYW-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "CBS (WBZ) BOSTON",
+      "tvg_id": "WBZ-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "CBS (WYOU) Scranton PA",
+      "tvg_id": "WYOU-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "CBS (WBBM) Chicago IL",
+      "tvg_id": "WBBM-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "CBS (WFOR) Miami FL",
+      "tvg_id": "WFOR-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "CW (WCCB) NC",
+      "tvg_id": "WCCB-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "CW (WBFS) Miami FL",
+      "tvg_id": "WBFS-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "CW (WSWB) Scranton PA",
+      "tvg_id": "WSWB-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "FOX (WFLD) Chicago IL",
+      "tvg_id": "WFLD-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "FOX29 (WNYW) NY",
+      "tvg_id": "WNYW-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "FOX29 (WUTV) BUFFALO NY",
+      "tvg_id": "WUTV-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "FOX29 (WTXF) PHILLY PA",
+      "tvg_id": "WTXF-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "FOX (WOLF) Scranton PA",
+      "tvg_id": "WOLF-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "FOX56 (WQMY) Wilkes-Barre PA",
+      "tvg_id": "WQMY-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "FOX (KLSR) Eugene OR",
+      "tvg_id": "KLSR-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "NBC (WCAU) Philadelphia",
+      "tvg_id": "WCAU-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "NBC (WMAQ) Chicago IL",
+      "tvg_id": "WMAQ-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "NBC (WBRE) Scranton PA",
+      "tvg_id": "WBRE-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "NBC (KXAN) Austin",
+      "tvg_id": "KXAN-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "NBC 10 (WPLG) FL",
+      "tvg_id": "WPLG-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "NBC (WPTV) FL",
+      "tvg_id": "WPTV-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "NBC 6 (WTVJ) FL",
+      "tvg_id": "WTVJ-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "CH39 (WSFL) FL",
+      "tvg_id": "WSFL-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "CH9 (WHDT) FL-SOUTH",
+      "tvg_id": "WHDT-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "PIX 11 US",
+      "tvg_id": "WPIX-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "CBS KCBS LA Locals",
+      "tvg_id": "KCBS-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "NBC KNBC LA Locals",
+      "tvg_id": "KNBC-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "CW KTLA Locals",
+      "tvg_id": "KTLA-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "CW KTLA CA",
+      "tvg_id": "KTLA-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "ABC KABC Locals",
+      "tvg_id": "KABC-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "CBS KCAL Locals",
+      "tvg_id": "KCAL-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "FOX KTTV Locals",
+      "tvg_id": "KTTV-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "FOX 13 KCOP CA Los Angeles",
+      "tvg_id": "KCOP-DT.us_locals1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "BET HER",
+      "tvg_id": "BET.Her.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "BET SHOxBET",
+      "tvg_id": "SHO.x.BET.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "CINEMAX HD",
+      "tvg_id": "5.StarMAX.HD.East.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "CINEMAX ACTIONMAX",
+      "tvg_id": "ActionMAX.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "CRAVE 1 CA",
+      "tvg_id": "Crave1.ca2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "CRAVE 2 CA",
+      "tvg_id": "Crave2.ca2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "CRAVE 3 CA",
+      "tvg_id": "Crave3.ca2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "CRAVE 4 CA",
+      "tvg_id": "Crave4.ca2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "Discovery Life Channel",
+      "tvg_id": "Discovery.Life.Channel.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "Fox Soccer Plus USA",
+      "tvg_id": "Fox.Soccer.Plus.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "FS2 - Fox Sports 2",
+      "tvg_id": "FS2.Fox.Sports.2.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "FS2 - Fox Sports 2 HD",
+      "tvg_id": "FS2.Fox.Sports.2.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "Freeform",
+      "tvg_id": "Freeform.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "FX East",
+      "tvg_id": "FX.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "FX West",
+      "tvg_id": "FX.HD.(Pacific).us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "FXX West",
+      "tvg_id": "FXX.HD.(Pacific).us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "Hallmark Movies & Mysteries",
+      "tvg_id": "Hallmark.Mystery.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "Hallmark Movies & Mysteries West",
+      "tvg_id": "Hallmark.Mystery.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "Hallmark Family",
+      "tvg_id": "Hallmark.Family.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "HBO West",
+      "tvg_id": "HBO.West.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "HBO 2 CA",
+      "tvg_id": "HBO2.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "HBO Comedy HD",
+      "tvg_id": "HBO.Comedy.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "HBO Drama",
+      "tvg_id": "HBO.Drama.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "HBO Movies",
+      "tvg_id": "HBO.Movies.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "HBO Movies (HD)",
+      "tvg_id": "HBO.Movies.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "HGTV East",
+      "tvg_id": "Home.and.Garden.Television.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "HGTV West",
+      "tvg_id": "Home.and.Garden.Television.HD.(Pacific).us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "MSNBC",
+      "tvg_id": "MSNBC.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "MTV West",
+      "tvg_id": "MTV.-.Music.Television.HD.(Pacific).us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "Nat Geo West HD",
+      "tvg_id": "National.Geographic.HD.(Pacific).us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "NFL Red Zone",
+      "tvg_id": "NFL.RedZone.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "NFL Red Zone HD",
+      "tvg_id": "NFL.RedZone.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "US | NICK JR.TOO",
+      "tvg_id": "190",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "Nickelodeon West",
+      "tvg_id": "Nickelodeon.(Pacific).us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "Showtime (HD)",
+      "tvg_id": "Paramount+.with.Showtime.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "Sky Sports Action UK",
+      "tvg_id": "Sky.Action.HD.uk",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "Sky Sports Arena UK",
+      "tvg_id": "1552",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "Sky Sports F1 UK",
+      "tvg_id": "SkySp.F1.HD.uk",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "Sky Sports Football UK",
+      "tvg_id": "Sky.Sports.Football.HD.uk",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "Sky Sports Premier League UK",
+      "tvg_id": "SkyPremiereHD.uk",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "Sky Sports Racing UK",
+      "tvg_id": "SkySp.Racing.HD.uk",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "SportsNet World CA",
+      "tvg_id": "Sportsnet.World.HD.ca2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "SportsNet West CA",
+      "tvg_id": "Sportsnet.West.HD.ca2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "SportsNet Pacific CA",
+      "tvg_id": "Sportsnet.(Pacific).HD.ca2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "Sportsnet Ontario",
+      "tvg_id": "Sportsnet.Ontario.HD.ca2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "SportsNet ONE CA",
+      "tvg_id": "Sportsnet.One.HD.ca2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "STARZ Encore East",
+      "tvg_id": "Starz.Encore.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "STARZ Cinema HD",
+      "tvg_id": "Starz.Cinema.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "TLC HD",
+      "tvg_id": "TLC.HD.(US).us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "TSN 1 CA",
+      "tvg_id": "TSN.1.ca2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "TSN 2 CA",
+      "tvg_id": "TTSN.2.ca2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "TSN 5 CA",
+      "tvg_id": "TSN.5.ca2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "Universo East",
+      "tvg_id": "UNIVERSO.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "Universo West",
+      "tvg_id": "UNIVERSO.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "Univision East",
+      "tvg_id": "Univision.Network.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "Univision TUDN",
+      "tvg_id": "Univision.Network.HD.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "USA Network West",
+      "tvg_id": "USA.Network.HD.(Pacific).us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "Adult Swim (CA)",
+      "tvg_id": "Adult.Swim.ca2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "News 12+ (\"New Jersey\" Edison NJ)",
+      "tvg_id": "NEWS.dummy.us",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "Everything Horror",
+      "tvg_id": "Blank.Dummy.us",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "Stir Crazyy",
+      "tvg_id": "Blank.Dummy.us",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "Law & Order SVU",
+      "tvg_id": "Blank.Dummy.us",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "AU ThreePlus1",
+      "tvg_id": "mjh-three-plus1",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Backup",
+      "name": "METV TOONS",
+      "tvg_id": "MeTV.Toons.us2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "BET SD",
+      "tvg_id": "bet-eastern-feed",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "BET Her SD",
+      "tvg_id": "bet-her",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "BET Her HD",
+      "tvg_id": "bet-her",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Cinemax SD",
+      "tvg_id": "cinemax-eastern-feed",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "CNBC SD",
+      "tvg_id": "cnbc-usa",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "CNBC HD",
+      "tvg_id": "cnbc-usa",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "CSPAN SD",
+      "tvg_id": "cspan",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "CSPAN HD",
+      "tvg_id": "cspan",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "CSPAN 2 SD",
+      "tvg_id": "cspan-2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "CSPAN 2 HD",
+      "tvg_id": "cspan-2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Discovery Life SD",
+      "tvg_id": "discovery-life-channel",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Discovery Life HD",
+      "tvg_id": "discovery-life-channel",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Disney XD SD",
+      "tvg_id": "disney-xd-usa-eastern-feed",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Disney XD HD",
+      "tvg_id": "disney-xd-usa-eastern-feed",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "FOX Sports 2 SD",
+      "tvg_id": "fox-sports-2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "FOX Sports 2 HD",
+      "tvg_id": "fox-sports-2",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Freeform SD",
+      "tvg_id": "freeform-east-feed",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Freeform HD",
+      "tvg_id": "freeform-east-feed",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "FX SD",
+      "tvg_id": "fx-networks-east-coast",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "FX HD",
+      "tvg_id": "fx-networks-east-coast",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Hallmark Drama HD SD",
+      "tvg_id": "hallmark-family-hd",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Hallmark Drama HD HD",
+      "tvg_id": "hallmark-family-hd",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Hallmark Movies & Mysteries HD SD",
+      "tvg_id": "hallmark-mystery-eastern-hd",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Hallmark Movies & Mysteries HD HD",
+      "tvg_id": "hallmark-mystery-eastern-hd",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "HBO Comedy HD SD",
+      "tvg_id": "hbo-comedy-hd-east",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "HBO Comedy HD HD",
+      "tvg_id": "hbo-comedy-hd-east",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "HBO Family East SD",
+      "tvg_id": "hbo-family-eastern-feed",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "HBO Family East HD",
+      "tvg_id": "hbo-family-eastern-feed",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "HBO Signature SD",
+      "tvg_id": "hbo-signature-hbo-3-eastern",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "HBO Signature HD",
+      "tvg_id": "hbo-signature-hbo-3-eastern",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "HBO Zone HD SD",
+      "tvg_id": "hbo-zone-hd-east",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "HBO Zone HD HD",
+      "tvg_id": "hbo-zone-hd-east",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "HGTV SD",
+      "tvg_id": "hgtv-usa-eastern-feed",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "HGTV HD",
+      "tvg_id": "hgtv-usa-eastern-feed",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "ION Television East HD SD",
+      "tvg_id": "ion-eastern-feed",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "ION Television East HD HD",
+      "tvg_id": "ion-eastern-feed",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Logo SD",
+      "tvg_id": "logo-east",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Logo HD",
+      "tvg_id": "logo-east",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "MeTV Toons SD",
+      "tvg_id": "metv-toons-wjlp2-new-jersey",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "MeTV Toons HD",
+      "tvg_id": "metv-toons-wjlp2-new-jersey",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "MovieMAX SD",
+      "tvg_id": "moviemax-max-6-east",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "MovieMAX HD",
+      "tvg_id": "moviemax-max-6-east",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "MSNBC SD",
+      "tvg_id": "msnbc-usa",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "MSNBC HD",
+      "tvg_id": "msnbc-usa",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "NFL Red Zone SD",
+      "tvg_id": "nfl-redzone",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "PBS 13 (WNET) New York SD",
+      "tvg_id": "pbs-wnet-new-york-ny",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "PBS 13 (WNET) New York HD",
+      "tvg_id": "pbs-wnet-new-york-ny",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "ReelzChannel SD",
+      "tvg_id": "reelzchannel",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "ReelzChannel HD",
+      "tvg_id": "reelzchannel",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Showtime (E) SD",
+      "tvg_id": "paramount-with-showtime-eastern-feed",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Showtime (E) HD",
+      "tvg_id": "paramount-with-showtime-eastern-feed",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "STARZ East SD",
+      "tvg_id": "starz-eastern",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "STARZ East HD",
+      "tvg_id": "starz-eastern",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "SundanceTV HD SD",
+      "tvg_id": "sundancetv-usa-east",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "SundanceTV HD HD",
+      "tvg_id": "sundancetv-usa-east",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Telemundo East SD",
+      "tvg_id": "telemundo-eastern-feed",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Telemundo East HD",
+      "tvg_id": "telemundo-eastern-feed",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "The CW (WPIX New York) SD",
+      "tvg_id": "wpix-new-york-superstation",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "The CW (WPIX New York) HD",
+      "tvg_id": "wpix-new-york-superstation",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "The Movie Channel East SD",
+      "tvg_id": "tmc-us-eastern-feed",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "The Movie Channel East HD",
+      "tvg_id": "tmc-us-eastern-feed",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "TLC SD",
+      "tvg_id": "tlc-usa-eastern",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Universal Kids SD",
+      "tvg_id": "universal-kids",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Universal Kids HD",
+      "tvg_id": "universal-kids",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Univision East SD",
+      "tvg_id": "univision-eastern-feed",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Univision East HD",
+      "tvg_id": "univision-eastern-feed",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "WABC (New York) ABC East SD",
+      "tvg_id": "abc-wabc-new-york-ny",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "WABC (New York) ABC East HD",
+      "tvg_id": "abc-wabc-new-york-ny",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "WCBS (New York) CBS East SD",
+      "tvg_id": "cbs-wcbs-new-york-ny",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "WCBS (New York) CBS East HD",
+      "tvg_id": "cbs-wcbs-new-york-ny",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "WNYW (New York) FOX East SD",
+      "tvg_id": "fox-wnyw-new-york-ny",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "WNYW (New York) FOX East HD",
+      "tvg_id": "fox-wnyw-new-york-ny",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "New York Knicks vs San Antonio Spurs @ Jun 5 8:30 PM - 6/6/26 - 12:30:00 AM UTC SD",
+      "tvg_id": "NBA.Basketball.Dummy.us",
+      "reason": "past_dated_event"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "New York Knicks vs San Antonio Spurs @ Jun 5 8:30 PM - 6/6/26 - 12:30:00 AM UTC HD",
+      "tvg_id": "NBA.Basketball.Dummy.us",
+      "reason": "past_dated_event"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "San Francisco Giants vs Chicago Cubs @ Jun 5 2:20 PM - 6/5/26 - 6:20:00 PM UTC SD",
+      "tvg_id": "MLB.Baseball.Dummy.us",
+      "reason": "past_dated_event"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "San Francisco Giants vs Chicago Cubs @ Jun 5 2:20 PM - 6/5/26 - 6:20:00 PM UTC HD",
+      "tvg_id": "MLB.Baseball.Dummy.us",
+      "reason": "past_dated_event"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Seattle Mariners vs Detroit Tigers @ Jun 5 6:40 PM - 6/5/26 - 10:40:00 PM UTC SD",
+      "tvg_id": "MLB.Baseball.Dummy.us",
+      "reason": "past_dated_event"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Seattle Mariners vs Detroit Tigers @ Jun 5 6:40 PM - 6/5/26 - 10:40:00 PM UTC HD",
+      "tvg_id": "MLB.Baseball.Dummy.us",
+      "reason": "past_dated_event"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Chicago White Sox vs Philadelphia Phillies @ Jun 5 6:40 PM - 6/5/26 - 10:40:00 PM UTC SD",
+      "tvg_id": "MLB.Baseball.Dummy.us",
+      "reason": "past_dated_event"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Chicago White Sox vs Philadelphia Phillies @ Jun 5 6:40 PM - 6/5/26 - 10:40:00 PM UTC HD",
+      "tvg_id": "MLB.Baseball.Dummy.us",
+      "reason": "past_dated_event"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Boston Red Sox vs New York Yankees @ Jun 5 7:05 PM - 6/5/26 - 11:05:00 PM UTC SD",
+      "tvg_id": "MLB.Baseball.Dummy.us",
+      "reason": "past_dated_event"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Boston Red Sox vs New York Yankees @ Jun 5 7:05 PM - 6/5/26 - 11:05:00 PM UTC HD",
+      "tvg_id": "MLB.Baseball.Dummy.us",
+      "reason": "past_dated_event"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Baltimore Orioles vs Toronto Blue Jays @ Jun 5 7:07 PM - 6/5/26 - 11:07:00 PM UTC SD",
+      "tvg_id": "MLB.Baseball.Dummy.us",
+      "reason": "past_dated_event"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Baltimore Orioles vs Toronto Blue Jays @ Jun 5 7:07 PM - 6/5/26 - 11:07:00 PM UTC HD",
+      "tvg_id": "MLB.Baseball.Dummy.us",
+      "reason": "past_dated_event"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Tampa Bay Rays vs Miami Marlins @ Jun 5 7:10 PM - 6/5/26 - 11:10:00 PM UTC SD",
+      "tvg_id": "MLB.Baseball.Dummy.us",
+      "reason": "past_dated_event"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Tampa Bay Rays vs Miami Marlins @ Jun 5 7:10 PM - 6/5/26 - 11:10:00 PM UTC HD",
+      "tvg_id": "MLB.Baseball.Dummy.us",
+      "reason": "past_dated_event"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Pittsburgh Pirates vs Atlanta Braves @ Jun 5 7:15 PM - 6/5/26 - 11:15:00 PM UTC SD",
+      "tvg_id": "MLB.Baseball.Dummy.us",
+      "reason": "past_dated_event"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Pittsburgh Pirates vs Atlanta Braves @ Jun 5 7:15 PM - 6/5/26 - 11:15:00 PM UTC HD",
+      "tvg_id": "MLB.Baseball.Dummy.us",
+      "reason": "past_dated_event"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Athletics vs Houston Astros @ Jun 5 8:10 PM - 6/6/26 - 12:10:00 AM UTC SD",
+      "tvg_id": "MLB.Baseball.Dummy.us",
+      "reason": "past_dated_event"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Athletics vs Houston Astros @ Jun 5 8:10 PM - 6/6/26 - 12:10:00 AM UTC HD",
+      "tvg_id": "MLB.Baseball.Dummy.us",
+      "reason": "past_dated_event"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Cincinnati Reds vs St. Louis Cardinals @ Jun 5 8:15 PM - 6/6/26 - 12:15:00 AM UTC SD",
+      "tvg_id": "MLB.Baseball.Dummy.us",
+      "reason": "past_dated_event"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Cincinnati Reds vs St. Louis Cardinals @ Jun 5 8:15 PM - 6/6/26 - 12:15:00 AM UTC HD",
+      "tvg_id": "MLB.Baseball.Dummy.us",
+      "reason": "past_dated_event"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Cleveland Guardians vs Texas Rangers @ Jun 5 8:15 PM - 6/6/26 - 12:15:00 AM UTC SD",
+      "tvg_id": "MLB.Baseball.Dummy.us",
+      "reason": "past_dated_event"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Cleveland Guardians vs Texas Rangers @ Jun 5 8:15 PM - 6/6/26 - 12:15:00 AM UTC HD",
+      "tvg_id": "MLB.Baseball.Dummy.us",
+      "reason": "past_dated_event"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Kansas City Royals vs Minnesota Twins @ Jun 5 8:15 PM - 6/6/26 - 12:15:00 AM UTC SD",
+      "tvg_id": "MLB.Baseball.Dummy.us",
+      "reason": "past_dated_event"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Kansas City Royals vs Minnesota Twins @ Jun 5 8:15 PM - 6/6/26 - 12:15:00 AM UTC HD",
+      "tvg_id": "MLB.Baseball.Dummy.us",
+      "reason": "past_dated_event"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Milwaukee Brewers vs Colorado Rockies @ Jun 5 8:40 PM - 6/6/26 - 12:40:00 AM UTC SD",
+      "tvg_id": "MLB.Baseball.Dummy.us",
+      "reason": "past_dated_event"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Milwaukee Brewers vs Colorado Rockies @ Jun 5 8:40 PM - 6/6/26 - 12:40:00 AM UTC HD",
+      "tvg_id": "MLB.Baseball.Dummy.us",
+      "reason": "past_dated_event"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Washington Nationals vs Arizona Diamondbacks @ Jun 5 9:40 PM - 6/6/26 - 1:40:00 AM UTC SD",
+      "tvg_id": "MLB.Baseball.Dummy.us",
+      "reason": "past_dated_event"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Washington Nationals vs Arizona Diamondbacks @ Jun 5 9:40 PM - 6/6/26 - 1:40:00 AM UTC HD",
+      "tvg_id": "MLB.Baseball.Dummy.us",
+      "reason": "past_dated_event"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "New York Mets vs San Diego Padres @ Jun 5 9:40 PM - 6/6/26 - 1:40:00 AM UTC SD",
+      "tvg_id": "MLB.Baseball.Dummy.us",
+      "reason": "past_dated_event"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "New York Mets vs San Diego Padres @ Jun 5 9:40 PM - 6/6/26 - 1:40:00 AM UTC HD",
+      "tvg_id": "MLB.Baseball.Dummy.us",
+      "reason": "past_dated_event"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Los Angeles Angels vs Los Angeles Dodgers @ Jun 5 10:10 PM - 6/6/26 - 2:10:00 AM UTC SD",
+      "tvg_id": "MLB.Baseball.Dummy.us",
+      "reason": "past_dated_event"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Los Angeles Angels vs Los Angeles Dodgers @ Jun 5 10:10 PM - 6/6/26 - 2:10:00 AM UTC HD",
+      "tvg_id": "MLB.Baseball.Dummy.us",
+      "reason": "past_dated_event"
+    },
+    {
+      "section": "LocalNow",
+      "name": "Spend Smart",
+      "tvg_id": "LN_D6F4D053-B69C-4A5F-A8E2-9A9671BE7D04",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "LocalNow",
+      "name": "Conflict",
+      "tvg_id": "LN_00DE3395-C989-4527-9A3F-31C2B76DF232",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "LocalNow",
+      "name": "Trailer Park Boys",
+      "tvg_id": "LN_D69A4E6E-AF54-4F38-BA4C-AD7246522B51",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "LocalNow",
+      "name": "Crime Beat TV",
+      "tvg_id": "LN_065BAB30-4D1F-43EC-B505-9A4D77AC3003",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "LocalNow",
+      "name": "H2O TV",
+      "tvg_id": "LN_83509CB7-5277-4C09-AB5E-7CCF2CD3B1DF",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "LocalNow",
+      "name": "PLL Network",
+      "tvg_id": "LN_1EE99DA8-A888-477C-B04A-6936BE0C43E4",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "LocalNow",
+      "name": "WFFT (FOX) News 55 Fort Wayne IN",
+      "tvg_id": "LN_B8190E61-2567-40AC-8265-2691C325E769",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "LocalNow",
+      "name": "Erie News Now",
+      "tvg_id": "LN_1FAD3163-F251-4D08-BC40-F3C10DF9F014",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "LocalNow",
+      "name": "WAAY (ABC) News 31 Huntsville AL",
+      "tvg_id": "LN_6B2087A5-88DE-4325-83AD-A982D0B46D14",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "LocalNow",
+      "name": "WSIL Paducah KY",
+      "tvg_id": "LN_7D54B359-3274-46AD-AE8E-A3247FAC0D5F",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "LocalNow",
+      "name": "WEVV (CBS) News 44 Evansville IN",
+      "tvg_id": "LN_81B2D541-69B4-41F6-A74D-BD4355BD2A55",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "LocalNow",
+      "name": "KADN (FOX) News 15 Lafayette LA",
+      "tvg_id": "LN_B27F5424-C7AA-448C-891E-FD5489DCB6B7",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "LocalNow",
+      "name": "WREX Rockford IL",
+      "tvg_id": "LN_2E54475B-A619-4DC7-87B3-C63B9C60928B",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Roku",
+      "name": "FilmRise Food",
+      "tvg_id": "22d9d1cb36e855a2b40ba752313a50d9",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Plex",
+      "name": "El Conflicto TV",
+      "tvg_id": "6a1610bebdf296985fd95603-621674f168c966be92737ce6",
+      "reason": "no_verified_replacement"
+    },
+    {
+      "section": "Plex",
+      "name": "Western Bound",
+      "tvg_id": "6a1610bebdf296985fd95603-62316e8eb9d292cb4ad7499f",
+      "reason": "original_recovered"
+    }
+  ],
+  "replace": [
+    {
+      "section": "live",
+      "name": "Fox Business",
+      "tvg_id": "Fox.Business.HD.us2",
+      "url": "https://tvsen6.aynaott.com/foxbusiness/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "live",
+      "name": "HBO",
+      "tvg_id": "HBO.East.us2",
+      "url": "http://tvsen7.aynascope.net/hbo/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "live",
+      "name": "NBA TV",
+      "tvg_id": "NBA.TV.HD.us2",
+      "url": "http://23.237.104.106:8080/USA_NBA/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "live",
+      "name": "Tennis Channel",
+      "tvg_id": "Tennis.Channel.HD.us2",
+      "url": "http://23.237.104.106:8080/USA_TENNIS/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "live",
+      "name": "TSN 4",
+      "tvg_id": "TSN.4.ca2",
+      "url": "http://109.104.153.220:80/TSN-4/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "Backup",
+      "name": "MY9 (WWOR) New York",
+      "tvg_id": "WWOR-DT.us_locals1",
+      "url": "http://37c18028.akadatel.com/iptv/T6XNCP6L7LLKPD/1088/mpegts",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "Backup",
+      "name": "BBC World News CA",
+      "tvg_id": "BBC.News.(North.America).HD.us2",
+      "url": "http://23.237.104.106:8080/USA_BBC_NEWS/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "Backup",
+      "name": "FOX Business Network",
+      "tvg_id": "Fox.Business.HD.us2",
+      "url": "https://tvsen6.aynaott.com/foxbusiness/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "Backup",
+      "name": "HBO East",
+      "tvg_id": "HBO.East.us2",
+      "url": "http://tvsen7.aynascope.net/hbo/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "Backup",
+      "name": "HBO East HD",
+      "tvg_id": "HBO.East.us2",
+      "url": "http://tvsen7.aynascope.net/hbo/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "Backup",
+      "name": "Nick Jr East",
+      "tvg_id": "Nick.Jr.HD.us2",
+      "url": "http://tvsen7.aynascope.net/nickjr/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "Backup",
+      "name": "STARZ West",
+      "tvg_id": "Starz.HD.(Pacific).us2",
+      "url": "http://23.237.104.106:8080/USA_STARZ_WEST/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "Backup",
+      "name": "Tennis Channel HD",
+      "tvg_id": "Tennis.Channel.HD.us2",
+      "url": "http://23.237.104.106:8080/USA_TENNIS/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "Backup",
+      "name": "TSN 4 CA",
+      "tvg_id": "TSN.4.ca2",
+      "url": "http://109.104.153.220:80/TSN-4/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "Backup",
+      "name": "USA Network East",
+      "tvg_id": "USA.Network.HD.us2",
+      "url": "http://190.197.41.183/USA_NETWORK/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "Backup",
+      "name": "BBC News",
+      "tvg_id": "6183f9f73a64394cf3c55690605af2a7",
+      "url": "http://23.237.104.106:8080/USA_BBC_NEWS/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "Backup",
+      "name": "Bounce XL",
+      "tvg_id": "6176fd25e83a5f0007a464c9",
+      "url": "https://pb-xp0ozx9lyqeiv.akamaized.net/BounceXL_US.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "TheTVApp",
+      "name": "AMC SD",
+      "tvg_id": "amc-eastern-feed",
+      "url": "http://23.239.31.26:8989/amc/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "TheTVApp",
+      "name": "American Heroes Channel SD",
+      "tvg_id": "american-heroes-channel",
+      "url": "http://23.237.104.106:8080/USA_AMERICAN_HEROES/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "TheTVApp",
+      "name": "American Heroes Channel HD",
+      "tvg_id": "american-heroes-channel",
+      "url": "http://23.237.104.106:8080/USA_AMERICAN_HEROES/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Cartoon Network SD",
+      "tvg_id": "cartoon-network-usa-eastern-feed",
+      "url": "http://tvsen7.aynascope.net/cartoonnetwork/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Cartoon Network HD",
+      "tvg_id": "cartoon-network-usa-eastern-feed",
+      "url": "http://tvsen7.aynascope.net/cartoonnetwork/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Discovery SD",
+      "tvg_id": "discovery-channel-us-eastern-feed",
+      "url": "http://212.5.144.156:8080/discovery/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Discovery HD",
+      "tvg_id": "discovery-channel-us-eastern-feed",
+      "url": "http://212.5.144.156:8080/discovery/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Discovery Family Channel SD",
+      "tvg_id": "discovery-family-channel",
+      "url": "https://tvsen5.aynaott.com/discoveryfamily/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Discovery Family Channel HD",
+      "tvg_id": "discovery-family-channel",
+      "url": "https://tvsen5.aynaott.com/discoveryfamily/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Disney Channel (East) SD",
+      "tvg_id": "disney-eastern-feed",
+      "url": "http://212.5.144.156/disney/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Disney Channel (East) HD",
+      "tvg_id": "disney-eastern-feed",
+      "url": "http://212.5.144.156/disney/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Disney Junior SD",
+      "tvg_id": "disney-junior-usa-east",
+      "url": "http://212.5.144.156/disneyjr/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Disney Junior HD",
+      "tvg_id": "disney-junior-usa-east",
+      "url": "http://212.5.144.156/disneyjr/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "TheTVApp",
+      "name": "ESPN SD",
+      "tvg_id": "espn",
+      "url": "http://85.237.89.160:9590/usa-s/ESPN-HD/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "TheTVApp",
+      "name": "ESPN HD",
+      "tvg_id": "espn",
+      "url": "http://85.237.89.160:9590/usa-s/ESPN-HD/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Food Network SD",
+      "tvg_id": "food-network-usa-eastern-feed",
+      "url": "http://23.237.104.106:8080/USA_FOOD_NETWORK/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Food Network HD",
+      "tvg_id": "food-network-usa-eastern-feed",
+      "url": "http://23.237.104.106:8080/USA_FOOD_NETWORK/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Fox Business Network SD",
+      "tvg_id": "fox-business",
+      "url": "https://tvsen6.aynaott.com/foxbusiness/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Fox Business Network HD",
+      "tvg_id": "fox-business",
+      "url": "https://tvsen6.aynaott.com/foxbusiness/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "TheTVApp",
+      "name": "HBO East SD",
+      "tvg_id": "hbo-eastern-feed",
+      "url": "http://tvsen7.aynascope.net/hbo/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "TheTVApp",
+      "name": "HLN SD",
+      "tvg_id": "hln",
+      "url": "http://23.237.104.106:8080/USA_HLN/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "TheTVApp",
+      "name": "HLN HD",
+      "tvg_id": "hln",
+      "url": "http://23.237.104.106:8080/USA_HLN/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "TheTVApp",
+      "name": "NBA TV SD",
+      "tvg_id": "nba-tv-usa",
+      "url": "http://23.237.104.106:8080/USA_NBA/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "TheTVApp",
+      "name": "NBA TV HD",
+      "tvg_id": "nba-tv-usa",
+      "url": "http://23.237.104.106:8080/USA_NBA/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Nickelodeon East SD",
+      "tvg_id": "nickelodeon-usa-east-feed",
+      "url": "http://198.58.104.90:8989/nickelodeon/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Nickelodeon East HD",
+      "tvg_id": "nickelodeon-usa-east-feed",
+      "url": "http://198.58.104.90:8989/nickelodeon/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "TheTVApp",
+      "name": "TeenNick SD",
+      "tvg_id": "teennick-eastern",
+      "url": "http://tvsen7.aynascope.net/teennick/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "TheTVApp",
+      "name": "TeenNick HD",
+      "tvg_id": "teennick-eastern",
+      "url": "http://tvsen7.aynascope.net/teennick/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Tennis Channel SD",
+      "tvg_id": "the-tennis-channel",
+      "url": "http://23.237.104.106:8080/USA_TENNIS/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "TheTVApp",
+      "name": "WE tv SD",
+      "tvg_id": "we-womens-entertainment-eastern",
+      "url": "http://23.237.104.106:8080/USA_WE_TV/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "TheTVApp",
+      "name": "WE tv HD",
+      "tvg_id": "we-womens-entertainment-eastern",
+      "url": "http://23.237.104.106:8080/USA_WE_TV/index.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "Xumo",
+      "name": "Fubo Sports Network",
+      "tvg_id": "99951548",
+      "url": "https://dnf08l6u6uxnz.cloudfront.net/master.m3u8",
+      "options": [],
+      "sources": [
+        "https://iptv-org.github.io/api/streams.json"
+      ]
+    },
+    {
+      "section": "LocalNow",
+      "name": "Telemundo al Dia",
+      "tvg_id": "LN_446FABE6-D80D-406D-9254-99DCBF06DE3D",
+      "url": "https://s11host3.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config14/nbc-telemundo-aldia-localnow/playlist.m3u8?ads.cdnhost=s11host3.localnow.api.cms.amdvids.com&ads.playbackid=446FABE6-D80D-406D-9254-99DCBF06DE3D&ads.n1=rule_id&ads.v1=F0F2D67E-43F6-4794-9B68-414843159DD7-1747755763&ads.n3=qp_content_id&ads.v3=446FABE6-D80D-406D-9254-99DCBF06DE3D&ads.n4=content_name&ads.v4=Telemundo+al+Dia&ads.n22=device_make&ads.v22=&ads.n23=ifa_type&ads.v23=&ads.n24=channel_ext_id&ads.v24=&ads.n25=content_type&ads.v25=channel&ads.n26=device_type&ads.v26=&ads.n27=network_name&ads.v27=telemundo-al-dia&ads.n28=app_store_url&ads.v28=&ads.n29=content_custom_1_param&ads.v29=446FABE6-D80D-406D-9254-99DCBF06DE3D&ads.n30=app_bundle&ads.v30=web.localnow&ads.n31=dnt&ads.v31=&ads.n32=pos&ads.v32=midroll&ads.n33=gpp_sid&ads.v33=&ads.n34=url&ads.v34=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Ftelemundo-al-dia&ads.n35=channel_title&ads.v35=Telemundo+al+Dia&ads.n36=channel_company_id&ads.v36=AMDP500448&ads.n37=channel_name&ads.v37=Telemundo+al+Dia&ads.n38=channel_brand_id&ads.v38=AMDB013261&ads.n39=channel_id&ads.v39=446FABE6-D80D-406D-9254-99DCBF06DE3D&ads.n41=app_version&ads.v41=0.0.0&ads.n42=us_privacy&ads.v42=&ads.n43=gpp&ads.v43=&ads.n44=device_model&ads.v44=&ads.n45=channel_rating&ads.v45=TV-PG&ads.n46=channel_genre&ads.v46=News&ads.n47=content_livestream&ads.v47=1&ads.n48=app_name&ads.v48=&ads.n49=channel_language&ads.v49=es&ads.n50=content_provider&ads.v50=telemundo-al-dia&ads.n51=h&ads.v51=1080&ads.n52=cust_devicename&ads.v52=desktop_web&ads.n53=content_custom_3_param&ads.v53=channel&ads.n54=channel_corp&ads.v54=NBCUniversal&ads.n55=content_custom_2_param&ads.v55=AMDB013261&ads.n56=w&ads.v56=1920&ads.n57=ua&ads.v57=Mozilla%2F5.0&ads.n58=content_producer_name&ads.v58=NBCUniversal",
+      "sources": [
+        "https://data-store-trans-cdn.api.cms.amdvids.com/video/play/446FABE6-D80D-406D-9254-99DCBF06DE3D/1920/1080"
+      ],
+      "refresh": {
+        "provider": "localnow",
+        "channel_id": "446FABE6-D80D-406D-9254-99DCBF06DE3D"
+      }
+    },
+    {
+      "section": "LocalNow",
+      "name": "NatureStream.TV",
+      "tvg_id": "LN_3E365F9C-E1F6-434F-9C51-0F331DCCBC2C",
+      "url": "https://s5host4.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config7/d/8DSF4VB9J3JLGCCSNK4X/hls3/now,-1m/m.m3u8?ads.rating=TV-G&ads.content_genre=Documentary%2CHealth%2CLifestyle%2CRelaxing%2CTravel&ads.content_id=SNS100&ads.channel_name=NatureStream.tv&ads.provider=NatureStream&ads.content_cat=IAB1-7&ads.content_language=en&ads.content_series=Preview+for+Sardinia+From+Above&ads.ic=&device_devicetype=desktop_web&height=1080&page_url=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fepg-naturestreamtv&width=1920&app_version=0.0.0&ua=Mozilla%2F5.0&app_bundle=web.localnow&ads.cdnhost=s5host4.localnow.api.cms.amdvids.com&ads.playbackid=3E365F9C-E1F6-434F-9C51-0F331DCCBC2C&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=3E365F9C-E1F6-434F-9C51-0F331DCCBC2C&ads.n4=content_name&ads.v4=EPG+%7C+NatureStream.TV&ads.n21=pos&ads.v21=midroll&ads.n22=content_producer_name&ads.v22=SotalCloud+INC&ads.n23=h&ads.v23=1080&ads.n24=content_custom_3_param&ads.v24=channel&ads.n25=device_model&ads.v25=&ads.n26=channel_brand_id&ads.v26=AMDB013724&ads.n27=device_type&ads.v27=&ads.n28=app_name&ads.v28=&ads.n29=content_type&ads.v29=channel&ads.n30=app_version&ads.v30=0.0.0&ads.n31=url&ads.v31=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fepg-naturestreamtv&ads.n33=channel_title&ads.v33=EPG++NatureStream.TV&ads.n34=us_privacy&ads.v34=&ads.n35=cust_devicename&ads.v35=desktop_web&ads.n36=network_name&ads.v36=naturestreamtv&ads.n37=content_custom_2_param&ads.v37=AMDB013724&ads.n38=ifa_type&ads.v38=&ads.n39=w&ads.v39=1920&ads.n40=device_make&ads.v40=&ads.n41=channel_genre&ads.v41=Nature&ads.n42=gpp&ads.v42=&ads.n43=channel_id&ads.v43=3E365F9C-E1F6-434F-9C51-0F331DCCBC2C&ads.n44=channel_name&ads.v44=EPG++NatureStream.TV&ads.n45=channel_language&ads.v45=en&ads.n46=gpp_sid&ads.v46=&ads.n47=app_store_url&ads.v47=&ads.n48=channel_rating&ads.v48=TV-PG&ads.n49=content_custom_1_param&ads.v49=3E365F9C-E1F6-434F-9C51-0F331DCCBC2C&ads.n50=ua&ads.v50=Mozilla%2F5.0&ads.n51=content_provider&ads.v51=naturestreamtv&ads.n52=channel_corp&ads.v52=SotalCloud+INC&ads.n53=content_livestream&ads.v53=1&ads.n54=channel_company_id&ads.v54=AMDP500264&ads.n56=channel_ext_id&ads.v56=62740bd53f67b501e23be192&ads.n57=dnt&ads.v57=&ads.n58=app_bundle&ads.v58=web.localnow",
+      "sources": [
+        "https://data-store-trans-cdn.api.cms.amdvids.com/video/play/3E365F9C-E1F6-434F-9C51-0F331DCCBC2C/1920/1080"
+      ],
+      "refresh": {
+        "provider": "localnow",
+        "channel_id": "3E365F9C-E1F6-434F-9C51-0F331DCCBC2C"
+      }
+    },
+    {
+      "section": "LocalNow",
+      "name": "WJLA ABC7 Washington D.C. News",
+      "tvg_id": "LN_5CEC3AD7-2023-4ABE-AEB6-AF5757C5483A",
+      "url": "https://s9host1.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config11/playlist.m3u8?ads.cdnhost=s9host1.localnow.api.cms.amdvids.com&ads.playbackid=5CEC3AD7-2023-4ABE-AEB6-AF5757C5483A&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=5CEC3AD7-2023-4ABE-AEB6-AF5757C5483A&ads.n4=content_name&ads.v4=WJLA+Washington+DC&ads.n21=channel_ext_id&ads.v21=&ads.n22=us_privacy&ads.v22=&ads.n23=channel_name&ads.v23=WJLA+Washington+DC&ads.n24=app_bundle&ads.v24=web.localnow&ads.n25=device_model&ads.v25=&ads.n26=gpp&ads.v26=&ads.n27=app_name&ads.v27=&ads.n28=channel_rating&ads.v28=TV-PG&ads.n29=channel_title&ads.v29=WJLA+Washington+DC&ads.n30=pos&ads.v30=midroll&ads.n31=network_name&ads.v31=wjla-washington-dc&ads.n32=cust_devicename&ads.v32=desktop_web&ads.n33=w&ads.v33=1920&ads.n34=ifa_type&ads.v34=&ads.n35=channel_company_id&ads.v35=AMDP500539&ads.n37=channel_genre&ads.v37=News&ads.n38=channel_id&ads.v38=5CEC3AD7-2023-4ABE-AEB6-AF5757C5483A&ads.n39=device_make&ads.v39=&ads.n40=url&ads.v40=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fwjla-washinton-dc&ads.n41=channel_brand_id&ads.v41=AMDB013446&ads.n42=channel_corp&ads.v42=Sinclair+Television+Group+INC&ads.n43=content_custom_2_param&ads.v43=AMDB013446&ads.n45=h&ads.v45=1080&ads.n46=content_type&ads.v46=channel&ads.n47=gpp_sid&ads.v47=&ads.n48=dnt&ads.v48=&ads.n49=device_type&ads.v49=&ads.n50=content_custom_3_param&ads.v50=channel&ads.n51=ua&ads.v51=Mozilla%2F5.0&ads.n52=content_livestream&ads.v52=1&ads.n53=content_custom_1_param&ads.v53=5CEC3AD7-2023-4ABE-AEB6-AF5757C5483A&ads.n54=content_provider&ads.v54=wjla-washington-dc&ads.n55=channel_language&ads.v55=en&ads.n56=app_store_url&ads.v56=&ads.n57=content_producer_name&ads.v57=Sinclair+Television+Group+INC&ads.n58=app_version&ads.v58=0.0.0",
+      "sources": [
+        "https://data-store-trans-cdn.api.cms.amdvids.com/video/play/5CEC3AD7-2023-4ABE-AEB6-AF5757C5483A/1920/1080"
+      ],
+      "refresh": {
+        "provider": "localnow",
+        "channel_id": "5CEC3AD7-2023-4ABE-AEB6-AF5757C5483A"
+      }
+    },
+    {
+      "section": "LocalNow",
+      "name": "WBFF FOX45 Baltimore MD",
+      "tvg_id": "LN_B4C0B63A-6E32-45FB-9742-E9D95987D5B5",
+      "url": "https://s9host1.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config11/playlist.m3u8?ads.cdnhost=s9host1.localnow.api.cms.amdvids.com&ads.playbackid=B4C0B63A-6E32-45FB-9742-E9D95987D5B5&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=B4C0B63A-6E32-45FB-9742-E9D95987D5B5&ads.n4=content_name&ads.v4=WBFF+Baltimore+MD&ads.n21=channel_genre&ads.v21=News&ads.n22=ua&ads.v22=Mozilla%2F5.0&ads.n23=content_type&ads.v23=channel&ads.n24=device_make&ads.v24=&ads.n25=channel_title&ads.v25=WBFF+Baltimore+MD&ads.n26=channel_brand_id&ads.v26=AMDB013449&ads.n27=device_model&ads.v27=&ads.n28=app_version&ads.v28=0.0.0&ads.n29=w&ads.v29=1920&ads.n30=gpp_sid&ads.v30=&ads.n31=device_type&ads.v31=&ads.n32=channel_corp&ads.v32=Sinclair+Television+Group+INC&ads.n33=content_producer_name&ads.v33=Sinclair+Television+Group+INC&ads.n34=us_privacy&ads.v34=&ads.n35=app_name&ads.v35=&ads.n36=h&ads.v36=1080&ads.n37=content_provider&ads.v37=wbff-baltimore&ads.n38=cust_devicename&ads.v38=desktop_web&ads.n39=url&ads.v39=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fwbff-baltimore-md&ads.n40=content_custom_3_param&ads.v40=channel&ads.n41=channel_ext_id&ads.v41=&ads.n42=gpp&ads.v42=&ads.n43=content_custom_2_param&ads.v43=AMDB013449&ads.n44=app_bundle&ads.v44=web.localnow&ads.n45=content_custom_1_param&ads.v45=B4C0B63A-6E32-45FB-9742-E9D95987D5B5&ads.n47=channel_language&ads.v47=en&ads.n48=channel_company_id&ads.v48=AMDP500539&ads.n49=app_store_url&ads.v49=&ads.n51=dnt&ads.v51=&ads.n52=ifa_type&ads.v52=&ads.n53=network_name&ads.v53=wbff-baltimore&ads.n54=channel_rating&ads.v54=TV-PG&ads.n55=content_livestream&ads.v55=1&ads.n56=pos&ads.v56=midroll&ads.n57=channel_id&ads.v57=B4C0B63A-6E32-45FB-9742-E9D95987D5B5&ads.n58=channel_name&ads.v58=WBFF+Baltimore+MD",
+      "sources": [
+        "https://data-store-trans-cdn.api.cms.amdvids.com/video/play/B4C0B63A-6E32-45FB-9742-E9D95987D5B5/1920/1080"
+      ],
+      "refresh": {
+        "provider": "localnow",
+        "channel_id": "B4C0B63A-6E32-45FB-9742-E9D95987D5B5"
+      }
+    },
+    {
+      "section": "LocalNow",
+      "name": "WSYX ABC 6 Columbus OH",
+      "tvg_id": "LN_D8E2E9E7-EE50-40EC-BAA5-4812A098367D",
+      "url": "https://s8host5.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config10/playlist.m3u8?ads.cdnhost=s8host5.localnow.api.cms.amdvids.com&ads.playbackid=D8E2E9E7-EE50-40EC-BAA5-4812A098367D&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=D8E2E9E7-EE50-40EC-BAA5-4812A098367D&ads.n4=content_name&ads.v4=WSYX+Columbus+OH&ads.n21=content_custom_3_param&ads.v21=channel&ads.n22=channel_title&ads.v22=WSYX+Columbus+OH&ads.n23=ua&ads.v23=Mozilla%2F5.0&ads.n24=channel_name&ads.v24=WSYX+Columbus+OH&ads.n25=content_producer_name&ads.v25=Sinclair+Television+Group+INC&ads.n26=app_name&ads.v26=&ads.n27=channel_rating&ads.v27=TV-PG&ads.n28=channel_id&ads.v28=D8E2E9E7-EE50-40EC-BAA5-4812A098367D&ads.n29=us_privacy&ads.v29=&ads.n30=content_livestream&ads.v30=1&ads.n31=cust_devicename&ads.v31=desktop_web&ads.n32=url&ads.v32=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fwsyx-columbus-oh&ads.n33=content_provider&ads.v33=wsyx-columbus-oh&ads.n34=content_custom_1_param&ads.v34=D8E2E9E7-EE50-40EC-BAA5-4812A098367D&ads.n35=gpp&ads.v35=&ads.n36=app_version&ads.v36=0.0.0&ads.n38=content_custom_2_param&ads.v38=AMDB013452&ads.n39=app_bundle&ads.v39=web.localnow&ads.n40=dnt&ads.v40=&ads.n41=channel_language&ads.v41=en&ads.n42=device_model&ads.v42=&ads.n43=w&ads.v43=1920&ads.n44=channel_brand_id&ads.v44=AMDB013452&ads.n45=channel_corp&ads.v45=Sinclair+Television+Group+INC&ads.n46=channel_ext_id&ads.v46=&ads.n47=h&ads.v47=1080&ads.n48=app_store_url&ads.v48=&ads.n49=network_name&ads.v49=wsyx-columbus-oh&ads.n50=pos&ads.v50=midroll&ads.n51=channel_genre&ads.v51=News&ads.n52=device_make&ads.v52=&ads.n53=content_type&ads.v53=channel&ads.n54=gpp_sid&ads.v54=&ads.n56=ifa_type&ads.v56=&ads.n57=device_type&ads.v57=&ads.n58=channel_company_id&ads.v58=AMDP500539",
+      "sources": [
+        "https://data-store-trans-cdn.api.cms.amdvids.com/video/play/D8E2E9E7-EE50-40EC-BAA5-4812A098367D/1920/1080"
+      ],
+      "refresh": {
+        "provider": "localnow",
+        "channel_id": "D8E2E9E7-EE50-40EC-BAA5-4812A098367D"
+      }
+    },
+    {
+      "section": "LocalNow",
+      "name": "WLOS News 13 Asheville NC",
+      "tvg_id": "LN_59494A6F-CE09-46B8-8E9E-947522FFA2F1",
+      "url": "https://s8host5.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config11/playlist.m3u8?ads.cdnhost=s8host5.localnow.api.cms.amdvids.com&ads.playbackid=59494A6F-CE09-46B8-8E9E-947522FFA2F1&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=59494A6F-CE09-46B8-8E9E-947522FFA2F1&ads.n4=content_name&ads.v4=WLOS+Asheville+NC&ads.n21=channel_rating&ads.v21=TV-PG&ads.n22=network_name&ads.v22=wlos-asheville&ads.n23=channel_name&ads.v23=WLOS+Asheville+NC&ads.n24=app_bundle&ads.v24=web.localnow&ads.n25=device_type&ads.v25=&ads.n26=us_privacy&ads.v26=&ads.n27=pos&ads.v27=midroll&ads.n28=channel_id&ads.v28=59494A6F-CE09-46B8-8E9E-947522FFA2F1&ads.n29=content_custom_1_param&ads.v29=59494A6F-CE09-46B8-8E9E-947522FFA2F1&ads.n30=channel_ext_id&ads.v30=&ads.n31=cust_devicename&ads.v31=desktop_web&ads.n32=content_livestream&ads.v32=1&ads.n34=content_producer_name&ads.v34=Sinclair+Television+Group+INC&ads.n35=channel_language&ads.v35=en&ads.n36=content_custom_3_param&ads.v36=channel&ads.n37=channel_title&ads.v37=WLOS+Asheville+NC&ads.n38=url&ads.v38=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fwlos-asheville-nc&ads.n39=ua&ads.v39=Mozilla%2F5.0&ads.n40=h&ads.v40=1080&ads.n41=channel_genre&ads.v41=News&ads.n42=device_model&ads.v42=&ads.n43=channel_company_id&ads.v43=AMDP500539&ads.n44=channel_brand_id&ads.v44=AMDB013455&ads.n45=w&ads.v45=1920&ads.n46=ifa_type&ads.v46=&ads.n47=device_make&ads.v47=&ads.n49=app_store_url&ads.v49=&ads.n50=gpp_sid&ads.v50=&ads.n51=content_provider&ads.v51=wlos-asheville&ads.n52=gpp&ads.v52=&ads.n53=channel_corp&ads.v53=Sinclair+Television+Group+INC&ads.n54=dnt&ads.v54=&ads.n55=app_version&ads.v55=0.0.0&ads.n56=content_type&ads.v56=channel&ads.n57=app_name&ads.v57=&ads.n58=content_custom_2_param&ads.v58=AMDB013455",
+      "sources": [
+        "https://data-store-trans-cdn.api.cms.amdvids.com/video/play/59494A6F-CE09-46B8-8E9E-947522FFA2F1/1920/1080"
+      ],
+      "refresh": {
+        "provider": "localnow",
+        "channel_id": "59494A6F-CE09-46B8-8E9E-947522FFA2F1"
+      }
+    },
+    {
+      "section": "LocalNow",
+      "name": "WKRC Local 12 News Cincinnati OH",
+      "tvg_id": "LN_A4B368B4-BDB2-4D73-97DE-85DB457E0189",
+      "url": "https://s9host1.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config11/playlist.m3u8?ads.cdnhost=s9host1.localnow.api.cms.amdvids.com&ads.playbackid=A4B368B4-BDB2-4D73-97DE-85DB457E0189&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=A4B368B4-BDB2-4D73-97DE-85DB457E0189&ads.n4=content_name&ads.v4=WKRC+Cincinnati+OH&ads.n21=content_livestream&ads.v21=1&ads.n22=device_type&ads.v22=&ads.n23=channel_language&ads.v23=en&ads.n24=channel_brand_id&ads.v24=AMDB013454&ads.n25=channel_title&ads.v25=WKRC+Cincinnati+OH&ads.n26=cust_devicename&ads.v26=desktop_web&ads.n28=channel_name&ads.v28=WKRC+Cincinnati+OH&ads.n29=w&ads.v29=1920&ads.n30=app_version&ads.v30=0.0.0&ads.n31=channel_ext_id&ads.v31=&ads.n32=content_provider&ads.v32=wkrc-cincinnati&ads.n33=channel_genre&ads.v33=News&ads.n34=app_store_url&ads.v34=&ads.n35=gpp_sid&ads.v35=&ads.n37=url&ads.v37=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fwkrc-cincinnati-oh&ads.n38=ifa_type&ads.v38=&ads.n39=channel_rating&ads.v39=TV-PG&ads.n40=h&ads.v40=1080&ads.n41=app_bundle&ads.v41=web.localnow&ads.n42=pos&ads.v42=midroll&ads.n43=app_name&ads.v43=&ads.n44=content_custom_1_param&ads.v44=A4B368B4-BDB2-4D73-97DE-85DB457E0189&ads.n45=content_custom_3_param&ads.v45=channel&ads.n46=device_make&ads.v46=&ads.n47=channel_company_id&ads.v47=AMDP500539&ads.n48=channel_id&ads.v48=A4B368B4-BDB2-4D73-97DE-85DB457E0189&ads.n49=content_custom_2_param&ads.v49=AMDB013454&ads.n50=ua&ads.v50=Mozilla%2F5.0&ads.n51=content_producer_name&ads.v51=Sinclair+Television+Group+INC&ads.n52=dnt&ads.v52=&ads.n53=gpp&ads.v53=&ads.n54=us_privacy&ads.v54=&ads.n55=content_type&ads.v55=channel&ads.n56=channel_corp&ads.v56=Sinclair+Television+Group+INC&ads.n57=network_name&ads.v57=wkrc-cincinnati&ads.n58=device_model&ads.v58=",
+      "sources": [
+        "https://data-store-trans-cdn.api.cms.amdvids.com/video/play/A4B368B4-BDB2-4D73-97DE-85DB457E0189/1920/1080"
+      ],
+      "refresh": {
+        "provider": "localnow",
+        "channel_id": "A4B368B4-BDB2-4D73-97DE-85DB457E0189"
+      }
+    },
+    {
+      "section": "LocalNow",
+      "name": "WPEC CBS 12 News West Palm Beach FL",
+      "tvg_id": "LN_1D97D871-574C-41CA-A49A-0E3B23EDFD70",
+      "url": "https://s8host5.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config10/playlist.m3u8?ads.cdnhost=s8host5.localnow.api.cms.amdvids.com&ads.playbackid=1D97D871-574C-41CA-A49A-0E3B23EDFD70&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=1D97D871-574C-41CA-A49A-0E3B23EDFD70&ads.n4=content_name&ads.v4=WPEC+West+Palm+Beach+FL&ads.n21=network_name&ads.v21=wpec-west-palm-beach&ads.n22=app_name&ads.v22=&ads.n23=ua&ads.v23=Mozilla%2F5.0&ads.n24=device_make&ads.v24=&ads.n25=channel_name&ads.v25=WPEC+West+Palm+Beach+FL&ads.n26=gpp_sid&ads.v26=&ads.n27=channel_genre&ads.v27=News&ads.n28=app_version&ads.v28=0.0.0&ads.n29=device_type&ads.v29=&ads.n30=channel_company_id&ads.v30=AMDP500539&ads.n31=gpp&ads.v31=&ads.n32=content_custom_2_param&ads.v32=AMDB013456&ads.n33=cust_devicename&ads.v33=desktop_web&ads.n35=content_type&ads.v35=channel&ads.n36=device_model&ads.v36=&ads.n37=pos&ads.v37=midroll&ads.n38=us_privacy&ads.v38=&ads.n39=w&ads.v39=1920&ads.n40=channel_brand_id&ads.v40=AMDB013456&ads.n41=content_custom_3_param&ads.v41=channel&ads.n42=content_livestream&ads.v42=1&ads.n44=content_provider&ads.v44=wpec-west-palm-beach&ads.n45=channel_ext_id&ads.v45=&ads.n46=channel_rating&ads.v46=TV-PG&ads.n47=h&ads.v47=1080&ads.n48=app_store_url&ads.v48=&ads.n49=url&ads.v49=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fwpec-west-palm-beach-fl&ads.n50=ifa_type&ads.v50=&ads.n51=content_producer_name&ads.v51=Sinclair+Television+Group+INC&ads.n52=content_custom_1_param&ads.v52=1D97D871-574C-41CA-A49A-0E3B23EDFD70&ads.n53=dnt&ads.v53=&ads.n54=channel_language&ads.v54=en&ads.n55=channel_corp&ads.v55=Sinclair+Television+Group+INC&ads.n56=app_bundle&ads.v56=web.localnow&ads.n57=channel_id&ads.v57=1D97D871-574C-41CA-A49A-0E3B23EDFD70&ads.n58=channel_title&ads.v58=WPEC+West+Palm+Beach+FL",
+      "sources": [
+        "https://data-store-trans-cdn.api.cms.amdvids.com/video/play/1D97D871-574C-41CA-A49A-0E3B23EDFD70/1920/1080"
+      ],
+      "refresh": {
+        "provider": "localnow",
+        "channel_id": "1D97D871-574C-41CA-A49A-0E3B23EDFD70"
+      }
+    },
+    {
+      "section": "LocalNow",
+      "name": "WHP CBS 21 News Harrisburg PA",
+      "tvg_id": "LN_A0290069-17A6-401F-84B9-EE2B5385327A",
+      "url": "https://s8host5.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config11/playlist.m3u8?ads.cdnhost=s8host5.localnow.api.cms.amdvids.com&ads.playbackid=A0290069-17A6-401F-84B9-EE2B5385327A&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=A0290069-17A6-401F-84B9-EE2B5385327A&ads.n4=content_name&ads.v4=WHP+Harrisburg+PA&ads.n21=channel_brand_id&ads.v21=AMDB013459&ads.n22=content_livestream&ads.v22=1&ads.n23=device_type&ads.v23=&ads.n24=content_custom_3_param&ads.v24=channel&ads.n25=app_name&ads.v25=&ads.n26=pos&ads.v26=midroll&ads.n27=content_type&ads.v27=channel&ads.n28=channel_rating&ads.v28=TV-PG&ads.n29=content_producer_name&ads.v29=Sinclair+Television+Group+INC&ads.n31=ua&ads.v31=Mozilla%2F5.0&ads.n32=channel_ext_id&ads.v32=&ads.n34=channel_language&ads.v34=en&ads.n35=dnt&ads.v35=&ads.n36=channel_company_id&ads.v36=AMDP500539&ads.n37=app_bundle&ads.v37=web.localnow&ads.n38=device_make&ads.v38=&ads.n39=ifa_type&ads.v39=&ads.n40=content_custom_2_param&ads.v40=AMDB013459&ads.n41=gpp_sid&ads.v41=&ads.n42=network_name&ads.v42=whp-harrisburg&ads.n43=channel_genre&ads.v43=News&ads.n44=content_provider&ads.v44=whp-harrisburg&ads.n45=url&ads.v45=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fwhp-harrisburg-pa&ads.n46=gpp&ads.v46=&ads.n47=app_version&ads.v47=0.0.0&ads.n48=channel_corp&ads.v48=Sinclair+Television+Group+INC&ads.n49=device_model&ads.v49=&ads.n50=channel_id&ads.v50=A0290069-17A6-401F-84B9-EE2B5385327A&ads.n51=h&ads.v51=1080&ads.n52=cust_devicename&ads.v52=desktop_web&ads.n53=app_store_url&ads.v53=&ads.n54=content_custom_1_param&ads.v54=A0290069-17A6-401F-84B9-EE2B5385327A&ads.n55=w&ads.v55=1920&ads.n56=channel_title&ads.v56=WHP+Harrisburg+PA&ads.n57=us_privacy&ads.v57=&ads.n58=channel_name&ads.v58=WHP+Harrisburg+PA",
+      "sources": [
+        "https://data-store-trans-cdn.api.cms.amdvids.com/video/play/A0290069-17A6-401F-84B9-EE2B5385327A/1920/1080"
+      ],
+      "refresh": {
+        "provider": "localnow",
+        "channel_id": "A0290069-17A6-401F-84B9-EE2B5385327A"
+      }
+    },
+    {
+      "section": "LocalNow",
+      "name": "WWMT News Channel 3 Grand Rapids MI",
+      "tvg_id": "LN_A75FC2FE-BC1F-4935-816D-6566283A47D6",
+      "url": "https://s8host4.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config10/playlist.m3u8?ads.cdnhost=s8host4.localnow.api.cms.amdvids.com&ads.playbackid=A75FC2FE-BC1F-4935-816D-6566283A47D6&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=A75FC2FE-BC1F-4935-816D-6566283A47D6&ads.n4=content_name&ads.v4=WWMT+Grand+Rapids+MI&ads.n21=gpp_sid&ads.v21=&ads.n22=url&ads.v22=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fwwmt-grand-rapids-mi&ads.n23=channel_company_id&ads.v23=AMDP500539&ads.n24=ifa_type&ads.v24=&ads.n25=channel_ext_id&ads.v25=&ads.n26=content_custom_1_param&ads.v26=A75FC2FE-BC1F-4935-816D-6566283A47D6&ads.n27=content_custom_3_param&ads.v27=channel&ads.n28=ua&ads.v28=Mozilla%2F5.0&ads.n29=content_producer_name&ads.v29=Sinclair+Television+Group+INC&ads.n30=channel_language&ads.v30=en&ads.n31=channel_brand_id&ads.v31=AMDB013458&ads.n32=content_provider&ads.v32=wwmt-grand-rapids&ads.n33=content_type&ads.v33=channel&ads.n35=dnt&ads.v35=&ads.n36=app_version&ads.v36=0.0.0&ads.n37=app_store_url&ads.v37=&ads.n38=channel_genre&ads.v38=News&ads.n39=app_name&ads.v39=&ads.n40=channel_name&ads.v40=WWMT+Grand+Rapids+MI&ads.n41=content_custom_2_param&ads.v41=AMDB013458&ads.n42=channel_rating&ads.v42=TV-PG&ads.n43=channel_corp&ads.v43=Sinclair+Television+Group+INC&ads.n44=device_type&ads.v44=&ads.n45=us_privacy&ads.v45=&ads.n46=pos&ads.v46=midroll&ads.n47=device_make&ads.v47=&ads.n48=content_livestream&ads.v48=1&ads.n49=w&ads.v49=1920&ads.n50=h&ads.v50=1080&ads.n52=device_model&ads.v52=&ads.n53=channel_id&ads.v53=A75FC2FE-BC1F-4935-816D-6566283A47D6&ads.n54=app_bundle&ads.v54=web.localnow&ads.n55=gpp&ads.v55=&ads.n56=channel_title&ads.v56=WWMT+Grand+Rapids+MI&ads.n57=cust_devicename&ads.v57=desktop_web&ads.n58=network_name&ads.v58=wwmt-grand-rapids",
+      "sources": [
+        "https://data-store-trans-cdn.api.cms.amdvids.com/video/play/A75FC2FE-BC1F-4935-816D-6566283A47D6/1920/1080"
+      ],
+      "refresh": {
+        "provider": "localnow",
+        "channel_id": "A75FC2FE-BC1F-4935-816D-6566283A47D6"
+      }
+    },
+    {
+      "section": "LocalNow",
+      "name": "WDRB Louisville KY",
+      "tvg_id": "LN_F36C0401-5DA1-41BD-AFA3-E1E9D71CB264",
+      "url": "https://s6host5.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config1/wdrb-xos1-input-1/wdrb-xos1-input-1.isml/index.m3u8?ads.cdnhost=s6host5.localnow.api.cms.amdvids.com&ads.playbackid=F36C0401-5DA1-41BD-AFA3-E1E9D71CB264&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=F36C0401-5DA1-41BD-AFA3-E1E9D71CB264&ads.n4=content_name&ads.v4=EPG+%7C+WDRB+Louisville%2C+KY&ads.n21=channel_title&ads.v21=EPG++WDRB+Louisville%2C+KY&ads.n22=channel_language&ads.v22=en&ads.n23=pos&ads.v23=midroll&ads.n25=network_name&ads.v25=wdrb&ads.n26=url&ads.v26=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fepg-wdrb&ads.n27=channel_company_id&ads.v27=AMDP500580&ads.n28=channel_genre&ads.v28=News&ads.n29=content_custom_3_param&ads.v29=channel&ads.n30=content_producer_name&ads.v30=Gray+Local+Media&ads.n31=channel_rating&ads.v31=TV-PG&ads.n32=w&ads.v32=1920&ads.n33=content_custom_2_param&ads.v33=AMDB013847&ads.n34=h&ads.v34=1080&ads.n35=content_type&ads.v35=channel&ads.n36=app_version&ads.v36=0.0.0&ads.n37=gpp&ads.v37=&ads.n38=gpp_sid&ads.v38=&ads.n39=device_model&ads.v39=&ads.n41=app_bundle&ads.v41=web.localnow&ads.n42=device_type&ads.v42=&ads.n43=app_store_url&ads.v43=&ads.n44=app_name&ads.v44=&ads.n45=device_make&ads.v45=&ads.n46=ua&ads.v46=Mozilla%2F5.0&ads.n47=ifa_type&ads.v47=&ads.n48=channel_corp&ads.v48=Gray+Local+Media&ads.n49=channel_ext_id&ads.v49=649f2e18619bc9f2b60cb002&ads.n50=channel_brand_id&ads.v50=AMDB013847&ads.n51=cust_devicename&ads.v51=desktop_web&ads.n52=content_custom_1_param&ads.v52=F36C0401-5DA1-41BD-AFA3-E1E9D71CB264&ads.n53=channel_name&ads.v53=EPG++WDRB+Louisville%2C+KY&ads.n54=us_privacy&ads.v54=&ads.n55=dnt&ads.v55=&ads.n56=content_livestream&ads.v56=1&ads.n57=content_provider&ads.v57=wdrb&ads.n58=channel_id&ads.v58=F36C0401-5DA1-41BD-AFA3-E1E9D71CB264",
+      "sources": [
+        "https://data-store-trans-cdn.api.cms.amdvids.com/video/play/F36C0401-5DA1-41BD-AFA3-E1E9D71CB264/1920/1080"
+      ],
+      "refresh": {
+        "provider": "localnow",
+        "channel_id": "F36C0401-5DA1-41BD-AFA3-E1E9D71CB264"
+      }
+    },
+    {
+      "section": "LocalNow",
+      "name": "WJAR NBC 10 News Providence RI",
+      "tvg_id": "LN_0A5D8859-18DF-4749-A8C4-9B866A17CEAD",
+      "url": "https://s8host5.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config11/playlist.m3u8?ads.cdnhost=s8host5.localnow.api.cms.amdvids.com&ads.playbackid=0A5D8859-18DF-4749-A8C4-9B866A17CEAD&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=0A5D8859-18DF-4749-A8C4-9B866A17CEAD&ads.n4=content_name&ads.v4=WJAR+Providence+RI&ads.n21=gpp_sid&ads.v21=&ads.n22=device_make&ads.v22=&ads.n23=app_name&ads.v23=&ads.n24=channel_rating&ads.v24=TV-PG&ads.n25=app_version&ads.v25=0.0.0&ads.n26=channel_company_id&ads.v26=AMDP500539&ads.n28=app_bundle&ads.v28=web.localnow&ads.n29=device_model&ads.v29=&ads.n30=pos&ads.v30=midroll&ads.n31=channel_language&ads.v31=en&ads.n32=channel_genre&ads.v32=News&ads.n33=content_custom_3_param&ads.v33=channel&ads.n34=ua&ads.v34=Mozilla%2F5.0&ads.n35=content_type&ads.v35=channel&ads.n36=network_name&ads.v36=wjar-providence&ads.n37=device_type&ads.v37=&ads.n38=w&ads.v38=1920&ads.n39=content_custom_2_param&ads.v39=AMDB013461&ads.n40=channel_title&ads.v40=WJAR+Providence+RI&ads.n41=content_provider&ads.v41=wjar-providence&ads.n42=us_privacy&ads.v42=&ads.n43=ifa_type&ads.v43=&ads.n44=content_producer_name&ads.v44=Sinclair+Television+Group+INC&ads.n45=dnt&ads.v45=&ads.n46=h&ads.v46=1080&ads.n47=content_custom_1_param&ads.v47=0A5D8859-18DF-4749-A8C4-9B866A17CEAD&ads.n48=app_store_url&ads.v48=&ads.n49=channel_name&ads.v49=WJAR+Providence+RI&ads.n50=content_livestream&ads.v50=1&ads.n52=channel_ext_id&ads.v52=&ads.n53=cust_devicename&ads.v53=desktop_web&ads.n54=channel_id&ads.v54=0A5D8859-18DF-4749-A8C4-9B866A17CEAD&ads.n55=channel_corp&ads.v55=Sinclair+Television+Group+INC&ads.n56=channel_brand_id&ads.v56=AMDB013461&ads.n57=url&ads.v57=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fwjar-providence-ri&ads.n58=gpp&ads.v58=",
+      "sources": [
+        "https://data-store-trans-cdn.api.cms.amdvids.com/video/play/0A5D8859-18DF-4749-A8C4-9B866A17CEAD/1920/1080"
+      ],
+      "refresh": {
+        "provider": "localnow",
+        "channel_id": "0A5D8859-18DF-4749-A8C4-9B866A17CEAD"
+      }
+    },
+    {
+      "section": "LocalNow",
+      "name": "WKEF Dayton 24/7 Now News",
+      "tvg_id": "LN_5672BF58-691E-4694-B5CE-7E8F15B5C1CC",
+      "url": "https://s8host5.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config10/playlist.m3u8?ads.cdnhost=s8host5.localnow.api.cms.amdvids.com&ads.playbackid=5672BF58-691E-4694-B5CE-7E8F15B5C1CC&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=5672BF58-691E-4694-B5CE-7E8F15B5C1CC&ads.n4=content_name&ads.v4=WKEF+Dayton+OH&ads.n21=channel_ext_id&ads.v21=&ads.n22=w&ads.v22=1920&ads.n23=pos&ads.v23=midroll&ads.n24=content_producer_name&ads.v24=Sinclair+Television+Group+INC&ads.n25=network_name&ads.v25=wkef-dayton&ads.n26=ifa_type&ads.v26=&ads.n27=channel_id&ads.v27=5672BF58-691E-4694-B5CE-7E8F15B5C1CC&ads.n28=channel_genre&ads.v28=News&ads.n29=channel_rating&ads.v29=TV-PG&ads.n30=app_name&ads.v30=&ads.n31=dnt&ads.v31=&ads.n32=content_custom_2_param&ads.v32=AMDB013463&ads.n33=content_livestream&ads.v33=1&ads.n34=channel_language&ads.v34=en&ads.n35=gpp_sid&ads.v35=&ads.n36=channel_title&ads.v36=WKEF+Dayton+OH&ads.n37=app_version&ads.v37=0.0.0&ads.n38=channel_brand_id&ads.v38=AMDB013463&ads.n39=channel_name&ads.v39=WKEF+Dayton+OH&ads.n40=content_type&ads.v40=channel&ads.n41=device_make&ads.v41=&ads.n42=app_store_url&ads.v42=&ads.n43=content_custom_1_param&ads.v43=5672BF58-691E-4694-B5CE-7E8F15B5C1CC&ads.n45=gpp&ads.v45=&ads.n46=app_bundle&ads.v46=web.localnow&ads.n48=channel_corp&ads.v48=Sinclair+Television+Group+INC&ads.n49=us_privacy&ads.v49=&ads.n50=h&ads.v50=1080&ads.n51=device_model&ads.v51=&ads.n52=channel_company_id&ads.v52=AMDP500539&ads.n53=cust_devicename&ads.v53=desktop_web&ads.n54=content_provider&ads.v54=wkef-dayton&ads.n55=url&ads.v55=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fwkef-dayton-oh&ads.n56=device_type&ads.v56=&ads.n57=content_custom_3_param&ads.v57=channel&ads.n58=ua&ads.v58=Mozilla%2F5.0",
+      "sources": [
+        "https://data-store-trans-cdn.api.cms.amdvids.com/video/play/5672BF58-691E-4694-B5CE-7E8F15B5C1CC/1920/1080"
+      ],
+      "refresh": {
+        "provider": "localnow",
+        "channel_id": "5672BF58-691E-4694-B5CE-7E8F15B5C1CC"
+      }
+    },
+    {
+      "section": "LocalNow",
+      "name": "WCIV ABC News 4 Charleston SC",
+      "tvg_id": "LN_57A26E48-B4A8-49C9-A9A7-FFFADE73E09A",
+      "url": "https://s8host5.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config11/playlist.m3u8?ads.cdnhost=s8host5.localnow.api.cms.amdvids.com&ads.playbackid=57A26E48-B4A8-49C9-A9A7-FFFADE73E09A&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=57A26E48-B4A8-49C9-A9A7-FFFADE73E09A&ads.n4=content_name&ads.v4=WCIV+Charleston+SC&ads.n21=content_custom_1_param&ads.v21=57A26E48-B4A8-49C9-A9A7-FFFADE73E09A&ads.n22=device_type&ads.v22=&ads.n23=channel_id&ads.v23=57A26E48-B4A8-49C9-A9A7-FFFADE73E09A&ads.n24=channel_rating&ads.v24=TV-PG&ads.n25=content_producer_name&ads.v25=Sinclair+Television+Group+INC&ads.n26=app_bundle&ads.v26=web.localnow&ads.n27=channel_company_id&ads.v27=AMDP500539&ads.n29=us_privacy&ads.v29=&ads.n30=app_store_url&ads.v30=&ads.n31=channel_language&ads.v31=en&ads.n32=ua&ads.v32=Mozilla%2F5.0&ads.n33=channel_ext_id&ads.v33=&ads.n34=w&ads.v34=1920&ads.n35=h&ads.v35=1080&ads.n36=dnt&ads.v36=&ads.n37=ifa_type&ads.v37=&ads.n39=gpp&ads.v39=&ads.n40=network_name&ads.v40=wciv-charleston-sc&ads.n41=channel_name&ads.v41=WCIV+Charleston+SC&ads.n42=channel_corp&ads.v42=Sinclair+Television+Group+INC&ads.n43=pos&ads.v43=midroll&ads.n44=device_make&ads.v44=&ads.n45=content_livestream&ads.v45=1&ads.n46=content_type&ads.v46=channel&ads.n47=content_provider&ads.v47=wciv-charleston-sc&ads.n48=gpp_sid&ads.v48=&ads.n49=content_custom_3_param&ads.v49=channel&ads.n50=cust_devicename&ads.v50=desktop_web&ads.n51=app_version&ads.v51=0.0.0&ads.n52=content_custom_2_param&ads.v52=AMDB013465&ads.n53=channel_title&ads.v53=WCIV+Charleston+SC&ads.n54=channel_genre&ads.v54=News&ads.n55=app_name&ads.v55=&ads.n56=channel_brand_id&ads.v56=AMDB013465&ads.n57=device_model&ads.v57=&ads.n58=url&ads.v58=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fwciv-charleston-sc",
+      "sources": [
+        "https://data-store-trans-cdn.api.cms.amdvids.com/video/play/57A26E48-B4A8-49C9-A9A7-FFFADE73E09A/1920/1080"
+      ],
+      "refresh": {
+        "provider": "localnow",
+        "channel_id": "57A26E48-B4A8-49C9-A9A7-FFFADE73E09A"
+      }
+    },
+    {
+      "section": "LocalNow",
+      "name": "WPDE ABC 15 News Myrtle Beach SC",
+      "tvg_id": "LN_7439B766-5F61-43D6-A61B-D58FEF6824FD",
+      "url": "https://s8host5.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config10/playlist.m3u8?ads.cdnhost=s8host5.localnow.api.cms.amdvids.com&ads.playbackid=7439B766-5F61-43D6-A61B-D58FEF6824FD&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=7439B766-5F61-43D6-A61B-D58FEF6824FD&ads.n4=content_name&ads.v4=WPDE+Myrtle+Beach+SC&ads.n21=pos&ads.v21=midroll&ads.n22=cust_devicename&ads.v22=desktop_web&ads.n23=device_model&ads.v23=&ads.n24=content_custom_1_param&ads.v24=7439B766-5F61-43D6-A61B-D58FEF6824FD&ads.n25=channel_title&ads.v25=WPDE+Myrtle+Beach+SC&ads.n26=channel_corp&ads.v26=Sinclair+Television+Group+INC&ads.n27=network_name&ads.v27=wpde-myrtle-beach&ads.n28=w&ads.v28=1920&ads.n29=content_custom_3_param&ads.v29=channel&ads.n30=gpp&ads.v30=&ads.n31=channel_language&ads.v31=en&ads.n32=content_type&ads.v32=channel&ads.n33=channel_company_id&ads.v33=AMDP500539&ads.n34=channel_name&ads.v34=WPDE+Myrtle+Beach+SC&ads.n35=h&ads.v35=1080&ads.n36=app_name&ads.v36=&ads.n37=app_version&ads.v37=0.0.0&ads.n38=content_provider&ads.v38=wpde-myrtle-beach&ads.n39=app_store_url&ads.v39=&ads.n40=channel_id&ads.v40=7439B766-5F61-43D6-A61B-D58FEF6824FD&ads.n41=gpp_sid&ads.v41=&ads.n43=content_livestream&ads.v43=1&ads.n44=channel_genre&ads.v44=News&ads.n45=device_type&ads.v45=&ads.n46=ifa_type&ads.v46=&ads.n48=device_make&ads.v48=&ads.n49=app_bundle&ads.v49=web.localnow&ads.n50=ua&ads.v50=Mozilla%2F5.0&ads.n51=channel_ext_id&ads.v51=&ads.n52=channel_rating&ads.v52=TV-PG&ads.n53=us_privacy&ads.v53=&ads.n54=url&ads.v54=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fwpde-myrtle-beach-sc&ads.n55=content_producer_name&ads.v55=Sinclair+Television+Group+INC&ads.n56=channel_brand_id&ads.v56=AMDB013468&ads.n57=dnt&ads.v57=&ads.n58=content_custom_2_param&ads.v58=AMDB013468",
+      "sources": [
+        "https://data-store-trans-cdn.api.cms.amdvids.com/video/play/7439B766-5F61-43D6-A61B-D58FEF6824FD/1920/1080"
+      ],
+      "refresh": {
+        "provider": "localnow",
+        "channel_id": "7439B766-5F61-43D6-A61B-D58FEF6824FD"
+      }
+    },
+    {
+      "section": "LocalNow",
+      "name": "WSBT 22 News South Bend IN",
+      "tvg_id": "LN_F296A674-2D17-4F2F-ADC6-D4C28BA14225",
+      "url": "https://s8host5.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config10/playlist.m3u8?ads.cdnhost=s8host5.localnow.api.cms.amdvids.com&ads.playbackid=F296A674-2D17-4F2F-ADC6-D4C28BA14225&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=F296A674-2D17-4F2F-ADC6-D4C28BA14225&ads.n4=content_name&ads.v4=WSBT+South+Bend+IN&ads.n21=cust_devicename&ads.v21=desktop_web&ads.n23=content_livestream&ads.v23=1&ads.n24=app_name&ads.v24=&ads.n25=channel_language&ads.v25=en&ads.n26=gpp&ads.v26=&ads.n27=channel_genre&ads.v27=News&ads.n28=channel_corp&ads.v28=Sinclair+Television+Group+INC&ads.n29=dnt&ads.v29=&ads.n30=gpp_sid&ads.v30=&ads.n31=ua&ads.v31=Mozilla%2F5.0&ads.n32=device_type&ads.v32=&ads.n33=pos&ads.v33=midroll&ads.n34=us_privacy&ads.v34=&ads.n35=channel_brand_id&ads.v35=AMDB013467&ads.n36=app_store_url&ads.v36=&ads.n38=channel_ext_id&ads.v38=&ads.n39=content_provider&ads.v39=wsbt-south-bend&ads.n40=content_type&ads.v40=channel&ads.n41=w&ads.v41=1920&ads.n42=device_model&ads.v42=&ads.n43=network_name&ads.v43=wsbt-south-bend&ads.n44=device_make&ads.v44=&ads.n45=channel_title&ads.v45=WSBT+South+Bend+IN&ads.n46=channel_rating&ads.v46=TV-PG&ads.n47=url&ads.v47=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fwsbt-south-bend-in&ads.n48=content_custom_2_param&ads.v48=AMDB013467&ads.n49=channel_company_id&ads.v49=AMDP500539&ads.n50=content_custom_3_param&ads.v50=channel&ads.n51=h&ads.v51=1080&ads.n52=app_version&ads.v52=0.0.0&ads.n53=content_custom_1_param&ads.v53=F296A674-2D17-4F2F-ADC6-D4C28BA14225&ads.n54=content_producer_name&ads.v54=Sinclair+Television+Group+INC&ads.n55=channel_id&ads.v55=F296A674-2D17-4F2F-ADC6-D4C28BA14225&ads.n56=app_bundle&ads.v56=web.localnow&ads.n57=channel_name&ads.v57=WSBT+South+Bend+IN&ads.n58=ifa_type&ads.v58=",
+      "sources": [
+        "https://data-store-trans-cdn.api.cms.amdvids.com/video/play/F296A674-2D17-4F2F-ADC6-D4C28BA14225/1920/1080"
+      ],
+      "refresh": {
+        "provider": "localnow",
+        "channel_id": "F296A674-2D17-4F2F-ADC6-D4C28BA14225"
+      }
+    },
+    {
+      "section": "LocalNow",
+      "name": "WJAC NBC 6 News Johnstown PA",
+      "tvg_id": "LN_F1235AF3-5ACC-4342-BE55-942317ACAF43",
+      "url": "https://s8host5.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config11/playlist.m3u8?ads.cdnhost=s8host5.localnow.api.cms.amdvids.com&ads.playbackid=F1235AF3-5ACC-4342-BE55-942317ACAF43&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=F1235AF3-5ACC-4342-BE55-942317ACAF43&ads.n4=content_name&ads.v4=WJAC+Johnstown+PA&ads.n21=url&ads.v21=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fwjac-johnstown-pa&ads.n22=device_model&ads.v22=&ads.n23=content_custom_1_param&ads.v23=F1235AF3-5ACC-4342-BE55-942317ACAF43&ads.n25=channel_ext_id&ads.v25=&ads.n26=content_provider&ads.v26=wjac-johnstown&ads.n27=w&ads.v27=1920&ads.n28=app_name&ads.v28=&ads.n29=channel_id&ads.v29=F1235AF3-5ACC-4342-BE55-942317ACAF43&ads.n30=network_name&ads.v30=wjac-johnstown&ads.n31=channel_brand_id&ads.v31=AMDB013469&ads.n32=pos&ads.v32=midroll&ads.n33=app_version&ads.v33=0.0.0&ads.n34=content_livestream&ads.v34=1&ads.n35=cust_devicename&ads.v35=desktop_web&ads.n36=channel_language&ads.v36=en&ads.n37=channel_company_id&ads.v37=AMDP500539&ads.n39=us_privacy&ads.v39=&ads.n40=content_producer_name&ads.v40=Sinclair+Television+Group+INC&ads.n41=gpp&ads.v41=&ads.n42=device_make&ads.v42=&ads.n43=content_custom_2_param&ads.v43=AMDB013469&ads.n44=dnt&ads.v44=&ads.n45=content_custom_3_param&ads.v45=channel&ads.n46=h&ads.v46=1080&ads.n47=channel_rating&ads.v47=TV-PG&ads.n48=gpp_sid&ads.v48=&ads.n49=channel_title&ads.v49=WJAC+Johnstown+PA&ads.n50=ua&ads.v50=Mozilla%2F5.0&ads.n51=ifa_type&ads.v51=&ads.n52=channel_corp&ads.v52=Sinclair+Television+Group+INC&ads.n53=content_type&ads.v53=channel&ads.n54=channel_name&ads.v54=WJAC+Johnstown+PA&ads.n55=app_bundle&ads.v55=web.localnow&ads.n56=channel_genre&ads.v56=News&ads.n57=device_type&ads.v57=&ads.n58=app_store_url&ads.v58=",
+      "sources": [
+        "https://data-store-trans-cdn.api.cms.amdvids.com/video/play/F1235AF3-5ACC-4342-BE55-942317ACAF43/1920/1080"
+      ],
+      "refresh": {
+        "provider": "localnow",
+        "channel_id": "F1235AF3-5ACC-4342-BE55-942317ACAF43"
+      }
+    },
+    {
+      "section": "LocalNow",
+      "name": "WTHI (CBS) News 10 Terre Haute IN",
+      "tvg_id": "LN_1ABBF41B-6EAA-42B6-BA65-F6F251CBB6F1",
+      "url": "https://s1host5.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config2/wthi-xos1-input-1/wthi-xos1-input-1.isml/index.m3u8?ads.cdnhost=s1host5.localnow.api.cms.amdvids.com&ads.playbackid=1ABBF41B-6EAA-42B6-BA65-F6F251CBB6F1&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=1ABBF41B-6EAA-42B6-BA65-F6F251CBB6F1&ads.n4=content_name&ads.v4=WTHI+Terre+Haute+IN&ads.n21=url&ads.v21=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fepg-wthi-in&ads.n22=channel_brand_id&ads.v22=AMDB013855&ads.n23=channel_corp&ads.v23=Gray+Local+Media&ads.n24=content_custom_1_param&ads.v24=1ABBF41B-6EAA-42B6-BA65-F6F251CBB6F1&ads.n25=content_type&ads.v25=channel&ads.n26=app_name&ads.v26=&ads.n27=channel_rating&ads.v27=TV-PG&ads.n28=device_make&ads.v28=&ads.n29=channel_language&ads.v29=en&ads.n30=device_type&ads.v30=&ads.n31=app_version&ads.v31=0.0.0&ads.n32=channel_name&ads.v32=WTHI+Terre+Haute+IN&ads.n33=channel_genre&ads.v33=News&ads.n34=content_custom_2_param&ads.v34=AMDB013855&ads.n35=network_name&ads.v35=wthitv-terre-haute-in&ads.n37=content_producer_name&ads.v37=Gray+Local+Media&ads.n38=cust_devicename&ads.v38=desktop_web&ads.n39=device_model&ads.v39=&ads.n40=gpp&ads.v40=&ads.n41=ifa_type&ads.v41=&ads.n42=channel_title&ads.v42=WTHI+Terre+Haute+IN&ads.n43=w&ads.v43=1920&ads.n44=content_livestream&ads.v44=1&ads.n45=gpp_sid&ads.v45=&ads.n46=app_bundle&ads.v46=web.localnow&ads.n47=ua&ads.v47=Mozilla%2F5.0&ads.n48=us_privacy&ads.v48=&ads.n49=h&ads.v49=1080&ads.n51=dnt&ads.v51=&ads.n52=content_provider&ads.v52=wthitv-terre-haute-in&ads.n53=channel_company_id&ads.v53=AMDP500580&ads.n54=app_store_url&ads.v54=&ads.n55=channel_ext_id&ads.v55=623e80026b79ce47e15c66b5&ads.n56=channel_id&ads.v56=1ABBF41B-6EAA-42B6-BA65-F6F251CBB6F1&ads.n57=content_custom_3_param&ads.v57=channel&ads.n58=pos&ads.v58=midroll",
+      "sources": [
+        "https://data-store-trans-cdn.api.cms.amdvids.com/video/play/1ABBF41B-6EAA-42B6-BA65-F6F251CBB6F1/1920/1080"
+      ],
+      "refresh": {
+        "provider": "localnow",
+        "channel_id": "1ABBF41B-6EAA-42B6-BA65-F6F251CBB6F1"
+      }
+    },
+    {
+      "section": "LocalNow",
+      "name": "WTOV NBC 9 News Steubenville OH",
+      "tvg_id": "LN_14A595B3-D7FA-4A27-B7E0-913AF096BB10",
+      "url": "https://s8host4.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config10/playlist.m3u8?ads.cdnhost=s8host4.localnow.api.cms.amdvids.com&ads.playbackid=14A595B3-D7FA-4A27-B7E0-913AF096BB10&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=14A595B3-D7FA-4A27-B7E0-913AF096BB10&ads.n4=content_name&ads.v4=WTOV+Steubenville+OH&ads.n21=device_make&ads.v21=&ads.n22=app_bundle&ads.v22=web.localnow&ads.n23=channel_name&ads.v23=WTOV+Steubenville+OH&ads.n24=content_custom_2_param&ads.v24=AMDB013470&ads.n25=app_store_url&ads.v25=&ads.n26=network_name&ads.v26=wtov-steubenville&ads.n27=ua&ads.v27=Mozilla%2F5.0&ads.n28=device_model&ads.v28=&ads.n29=ifa_type&ads.v29=&ads.n30=channel_rating&ads.v30=TV-PG&ads.n31=content_type&ads.v31=channel&ads.n32=channel_genre&ads.v32=News&ads.n33=content_livestream&ads.v33=1&ads.n34=h&ads.v34=1080&ads.n35=dnt&ads.v35=&ads.n36=content_provider&ads.v36=wtov-steubenville&ads.n38=pos&ads.v38=midroll&ads.n39=content_producer_name&ads.v39=Sinclair+Television+Group+INC&ads.n40=w&ads.v40=1920&ads.n41=channel_language&ads.v41=en&ads.n42=us_privacy&ads.v42=&ads.n43=gpp&ads.v43=&ads.n44=url&ads.v44=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fwtov-steubenville-oh&ads.n45=channel_title&ads.v45=WTOV+Steubenville+OH&ads.n46=channel_id&ads.v46=14A595B3-D7FA-4A27-B7E0-913AF096BB10&ads.n47=app_version&ads.v47=0.0.0&ads.n48=content_custom_1_param&ads.v48=14A595B3-D7FA-4A27-B7E0-913AF096BB10&ads.n49=content_custom_3_param&ads.v49=channel&ads.n50=channel_company_id&ads.v50=AMDP500539&ads.n51=channel_brand_id&ads.v51=AMDB013470&ads.n52=channel_corp&ads.v52=Sinclair+Television+Group+INC&ads.n53=app_name&ads.v53=&ads.n54=cust_devicename&ads.v54=desktop_web&ads.n56=gpp_sid&ads.v56=&ads.n57=channel_ext_id&ads.v57=&ads.n58=device_type&ads.v58=",
+      "sources": [
+        "https://data-store-trans-cdn.api.cms.amdvids.com/video/play/14A595B3-D7FA-4A27-B7E0-913AF096BB10/1920/1080"
+      ],
+      "refresh": {
+        "provider": "localnow",
+        "channel_id": "14A595B3-D7FA-4A27-B7E0-913AF096BB10"
+      }
+    },
+    {
+      "section": "LocalNow",
+      "name": "WLFI (CBS) News 16 Lafayette IN",
+      "tvg_id": "LN_DEFF5545-FEF8-42DE-AF39-9F7C6C761642",
+      "url": "https://s3host1.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config3/wlfi-xos1-input-1/wlfi-xos1-input-1.isml/index.m3u8?ads.cdnhost=s3host1.localnow.api.cms.amdvids.com&ads.playbackid=DEFF5545-FEF8-42DE-AF39-9F7C6C761642&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=DEFF5545-FEF8-42DE-AF39-9F7C6C761642&ads.n4=content_name&ads.v4=WLFI+Lafayette+IN&ads.n21=app_name&ads.v21=&ads.n23=channel_ext_id&ads.v23=623e6edd29231a43b6506da3&ads.n24=content_type&ads.v24=channel&ads.n25=channel_corp&ads.v25=Gray+Local+Media&ads.n26=gpp_sid&ads.v26=&ads.n27=content_producer_name&ads.v27=Gray+Local+Media&ads.n28=channel_brand_id&ads.v28=AMDB013856&ads.n29=device_type&ads.v29=&ads.n30=ifa_type&ads.v30=&ads.n31=pos&ads.v31=midroll&ads.n32=app_version&ads.v32=0.0.0&ads.n33=channel_language&ads.v33=en&ads.n34=w&ads.v34=1920&ads.n35=content_provider&ads.v35=wlfitv-lafayette-in&ads.n36=device_model&ads.v36=&ads.n37=content_livestream&ads.v37=1&ads.n38=network_name&ads.v38=wlfitv-lafayette-in&ads.n39=channel_rating&ads.v39=TV-PG&ads.n40=content_custom_3_param&ads.v40=channel&ads.n41=url&ads.v41=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fepg-wlfi-lafayette-in&ads.n42=us_privacy&ads.v42=&ads.n43=h&ads.v43=1080&ads.n44=device_make&ads.v44=&ads.n45=content_custom_2_param&ads.v45=AMDB013856&ads.n46=channel_genre&ads.v46=News&ads.n47=channel_title&ads.v47=WLFI+Lafayette+IN&ads.n48=gpp&ads.v48=&ads.n49=channel_name&ads.v49=WLFI+Lafayette+IN&ads.n50=app_store_url&ads.v50=&ads.n51=channel_id&ads.v51=DEFF5545-FEF8-42DE-AF39-9F7C6C761642&ads.n52=dnt&ads.v52=&ads.n53=ua&ads.v53=Mozilla%2F5.0&ads.n54=content_custom_1_param&ads.v54=DEFF5545-FEF8-42DE-AF39-9F7C6C761642&ads.n55=cust_devicename&ads.v55=desktop_web&ads.n57=channel_company_id&ads.v57=AMDP500580&ads.n58=app_bundle&ads.v58=web.localnow",
+      "sources": [
+        "https://data-store-trans-cdn.api.cms.amdvids.com/video/play/DEFF5545-FEF8-42DE-AF39-9F7C6C761642/1920/1080"
+      ],
+      "refresh": {
+        "provider": "localnow",
+        "channel_id": "DEFF5545-FEF8-42DE-AF39-9F7C6C761642"
+      }
+    },
+    {
+      "section": "LocalNow",
+      "name": "WOAI NBC News Channel 4 San Antonio TX",
+      "tvg_id": "LN_5EE90F1D-1088-4615-8C75-D779961CA771",
+      "url": "https://s9host1.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config11/playlist.m3u8?ads.cdnhost=s9host1.localnow.api.cms.amdvids.com&ads.playbackid=5EE90F1D-1088-4615-8C75-D779961CA771&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=5EE90F1D-1088-4615-8C75-D779961CA771&ads.n4=content_name&ads.v4=WOAI+San+Antonio+TX&ads.n21=channel_id&ads.v21=5EE90F1D-1088-4615-8C75-D779961CA771&ads.n22=app_bundle&ads.v22=web.localnow&ads.n23=w&ads.v23=1920&ads.n24=cust_devicename&ads.v24=desktop_web&ads.n25=channel_genre&ads.v25=News&ads.n26=content_custom_2_param&ads.v26=AMDB013451&ads.n27=device_type&ads.v27=&ads.n28=channel_corp&ads.v28=Sinclair+Television+Group+INC&ads.n29=url&ads.v29=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fwoai-san-antonio-tx&ads.n30=h&ads.v30=1080&ads.n31=ifa_type&ads.v31=&ads.n32=network_name&ads.v32=woai-san-antonio&ads.n33=channel_rating&ads.v33=TV-PG&ads.n34=app_store_url&ads.v34=&ads.n36=ua&ads.v36=Mozilla%2F5.0&ads.n37=channel_name&ads.v37=WOAI+San+Antonio+TX&ads.n38=pos&ads.v38=midroll&ads.n39=device_make&ads.v39=&ads.n40=content_type&ads.v40=channel&ads.n42=channel_title&ads.v42=WOAI+San+Antonio+TX&ads.n43=content_producer_name&ads.v43=Sinclair+Television+Group+INC&ads.n44=content_provider&ads.v44=woai-san-antonio&ads.n45=device_model&ads.v45=&ads.n46=app_version&ads.v46=0.0.0&ads.n47=channel_brand_id&ads.v47=AMDB013451&ads.n48=content_livestream&ads.v48=1&ads.n49=content_custom_1_param&ads.v49=5EE90F1D-1088-4615-8C75-D779961CA771&ads.n50=us_privacy&ads.v50=&ads.n51=channel_ext_id&ads.v51=&ads.n52=app_name&ads.v52=&ads.n53=gpp_sid&ads.v53=&ads.n54=channel_language&ads.v54=en&ads.n55=channel_company_id&ads.v55=AMDP500539&ads.n56=content_custom_3_param&ads.v56=channel&ads.n57=gpp&ads.v57=&ads.n58=dnt&ads.v58=",
+      "sources": [
+        "https://data-store-trans-cdn.api.cms.amdvids.com/video/play/5EE90F1D-1088-4615-8C75-D779961CA771/1920/1080"
+      ],
+      "refresh": {
+        "provider": "localnow",
+        "channel_id": "5EE90F1D-1088-4615-8C75-D779961CA771"
+      }
+    },
+    {
+      "section": "LocalNow",
+      "name": "KEYE CBS Austin News Austin TX",
+      "tvg_id": "LN_C8F7A8F5-718F-47E7-B166-F6EDAE2BD7DE",
+      "url": "https://s9host1.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config11/playlist.m3u8?ads.cdnhost=s9host1.localnow.api.cms.amdvids.com&ads.playbackid=C8F7A8F5-718F-47E7-B166-F6EDAE2BD7DE&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=C8F7A8F5-718F-47E7-B166-F6EDAE2BD7DE&ads.n4=content_name&ads.v4=KEYE+Austin+TX&ads.n21=channel_corp&ads.v21=Sinclair+Television+Group+INC&ads.n22=content_custom_3_param&ads.v22=channel&ads.n23=channel_company_id&ads.v23=AMDP500539&ads.n24=w&ads.v24=1920&ads.n25=ua&ads.v25=Mozilla%2F5.0&ads.n26=channel_title&ads.v26=KEYE+Austin+TX&ads.n27=network_name&ads.v27=keye-austin&ads.n28=device_type&ads.v28=&ads.n29=content_provider&ads.v29=keye-austin&ads.n30=channel_brand_id&ads.v30=AMDB013453&ads.n32=us_privacy&ads.v32=&ads.n33=device_model&ads.v33=&ads.n34=ifa_type&ads.v34=&ads.n35=content_type&ads.v35=channel&ads.n36=channel_name&ads.v36=KEYE+Austin+TX&ads.n37=device_make&ads.v37=&ads.n38=app_store_url&ads.v38=&ads.n39=channel_genre&ads.v39=News&ads.n40=dnt&ads.v40=&ads.n41=pos&ads.v41=midroll&ads.n42=channel_ext_id&ads.v42=&ads.n43=channel_language&ads.v43=en&ads.n44=content_custom_2_param&ads.v44=AMDB013453&ads.n45=gpp&ads.v45=&ads.n46=app_bundle&ads.v46=web.localnow&ads.n47=app_name&ads.v47=&ads.n48=url&ads.v48=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fkeye-austin-tx&ads.n49=h&ads.v49=1080&ads.n50=channel_id&ads.v50=C8F7A8F5-718F-47E7-B166-F6EDAE2BD7DE&ads.n51=content_custom_1_param&ads.v51=C8F7A8F5-718F-47E7-B166-F6EDAE2BD7DE&ads.n52=content_producer_name&ads.v52=Sinclair+Television+Group+INC&ads.n54=channel_rating&ads.v54=TV-PG&ads.n55=cust_devicename&ads.v55=desktop_web&ads.n56=gpp_sid&ads.v56=&ads.n57=app_version&ads.v57=0.0.0&ads.n58=content_livestream&ads.v58=1",
+      "sources": [
+        "https://data-store-trans-cdn.api.cms.amdvids.com/video/play/C8F7A8F5-718F-47E7-B166-F6EDAE2BD7DE/1920/1080"
+      ],
+      "refresh": {
+        "provider": "localnow",
+        "channel_id": "C8F7A8F5-718F-47E7-B166-F6EDAE2BD7DE"
+      }
+    },
+    {
+      "section": "LocalNow",
+      "name": "KOKH FOX 25 News Oklahoma City OK",
+      "tvg_id": "LN_974881DF-FC85-4E54-A62C-01C3B96BFF02",
+      "url": "https://s9host1.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config11/playlist.m3u8?ads.cdnhost=s9host1.localnow.api.cms.amdvids.com&ads.playbackid=974881DF-FC85-4E54-A62C-01C3B96BFF02&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=974881DF-FC85-4E54-A62C-01C3B96BFF02&ads.n4=content_name&ads.v4=KOKH+Oklahoma+City+OK&ads.n21=url&ads.v21=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fkokh-oklahoma-city-ok&ads.n22=content_custom_1_param&ads.v22=974881DF-FC85-4E54-A62C-01C3B96BFF02&ads.n23=channel_company_id&ads.v23=AMDP500539&ads.n24=app_store_url&ads.v24=&ads.n25=gpp&ads.v25=&ads.n26=channel_title&ads.v26=KOKH+Oklahoma+City+OK&ads.n27=content_custom_3_param&ads.v27=channel&ads.n28=device_make&ads.v28=&ads.n29=app_version&ads.v29=0.0.0&ads.n30=gpp_sid&ads.v30=&ads.n31=h&ads.v31=1080&ads.n32=network_name&ads.v32=kokh-oklahoma-city&ads.n33=pos&ads.v33=midroll&ads.n34=device_model&ads.v34=&ads.n35=cust_devicename&ads.v35=desktop_web&ads.n36=content_provider&ads.v36=kokh-oklahoma-city&ads.n37=channel_id&ads.v37=974881DF-FC85-4E54-A62C-01C3B96BFF02&ads.n38=app_bundle&ads.v38=web.localnow&ads.n39=ifa_type&ads.v39=&ads.n40=channel_rating&ads.v40=TV-PG&ads.n41=content_custom_2_param&ads.v41=AMDB013460&ads.n42=channel_corp&ads.v42=Sinclair+Television+Group+INC&ads.n44=channel_language&ads.v44=en&ads.n45=channel_genre&ads.v45=News&ads.n46=dnt&ads.v46=&ads.n47=w&ads.v47=1920&ads.n49=content_type&ads.v49=channel&ads.n50=content_livestream&ads.v50=1&ads.n51=app_name&ads.v51=&ads.n52=channel_ext_id&ads.v52=&ads.n53=content_producer_name&ads.v53=Sinclair+Television+Group+INC&ads.n54=channel_name&ads.v54=KOKH+Oklahoma+City+OK&ads.n55=channel_brand_id&ads.v55=AMDB013460&ads.n56=us_privacy&ads.v56=&ads.n57=device_type&ads.v57=&ads.n58=ua&ads.v58=Mozilla%2F5.0",
+      "sources": [
+        "https://data-store-trans-cdn.api.cms.amdvids.com/video/play/974881DF-FC85-4E54-A62C-01C3B96BFF02/1920/1080"
+      ],
+      "refresh": {
+        "provider": "localnow",
+        "channel_id": "974881DF-FC85-4E54-A62C-01C3B96BFF02"
+      }
+    },
+    {
+      "section": "LocalNow",
+      "name": "WLUK FOX11 News Green Bay WI",
+      "tvg_id": "LN_EE21732A-1C22-425B-86B1-78DDEE5AB84F",
+      "url": "https://s8host5.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config11/playlist.m3u8?ads.cdnhost=s8host5.localnow.api.cms.amdvids.com&ads.playbackid=EE21732A-1C22-425B-86B1-78DDEE5AB84F&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=EE21732A-1C22-425B-86B1-78DDEE5AB84F&ads.n4=content_name&ads.v4=WLUK+Green+Bay+WI&ads.n21=us_privacy&ads.v21=&ads.n22=app_store_url&ads.v22=&ads.n23=channel_genre&ads.v23=News&ads.n24=channel_corp&ads.v24=Sinclair+Television+Group+INC&ads.n25=app_name&ads.v25=&ads.n26=content_type&ads.v26=channel&ads.n27=h&ads.v27=1080&ads.n28=content_custom_1_param&ads.v28=EE21732A-1C22-425B-86B1-78DDEE5AB84F&ads.n29=content_provider&ads.v29=wluk-green-bay&ads.n31=content_livestream&ads.v31=1&ads.n32=channel_id&ads.v32=EE21732A-1C22-425B-86B1-78DDEE5AB84F&ads.n33=channel_company_id&ads.v33=AMDP500539&ads.n34=channel_brand_id&ads.v34=AMDB013464&ads.n35=cust_devicename&ads.v35=desktop_web&ads.n36=pos&ads.v36=midroll&ads.n37=content_custom_3_param&ads.v37=channel&ads.n38=dnt&ads.v38=&ads.n39=device_make&ads.v39=&ads.n40=channel_name&ads.v40=WLUK+Green+Bay+WI&ads.n41=content_producer_name&ads.v41=Sinclair+Television+Group+INC&ads.n42=w&ads.v42=1920&ads.n43=device_model&ads.v43=&ads.n44=url&ads.v44=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fwluk-green-bay-wi&ads.n45=content_custom_2_param&ads.v45=AMDB013464&ads.n47=network_name&ads.v47=wluk-green-bay&ads.n48=gpp&ads.v48=&ads.n49=channel_ext_id&ads.v49=&ads.n50=ua&ads.v50=Mozilla%2F5.0&ads.n51=channel_rating&ads.v51=TV-PG&ads.n52=ifa_type&ads.v52=&ads.n53=channel_language&ads.v53=en&ads.n54=app_version&ads.v54=0.0.0&ads.n55=device_type&ads.v55=&ads.n56=gpp_sid&ads.v56=&ads.n57=app_bundle&ads.v57=web.localnow&ads.n58=channel_title&ads.v58=WLUK+Green+Bay+WI",
+      "sources": [
+        "https://data-store-trans-cdn.api.cms.amdvids.com/video/play/EE21732A-1C22-425B-86B1-78DDEE5AB84F/1920/1080"
+      ],
+      "refresh": {
+        "provider": "localnow",
+        "channel_id": "EE21732A-1C22-425B-86B1-78DDEE5AB84F"
+      }
+    },
+    {
+      "section": "LocalNow",
+      "name": "WAND Decatur IL",
+      "tvg_id": "LN_6D934AE3-34D2-40A3-86DD-B5A36A6EB0E3",
+      "url": "https://s6host3.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config8/wand-xos1-input-1/wand-xos1-input-1.isml/index.m3u8?ads.cdnhost=s6host3.localnow.api.cms.amdvids.com&ads.playbackid=6D934AE3-34D2-40A3-86DD-B5A36A6EB0E3&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=6D934AE3-34D2-40A3-86DD-B5A36A6EB0E3&ads.n4=content_name&ads.v4=WAND+Decatur%2C+IL&ads.n21=pos&ads.v21=midroll&ads.n22=channel_company_id&ads.v22=AMDP500580&ads.n23=device_type&ads.v23=&ads.n24=device_model&ads.v24=&ads.n25=content_custom_3_param&ads.v25=channel&ads.n26=channel_name&ads.v26=WAND+Decatur%2C+IL&ads.n27=content_type&ads.v27=channel&ads.n28=channel_corp&ads.v28=Gray+Local+Media&ads.n29=h&ads.v29=1080&ads.n30=app_bundle&ads.v30=web.localnow&ads.n31=channel_title&ads.v31=WAND+Decatur%2C+IL&ads.n32=content_custom_2_param&ads.v32=AMDB013848&ads.n33=channel_ext_id&ads.v33=642d8379f13da32b00016ae4&ads.n34=channel_brand_id&ads.v34=AMDB013848&ads.n35=gpp&ads.v35=&ads.n36=content_producer_name&ads.v36=Gray+Local+Media&ads.n37=url&ads.v37=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fepg-wand-decatur-il&ads.n38=channel_genre&ads.v38=News&ads.n39=content_custom_1_param&ads.v39=6D934AE3-34D2-40A3-86DD-B5A36A6EB0E3&ads.n40=app_version&ads.v40=0.0.0&ads.n41=channel_language&ads.v41=en&ads.n42=us_privacy&ads.v42=&ads.n43=dnt&ads.v43=&ads.n44=app_store_url&ads.v44=&ads.n45=channel_rating&ads.v45=TV-PG&ads.n46=network_name&ads.v46=wand&ads.n47=cust_devicename&ads.v47=desktop_web&ads.n48=content_provider&ads.v48=wand&ads.n50=ifa_type&ads.v50=&ads.n51=content_livestream&ads.v51=1&ads.n52=ua&ads.v52=Mozilla%2F5.0&ads.n53=gpp_sid&ads.v53=&ads.n54=app_name&ads.v54=&ads.n55=w&ads.v55=1920&ads.n57=device_make&ads.v57=&ads.n58=channel_id&ads.v58=6D934AE3-34D2-40A3-86DD-B5A36A6EB0E3",
+      "sources": [
+        "https://data-store-trans-cdn.api.cms.amdvids.com/video/play/6D934AE3-34D2-40A3-86DD-B5A36A6EB0E3/1920/1080"
+      ],
+      "refresh": {
+        "provider": "localnow",
+        "channel_id": "6D934AE3-34D2-40A3-86DD-B5A36A6EB0E3"
+      }
+    },
+    {
+      "section": "LocalNow",
+      "name": "KATC TV3 News Acadiana",
+      "tvg_id": "LN_1590F377-1EB1-4328-A55C-D48D5B435E99",
+      "url": "https://s4host5.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config5/katc-xos1-input-1/katc-xos1-input-1.isml/index.m3u8?ads.cdnhost=s4host5.localnow.api.cms.amdvids.com&ads.playbackid=1590F377-1EB1-4328-A55C-D48D5B435E99&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=1590F377-1EB1-4328-A55C-D48D5B435E99&ads.n4=content_name&ads.v4=KATC+Lafayette%2C+LA&ads.n21=content_custom_3_param&ads.v21=channel&ads.n22=us_privacy&ads.v22=&ads.n23=content_producer_name&ads.v23=Gray+Local+Media&ads.n24=device_make&ads.v24=&ads.n25=cust_devicename&ads.v25=desktop_web&ads.n26=channel_id&ads.v26=1590F377-1EB1-4328-A55C-D48D5B435E99&ads.n27=channel_title&ads.v27=KATC+Lafayette%2C+LA&ads.n28=content_livestream&ads.v28=1&ads.n29=channel_name&ads.v29=KATC+Lafayette%2C+LA&ads.n30=content_custom_2_param&ads.v30=AMDB013852&ads.n31=h&ads.v31=1080&ads.n32=app_store_url&ads.v32=&ads.n33=channel_ext_id&ads.v33=626af6e26320e63b8f3ca90b&ads.n34=channel_genre&ads.v34=News&ads.n35=ifa_type&ads.v35=&ads.n36=pos&ads.v36=midroll&ads.n37=channel_rating&ads.v37=TV-PG&ads.n38=content_custom_1_param&ads.v38=1590F377-1EB1-4328-A55C-D48D5B435E99&ads.n39=gpp_sid&ads.v39=&ads.n40=dnt&ads.v40=&ads.n41=network_name&ads.v41=katc&ads.n42=channel_brand_id&ads.v42=AMDB013852&ads.n43=w&ads.v43=1920&ads.n44=ua&ads.v44=Mozilla%2F5.0&ads.n45=content_provider&ads.v45=katc&ads.n46=app_bundle&ads.v46=web.localnow&ads.n47=app_version&ads.v47=0.0.0&ads.n49=device_model&ads.v49=&ads.n50=gpp&ads.v50=&ads.n51=channel_corp&ads.v51=Gray+Local+Media&ads.n52=channel_company_id&ads.v52=AMDP500580&ads.n53=url&ads.v53=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fepg-katc&ads.n54=device_type&ads.v54=&ads.n55=channel_language&ads.v55=en&ads.n57=content_type&ads.v57=channel&ads.n58=app_name&ads.v58=",
+      "sources": [
+        "https://data-store-trans-cdn.api.cms.amdvids.com/video/play/1590F377-1EB1-4328-A55C-D48D5B435E99/1920/1080"
+      ],
+      "refresh": {
+        "provider": "localnow",
+        "channel_id": "1590F377-1EB1-4328-A55C-D48D5B435E99"
+      }
+    },
+    {
+      "section": "LocalNow",
+      "name": "WTVA (NBC) News 9 Tupelo MS",
+      "tvg_id": "LN_9AE87B05-8AB3-469F-B624-7B4AB249C471",
+      "url": "https://s13host4.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config17/wtva-xos1-input-1/wtva-xos1-input-1.isml/index.m3u8?ads.cdnhost=s13host4.localnow.api.cms.amdvids.com&ads.playbackid=9AE87B05-8AB3-469F-B624-7B4AB249C471&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=9AE87B05-8AB3-469F-B624-7B4AB249C471&ads.n4=content_name&ads.v4=WTVA+Tupelo+MS&ads.n21=ifa_type&ads.v21=&ads.n22=gpp_sid&ads.v22=&ads.n23=device_model&ads.v23=&ads.n24=pos&ads.v24=midroll&ads.n25=channel_company_id&ads.v25=AMDP500580&ads.n26=content_livestream&ads.v26=1&ads.n27=channel_title&ads.v27=WTVA+Tupelo+MS&ads.n28=h&ads.v28=1080&ads.n29=content_producer_name&ads.v29=Gray+Local+Media&ads.n30=app_store_url&ads.v30=&ads.n31=device_make&ads.v31=&ads.n32=device_type&ads.v32=&ads.n33=channel_language&ads.v33=en&ads.n34=channel_brand_id&ads.v34=AMDB013854&ads.n35=channel_name&ads.v35=WTVA+Tupelo+MS&ads.n36=content_custom_1_param&ads.v36=9AE87B05-8AB3-469F-B624-7B4AB249C471&ads.n37=app_version&ads.v37=0.0.0&ads.n38=content_type&ads.v38=channel&ads.n39=w&ads.v39=1920&ads.n40=channel_ext_id&ads.v40=623e62bb144c6c072d6228f3&ads.n41=dnt&ads.v41=&ads.n42=channel_genre&ads.v42=News&ads.n43=content_custom_3_param&ads.v43=channel&ads.n44=cust_devicename&ads.v44=desktop_web&ads.n45=channel_corp&ads.v45=Gray+Local+Media&ads.n47=app_name&ads.v47=&ads.n49=ua&ads.v49=Mozilla%2F5.0&ads.n50=url&ads.v50=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fepg-wtva-tupelo-columbus-ms&ads.n51=gpp&ads.v51=&ads.n52=channel_id&ads.v52=9AE87B05-8AB3-469F-B624-7B4AB249C471&ads.n53=network_name&ads.v53=wtvatv-tupelocolumbus-ms&ads.n54=app_bundle&ads.v54=web.localnow&ads.n55=us_privacy&ads.v55=&ads.n56=content_custom_2_param&ads.v56=AMDB013854&ads.n57=content_provider&ads.v57=wtvatv-tupelocolumbus-ms&ads.n58=channel_rating&ads.v58=TV-PG",
+      "sources": [
+        "https://data-store-trans-cdn.api.cms.amdvids.com/video/play/9AE87B05-8AB3-469F-B624-7B4AB249C471/1920/1080"
+      ],
+      "refresh": {
+        "provider": "localnow",
+        "channel_id": "9AE87B05-8AB3-469F-B624-7B4AB249C471"
+      }
+    },
+    {
+      "section": "LocalNow",
+      "name": "KUTV CBS 2 News Salt Lake City UT",
+      "tvg_id": "LN_85B45223-0F6B-4D58-8A7B-DABF6243CB77",
+      "url": "https://s9host1.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config11/playlist.m3u8?ads.cdnhost=s9host1.localnow.api.cms.amdvids.com&ads.playbackid=85B45223-0F6B-4D58-8A7B-DABF6243CB77&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=85B45223-0F6B-4D58-8A7B-DABF6243CB77&ads.n4=content_name&ads.v4=KUTV+Salt+Lake+City+UT&ads.n22=channel_rating&ads.v22=TV-PG&ads.n23=content_custom_3_param&ads.v23=channel&ads.n24=app_bundle&ads.v24=web.localnow&ads.n25=h&ads.v25=1080&ads.n26=channel_brand_id&ads.v26=AMDB013450&ads.n27=channel_title&ads.v27=KUTV+Salt+Lake+City+UT&ads.n28=content_type&ads.v28=channel&ads.n29=ifa_type&ads.v29=&ads.n30=channel_ext_id&ads.v30=&ads.n31=channel_id&ads.v31=85B45223-0F6B-4D58-8A7B-DABF6243CB77&ads.n32=content_producer_name&ads.v32=Sinclair+Television+Group+INC&ads.n33=channel_company_id&ads.v33=AMDP500539&ads.n34=gpp&ads.v34=&ads.n35=dnt&ads.v35=&ads.n36=channel_language&ads.v36=en&ads.n37=content_custom_2_param&ads.v37=AMDB013450&ads.n38=app_name&ads.v38=&ads.n39=device_model&ads.v39=&ads.n40=network_name&ads.v40=kutv-salt-lake-city&ads.n41=channel_corp&ads.v41=Sinclair+Television+Group+INC&ads.n42=content_custom_1_param&ads.v42=85B45223-0F6B-4D58-8A7B-DABF6243CB77&ads.n43=app_version&ads.v43=0.0.0&ads.n44=content_provider&ads.v44=kutv-salt-lake-city&ads.n45=cust_devicename&ads.v45=desktop_web&ads.n46=device_make&ads.v46=&ads.n47=us_privacy&ads.v47=&ads.n48=url&ads.v48=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fkutv-salt-lake-city-ut&ads.n49=channel_genre&ads.v49=News&ads.n50=gpp_sid&ads.v50=&ads.n51=w&ads.v51=1920&ads.n52=ua&ads.v52=Mozilla%2F5.0&ads.n53=channel_name&ads.v53=KUTV+Salt+Lake+City+UT&ads.n54=app_store_url&ads.v54=&ads.n55=pos&ads.v55=midroll&ads.n57=device_type&ads.v57=&ads.n58=content_livestream&ads.v58=1",
+      "sources": [
+        "https://data-store-trans-cdn.api.cms.amdvids.com/video/play/85B45223-0F6B-4D58-8A7B-DABF6243CB77/1920/1080"
+      ],
+      "refresh": {
+        "provider": "localnow",
+        "channel_id": "85B45223-0F6B-4D58-8A7B-DABF6243CB77"
+      }
+    },
+    {
+      "section": "LocalNow",
+      "name": "KDBC CBS 4 News El Paso TX",
+      "tvg_id": "LN_4ECF7166-B851-4CD5-B34D-41A61F3E0B1E",
+      "url": "https://s9host1.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config11/playlist.m3u8?ads.cdnhost=s9host1.localnow.api.cms.amdvids.com&ads.playbackid=4ECF7166-B851-4CD5-B34D-41A61F3E0B1E&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=4ECF7166-B851-4CD5-B34D-41A61F3E0B1E&ads.n4=content_name&ads.v4=KDBC+El+Paso+TX&ads.n21=content_livestream&ads.v21=1&ads.n22=content_custom_1_param&ads.v22=4ECF7166-B851-4CD5-B34D-41A61F3E0B1E&ads.n23=app_bundle&ads.v23=web.localnow&ads.n24=ua&ads.v24=Mozilla%2F5.0&ads.n25=channel_corp&ads.v25=Sinclair+Television+Group+INC&ads.n26=channel_rating&ads.v26=TV-PG&ads.n27=channel_id&ads.v27=4ECF7166-B851-4CD5-B34D-41A61F3E0B1E&ads.n28=content_custom_3_param&ads.v28=channel&ads.n30=app_version&ads.v30=0.0.0&ads.n31=channel_name&ads.v31=KDBC+El+Paso+TX&ads.n32=url&ads.v32=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fkdbc-el-paso-tx&ads.n33=device_make&ads.v33=&ads.n34=gpp&ads.v34=&ads.n35=us_privacy&ads.v35=&ads.n36=content_provider&ads.v36=kdbc-el-paso&ads.n37=pos&ads.v37=midroll&ads.n38=channel_ext_id&ads.v38=&ads.n39=channel_genre&ads.v39=News&ads.n41=channel_language&ads.v41=en&ads.n42=gpp_sid&ads.v42=&ads.n43=app_name&ads.v43=&ads.n44=channel_company_id&ads.v44=AMDP500539&ads.n45=content_type&ads.v45=channel&ads.n46=content_custom_2_param&ads.v46=AMDB013466&ads.n47=app_store_url&ads.v47=&ads.n48=content_producer_name&ads.v48=Sinclair+Television+Group+INC&ads.n49=device_type&ads.v49=&ads.n50=channel_title&ads.v50=KDBC+El+Paso+TX&ads.n51=channel_brand_id&ads.v51=AMDB013466&ads.n52=network_name&ads.v52=kdbc-el-paso&ads.n53=cust_devicename&ads.v53=desktop_web&ads.n54=ifa_type&ads.v54=&ads.n55=device_model&ads.v55=&ads.n56=w&ads.v56=1920&ads.n57=h&ads.v57=1080&ads.n58=dnt&ads.v58=",
+      "sources": [
+        "https://data-store-trans-cdn.api.cms.amdvids.com/video/play/4ECF7166-B851-4CD5-B34D-41A61F3E0B1E/1920/1080"
+      ],
+      "refresh": {
+        "provider": "localnow",
+        "channel_id": "4ECF7166-B851-4CD5-B34D-41A61F3E0B1E"
+      }
+    },
+    {
+      "section": "LocalNow",
+      "name": "KOMO 4 News Seattle WA",
+      "tvg_id": "LN_5E089950-3207-495C-90C9-4EB3251B8A12",
+      "url": "https://s9host1.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config11/playlist.m3u8?ads.cdnhost=s9host1.localnow.api.cms.amdvids.com&ads.playbackid=5E089950-3207-495C-90C9-4EB3251B8A12&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=5E089950-3207-495C-90C9-4EB3251B8A12&ads.n4=content_name&ads.v4=KOMO+Seattle+WA&ads.n21=content_provider&ads.v21=komo-seattle&ads.n22=app_bundle&ads.v22=web.localnow&ads.n23=content_custom_3_param&ads.v23=channel&ads.n24=device_type&ads.v24=&ads.n25=content_custom_2_param&ads.v25=AMDB013447&ads.n26=us_privacy&ads.v26=&ads.n27=gpp&ads.v27=&ads.n28=cust_devicename&ads.v28=desktop_web&ads.n29=ua&ads.v29=Mozilla%2F5.0&ads.n30=channel_title&ads.v30=KOMO+Seattle+WA&ads.n31=h&ads.v31=1080&ads.n32=channel_corp&ads.v32=Sinclair+Television+Group+INC&ads.n33=gpp_sid&ads.v33=&ads.n34=app_store_url&ads.v34=&ads.n35=channel_language&ads.v35=en&ads.n36=dnt&ads.v36=&ads.n37=channel_company_id&ads.v37=AMDP500539&ads.n38=pos&ads.v38=midroll&ads.n39=content_type&ads.v39=channel&ads.n40=channel_id&ads.v40=5E089950-3207-495C-90C9-4EB3251B8A12&ads.n41=content_custom_1_param&ads.v41=5E089950-3207-495C-90C9-4EB3251B8A12&ads.n42=url&ads.v42=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fkomo-seattle-wa&ads.n43=ifa_type&ads.v43=&ads.n45=channel_genre&ads.v45=News&ads.n46=w&ads.v46=1920&ads.n48=channel_ext_id&ads.v48=&ads.n49=channel_rating&ads.v49=TV-PG&ads.n50=device_make&ads.v50=&ads.n51=content_producer_name&ads.v51=Sinclair+Television+Group+INC&ads.n52=content_livestream&ads.v52=1&ads.n53=network_name&ads.v53=komo-seattle&ads.n54=channel_brand_id&ads.v54=AMDB013447&ads.n55=app_version&ads.v55=0.0.0&ads.n56=channel_name&ads.v56=KOMO+Seattle+WA&ads.n57=app_name&ads.v57=&ads.n58=device_model&ads.v58=",
+      "sources": [
+        "https://data-store-trans-cdn.api.cms.amdvids.com/video/play/5E089950-3207-495C-90C9-4EB3251B8A12/1920/1080"
+      ],
+      "refresh": {
+        "provider": "localnow",
+        "channel_id": "5E089950-3207-495C-90C9-4EB3251B8A12"
+      }
+    },
+    {
+      "section": "LocalNow",
+      "name": "KATU ABC 2 News Portland OR",
+      "tvg_id": "LN_7F46CA0E-CC6B-4E14-B4B8-3ADAAE03EB32",
+      "url": "https://s8host5.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config11/playlist.m3u8?ads.cdnhost=s8host5.localnow.api.cms.amdvids.com&ads.playbackid=7F46CA0E-CC6B-4E14-B4B8-3ADAAE03EB32&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=7F46CA0E-CC6B-4E14-B4B8-3ADAAE03EB32&ads.n4=content_name&ads.v4=KATU+Portland+OR&ads.n21=h&ads.v21=1080&ads.n22=dnt&ads.v22=&ads.n23=app_bundle&ads.v23=web.localnow&ads.n24=channel_rating&ads.v24=TV-PG&ads.n25=gpp_sid&ads.v25=&ads.n26=device_model&ads.v26=&ads.n27=channel_language&ads.v27=en&ads.n28=ifa_type&ads.v28=&ads.n29=pos&ads.v29=midroll&ads.n31=channel_id&ads.v31=7F46CA0E-CC6B-4E14-B4B8-3ADAAE03EB32&ads.n32=content_type&ads.v32=channel&ads.n33=app_version&ads.v33=0.0.0&ads.n34=channel_brand_id&ads.v34=AMDB013448&ads.n35=device_type&ads.v35=&ads.n36=content_custom_1_param&ads.v36=7F46CA0E-CC6B-4E14-B4B8-3ADAAE03EB32&ads.n37=app_name&ads.v37=&ads.n38=us_privacy&ads.v38=&ads.n39=url&ads.v39=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fkatu-portland-or&ads.n40=device_make&ads.v40=&ads.n41=cust_devicename&ads.v41=desktop_web&ads.n42=content_livestream&ads.v42=1&ads.n43=channel_corp&ads.v43=Sinclair+Television+Group+INC&ads.n44=network_name&ads.v44=katu-portland-or&ads.n46=channel_genre&ads.v46=News&ads.n47=content_provider&ads.v47=katu-portland-or&ads.n48=w&ads.v48=1920&ads.n49=content_custom_2_param&ads.v49=AMDB013448&ads.n50=content_producer_name&ads.v50=Sinclair+Television+Group+INC&ads.n51=channel_title&ads.v51=KATU+Portland+OR&ads.n52=channel_name&ads.v52=KATU+Portland+OR&ads.n53=gpp&ads.v53=&ads.n54=ua&ads.v54=Mozilla%2F5.0&ads.n55=content_custom_3_param&ads.v55=channel&ads.n56=channel_company_id&ads.v56=AMDP500539&ads.n57=app_store_url&ads.v57=&ads.n58=channel_ext_id&ads.v58=",
+      "sources": [
+        "https://data-store-trans-cdn.api.cms.amdvids.com/video/play/7F46CA0E-CC6B-4E14-B4B8-3ADAAE03EB32/1920/1080"
+      ],
+      "refresh": {
+        "provider": "localnow",
+        "channel_id": "7F46CA0E-CC6B-4E14-B4B8-3ADAAE03EB32"
+      }
+    },
+    {
+      "section": "LocalNow",
+      "name": "KSNV NBC 3 News Las Vegas NV",
+      "tvg_id": "LN_5419360E-21AC-4B71-9FD9-A35FC1FE2F28",
+      "url": "https://s9host1.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config11/playlist.m3u8?ads.cdnhost=s9host1.localnow.api.cms.amdvids.com&ads.playbackid=5419360E-21AC-4B71-9FD9-A35FC1FE2F28&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=5419360E-21AC-4B71-9FD9-A35FC1FE2F28&ads.n4=content_name&ads.v4=KSNV+Las+Vegas+NV&ads.n21=us_privacy&ads.v21=&ads.n22=content_custom_2_param&ads.v22=AMDB013457&ads.n23=w&ads.v23=1920&ads.n24=app_bundle&ads.v24=web.localnow&ads.n25=device_type&ads.v25=&ads.n26=channel_name&ads.v26=KSNV+Las+Vegas+NV&ads.n27=app_name&ads.v27=&ads.n29=content_custom_1_param&ads.v29=5419360E-21AC-4B71-9FD9-A35FC1FE2F28&ads.n30=dnt&ads.v30=&ads.n31=ifa_type&ads.v31=&ads.n32=network_name&ads.v32=ksnv-las-vegas&ads.n33=channel_rating&ads.v33=TV-PG&ads.n34=app_version&ads.v34=0.0.0&ads.n35=content_producer_name&ads.v35=Sinclair+Television+Group+INC&ads.n36=channel_brand_id&ads.v36=AMDB013457&ads.n38=url&ads.v38=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fksnv-las-vegas-nv&ads.n39=content_type&ads.v39=channel&ads.n40=channel_genre&ads.v40=News&ads.n41=app_store_url&ads.v41=&ads.n42=pos&ads.v42=midroll&ads.n43=channel_id&ads.v43=5419360E-21AC-4B71-9FD9-A35FC1FE2F28&ads.n44=content_livestream&ads.v44=1&ads.n45=channel_company_id&ads.v45=AMDP500539&ads.n46=gpp_sid&ads.v46=&ads.n47=channel_ext_id&ads.v47=&ads.n48=cust_devicename&ads.v48=desktop_web&ads.n49=gpp&ads.v49=&ads.n50=ua&ads.v50=Mozilla%2F5.0&ads.n51=channel_language&ads.v51=en&ads.n52=device_model&ads.v52=&ads.n53=channel_title&ads.v53=KSNV+Las+Vegas+NV&ads.n54=content_provider&ads.v54=ksnv-las-vegas&ads.n55=device_make&ads.v55=&ads.n56=h&ads.v56=1080&ads.n57=content_custom_3_param&ads.v57=channel&ads.n58=channel_corp&ads.v58=Sinclair+Television+Group+INC",
+      "sources": [
+        "https://data-store-trans-cdn.api.cms.amdvids.com/video/play/5419360E-21AC-4B71-9FD9-A35FC1FE2F28/1920/1080"
+      ],
+      "refresh": {
+        "provider": "localnow",
+        "channel_id": "5419360E-21AC-4B71-9FD9-A35FC1FE2F28"
+      }
+    },
+    {
+      "section": "LocalNow",
+      "name": "KMPH FOX 26 News Fresno CA",
+      "tvg_id": "LN_4CDF9FF1-C4B9-4DE1-8D35-22FFD7BEA383",
+      "url": "https://s9host1.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config11/playlist.m3u8?ads.cdnhost=s9host1.localnow.api.cms.amdvids.com&ads.playbackid=4CDF9FF1-C4B9-4DE1-8D35-22FFD7BEA383&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=4CDF9FF1-C4B9-4DE1-8D35-22FFD7BEA383&ads.n4=content_name&ads.v4=KMPH+Fresno+CA&ads.n21=gpp&ads.v21=&ads.n22=channel_rating&ads.v22=TV-PG&ads.n23=content_type&ads.v23=channel&ads.n25=content_custom_1_param&ads.v25=4CDF9FF1-C4B9-4DE1-8D35-22FFD7BEA383&ads.n26=ua&ads.v26=Mozilla%2F5.0&ads.n27=pos&ads.v27=midroll&ads.n28=channel_genre&ads.v28=News&ads.n29=dnt&ads.v29=&ads.n31=channel_ext_id&ads.v31=&ads.n32=content_livestream&ads.v32=1&ads.n33=content_provider&ads.v33=kmph-fresno&ads.n34=channel_company_id&ads.v34=AMDP500539&ads.n35=content_custom_2_param&ads.v35=AMDB013462&ads.n36=channel_corp&ads.v36=Sinclair+Television+Group+INC&ads.n37=cust_devicename&ads.v37=desktop_web&ads.n38=channel_brand_id&ads.v38=AMDB013462&ads.n39=device_make&ads.v39=&ads.n40=content_producer_name&ads.v40=Sinclair+Television+Group+INC&ads.n41=w&ads.v41=1920&ads.n42=h&ads.v42=1080&ads.n43=ifa_type&ads.v43=&ads.n44=app_version&ads.v44=0.0.0&ads.n45=channel_title&ads.v45=KMPH+Fresno+CA&ads.n46=network_name&ads.v46=kmph-fresno&ads.n47=us_privacy&ads.v47=&ads.n48=url&ads.v48=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fkmph-fresno-ca&ads.n49=app_name&ads.v49=&ads.n50=content_custom_3_param&ads.v50=channel&ads.n51=device_model&ads.v51=&ads.n52=channel_language&ads.v52=en&ads.n53=channel_id&ads.v53=4CDF9FF1-C4B9-4DE1-8D35-22FFD7BEA383&ads.n54=app_bundle&ads.v54=web.localnow&ads.n55=app_store_url&ads.v55=&ads.n56=device_type&ads.v56=&ads.n57=channel_name&ads.v57=KMPH+Fresno+CA&ads.n58=gpp_sid&ads.v58=",
+      "sources": [
+        "https://data-store-trans-cdn.api.cms.amdvids.com/video/play/4CDF9FF1-C4B9-4DE1-8D35-22FFD7BEA383/1920/1080"
+      ],
+      "refresh": {
+        "provider": "localnow",
+        "channel_id": "4CDF9FF1-C4B9-4DE1-8D35-22FFD7BEA383"
+      }
+    },
+    {
+      "section": "Xumo",
+      "name": "Local Now",
+      "tvg_id": "99991282",
+      "url": "https://01b8e41600544127a6e474c86ee5c279.mediatailor.us-east-1.amazonaws.com:443/v1/master/385c85a93929f94966d0fb186fc33b431e6f1eb9/DIST_LocalNow_Xumo/playlist.m3u8?ads.channel_genre=Local&ads.cdn_prefix=gaAtlantaCobbATL&ads.origin_id=gaAtlantaCobbATL&ads.channel_id=gaAtlantaCobbATL&ads.channel_name=DIST-Local_Now_gaAtlantaCobbATL&ads.content_provider=gaAtlantaCobbATL&ads.w=1&ads.h=1&ads.app_bundle=1&ads.app_name=1&ads.app_store_url=1&ads.ifa_type=1&ads.dnt=1&ads.device_make=1&ads.device_model=1&ads.device_type=1&ads.cust_devicename=XumoV3&ads.ua=1&ads.us_privacy=1",
+      "sources": [
+        "https://ottcms.weathergroup.com/api/v1/scte35stream/XumoV3"
+      ],
+      "refresh": {
+        "provider": "xumo_localnow"
+      }
+    }
+  ]
+}

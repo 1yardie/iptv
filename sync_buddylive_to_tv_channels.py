@@ -7,6 +7,7 @@ Sync live (tv.m3u + Backup.m3u + TheTVApp.m3u8 + Xumo + LocalNow + Tubi + Roku +
 - Deduplicates by display name (first occurrence wins); later sources only add channels not already present
 - Omits reviewed TheTVApp SD/HD duplicates when their live-section counterpart is present
 - Omits other reviewed duplicates only when a counterpart with matching guide metadata is retained
+- Applies reviewed removals and replacements from playlist_updates.json before name deduplication
 - Writes main.m3u: live + Backup + TheTVApp + Xumo + LocalNow + Tubi + Roku + Pluto TV + Plex sections
 """
 import argparse
@@ -18,6 +19,9 @@ import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
+
+from playlist_updates import ReviewedUpdates
+from provider_refresh import LocalNowResolver, resolve_xumo_localnow
 
 LIVE_URL = "https://raw.githubusercontent.com/BuddyChewChew/My-Streams/refs/heads/main/tv.m3u"
 BACKUP_URL = "https://raw.githubusercontent.com/BuddyChewChew/My-Streams/main/Backup/backup2.m3u8"
@@ -37,6 +41,18 @@ TUBI_SECTION = "# === Tubi ==="
 ROKU_SECTION = "# === Roku ==="
 PLUTO_SECTION = "# === Pluto TV ==="
 PLEX_SECTION = "# === Plex ==="
+
+SOURCE_SECTIONS = {
+    LIVE_URL: "live",
+    BACKUP_URL: "Backup",
+    THETVAPP_URL: "TheTVApp",
+    XUMO_URL: "Xumo",
+    LOCALNOW_URL: "LocalNow",
+    TUBI_URL: "Tubi",
+    ROKU_URL: "Roku",
+    PLUTO_URL: "Pluto TV",
+    PLEX_URL: "Plex",
+}
 
 # Reviewed TheTVApp channel names mapped to their retained live display names.
 # This is source-specific: preserve other variants, affiliates, and regional feeds.
@@ -262,11 +278,14 @@ def fetch_url_text(
     timeout: float,
     max_attempts: int,
     retry_backoff_s: float,
+    headers: dict[str, str] | None = None,
 ) -> str:
     max_attempts = max(1, max_attempts)
     for attempt in range(max_attempts):
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            req = urllib.request.Request(
+                url, headers={"User-Agent": "Mozilla/5.0", **(headers or {})}
+            )
             with urllib.request.urlopen(req, timeout=timeout) as r:
                 return r.read().decode("utf-8", errors="replace")
         except Exception as e:
@@ -293,6 +312,7 @@ def fetch_and_filter(
     http_timeout: float,
     http_retries: int,
     retry_backoff_s: float,
+    updates: ReviewedUpdates | None = None,
 ) -> tuple[list[list[str]], int]:
     """Fetch M3U from url, filter (no '[', no Fanduel). Return (list of channel blocks, skipped count)."""
     text = fetch_url_text(
@@ -321,6 +341,11 @@ def fetch_and_filter(
         stream_url = STREAM_URL_OVERRIDES.get(name.lower())
         if stream_url:
             block[-1] = stream_url
+        if updates is not None:
+            block = updates.apply(SOURCE_SECTIONS[url], block)
+            if block is None:
+                skipped += 1
+                continue
         kept.append(block)
     return kept, skipped
 
@@ -439,10 +464,31 @@ def main() -> int:
     m3u_path = args.m3u
     ignore_names = {"fanduel", "bbc america sd", "bbc america hd", "bet hd"}
 
+    def provider_fetch(url: str, headers=None) -> str:
+        return fetch_url_text(
+            url, timeout=min(30.0, args.http_timeout),
+            max_attempts=min(2, max(1, args.http_retries)),
+            retry_backoff_s=max(0.0, args.retry_backoff), headers=headers,
+        )
+
+    localnow = LocalNowResolver(provider_fetch)
+
+    def resolve_update(rule: dict, source_url: str) -> str:
+        refresh = rule["refresh"]
+        if refresh["provider"] == "localnow":
+            return localnow.resolve(refresh["channel_id"], rule["name"])["url"]
+        if refresh["provider"] == "xumo_localnow":
+            return resolve_xumo_localnow(provider_fetch, source_url)["url"]
+        raise ValueError("Unknown refresh provider")
+
+    updates = ReviewedUpdates(
+        Path(__file__).with_name("playlist_updates.json"), resolve=resolve_update
+    )
     fetch_kw = dict(
         http_timeout=args.http_timeout,
         http_retries=max(1, args.http_retries),
         retry_backoff_s=max(0.0, args.retry_backoff),
+        updates=updates,
     )
 
     # Fetch and filter live (tv.m3u)
