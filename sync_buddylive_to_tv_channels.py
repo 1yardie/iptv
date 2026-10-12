@@ -6,6 +6,7 @@ Sync live (tv.m3u + Backup.m3u + TheTVApp.m3u8 + Xumo + LocalNow + Tubi + Roku +
 - Skips Fanduel (by name or tvg-id), BBC America SD/HD, BET HD, and any stream URL containing moveonjoy
 - Deduplicates by display name (first occurrence wins); later sources only add channels not already present
 - Omits reviewed TheTVApp SD/HD duplicates when their live-section counterpart is present
+- Omits other reviewed duplicates only when a counterpart with matching guide metadata is retained
 - Writes main.m3u: live + Backup + TheTVApp + Xumo + LocalNow + Tubi + Roku + Pluto TV + Plex sections
 """
 import argparse
@@ -39,7 +40,7 @@ PLEX_SECTION = "# === Plex ==="
 
 # Reviewed TheTVApp channel names mapped to their retained live display names.
 # This is source-specific: preserve other variants, affiliates, and regional feeds.
-# Bravo is intentionally excluded: TheTVApp is Eastern and live is Pacific.
+# Bravo is intentionally excluded because its East/Pacific feed metadata conflicts.
 THETVAPP_LIVE_DUPLICATES = {
     "a&e": "a&e tv",
     "acc network": "acc network",
@@ -94,6 +95,71 @@ THETVAPP_LIVE_DUPLICATES = {
     "usa network": "usa network",
     "vh1": "vh1",
     "vice": "vice tv",
+}
+
+# Reviewed on 2026-10-12: remove these failed/redundant entries only when the
+# named counterpart survives the normal filters. Keys include the source section
+# so a similarly named channel elsewhere cannot accidentally trigger a removal.
+# FOX DEPORTES USA and America's Voice News remain: the suggested counterparts
+# may be a different FAST service or regional affiliate, respectively.
+REVIEWED_DUPLICATES = {
+    LIVE_SECTION: {
+        "disney channel (alt)": (LIVE_SECTION, "disney channel"),
+        "history channel (alt)": (LIVE_SECTION, "history channel"),
+        "nat geo (alt)": (LIVE_SECTION, "nat geo"),
+        "nick jr (alt)": (LIVE_SECTION, "nick jr"),
+    },
+    BACKUP_SECTION: {
+        "abc (wabc) new york": (LIVE_SECTION, "abc"),
+        "abc (wabc) ny": (LIVE_SECTION, "abc"),
+        "cbs (wcbs) new york": (LIVE_SECTION, "cbs"),
+        "a&e": (LIVE_SECTION, "a&e tv"),
+        "cbs sports golazo": (LIVE_SECTION, "cbs sports golazo network"),
+        "cnn hd": (LIVE_SECTION, "cnn"),
+        "e!": (LIVE_SECTION, "e! entertainment"),
+        "espn 2": (LIVE_SECTION, "espn2"),
+        "espn news": (LIVE_SECTION, "espnews"),
+        "espn news hd": (LIVE_SECTION, "espnews"),
+        "espn u": (LIVE_SECTION, "espnu"),
+        "espn u hd": (LIVE_SECTION, "espnu"),
+        "fs1 - fox sports 1": (LIVE_SECTION, "fox sports 1"),
+        "fs1 - fox sports 1 hd": (LIVE_SECTION, "fox sports 1"),
+        "fxm": (LIVE_SECTION, "fx movie channel"),
+        "hallmark": (LIVE_SECTION, "hallmark channel"),
+        "history": (LIVE_SECTION, "history channel"),
+        "lifetime movies lmn": (LIVE_SECTION, "lifetime movie network"),
+        "nfl network hd": (LIVE_SECTION, "nfl network"),
+        "nfl network sd": (LIVE_SECTION, "nfl network"),
+        "sky sports main event uk": (LIVE_SECTION, "sky sports main event"),
+        "sky sports mix uk": (LIVE_SECTION, "sky sports mix"),
+        "sky sports news uk": (LIVE_SECTION, "sky sports news"),
+        "at&t sportsnet pittsburgh usa": (LIVE_SECTION, "sportsnet pittsburgh"),
+        "sportsnet new york sny usa": (LIVE_SECTION, "sportsnet new york"),
+        "sportsnet 360 ca": (LIVE_SECTION, "sportsnet 360"),
+        "stv hd": (LIVE_SECTION, "stv"),
+        "syfy hd": (LIVE_SECTION, "syfy"),
+        "tbs hd": (LIVE_SECTION, "tbs"),
+        "tbs east": (BACKUP_SECTION, "tbs east 720p (d)"),
+        "tnt hd": (LIVE_SECTION, "tnt"),
+        "tsn 3 ca": (LIVE_SECTION, "tsn 3"),
+        "trutv east": (LIVE_SECTION, "trutv"),
+        "vh1 hd": (LIVE_SECTION, "vh1"),
+        "cnn 480p (d)": (BACKUP_SECTION, "cnn 720p (d)"),
+        "livenow from fox": (LIVE_SECTION, "fox livenow"),
+    },
+    THETVAPP_SECTION: {
+        "nicktoons sd": (LIVE_SECTION, "nicktoons"),
+        "nicktoons hd": (LIVE_SECTION, "nicktoons"),
+    },
+}
+
+# Exact reviewed guide aliases; a changed or missing guide ID keeps the entry
+# for review. Nicktoons' retained US East source currently provides 432p video.
+REVIEWED_GUIDE_ALIASES = {
+    ("plex.tv.CBS.Sports.Golazo.Network.plex", "CBS.Sports.Golazo.Network.us2"),
+    ("FS1.Fox.Sports.1.HD.us2", "FS1.HD.us2"),
+    ("63d025db4e83e700086eaa96", "plex.tv.LiveNOW.from.FOX.plex"),
+    ("nicktoons-east", "Nicktoons.us2"),
 }
 
 # Preserve verified direct feeds when upstream playlists are refreshed.
@@ -299,6 +365,41 @@ def remove_thetvapp_live_duplicates(
     return kept, len(blocks) - len(kept)
 
 
+def remove_reviewed_duplicates(
+    sections: dict[str, list[list[str]]],
+) -> tuple[dict[str, list[list[str]]], dict[str, int]]:
+    """Remove reviewed aliases only if their retained counterpart still matches."""
+    by_name = {
+        (section, _name_from_block(block).lower()): block
+        for section, blocks in sections.items()
+        for block in blocks
+    }
+
+    def guide_id(block: list[str]) -> str:
+        match = re.search(r'\btvg-id="([^"]*)"', block[0])
+        return match.group(1) if match else ""
+
+    kept_sections = {}
+    removed_counts = {}
+    for section, blocks in sections.items():
+        kept = []
+        for block in blocks:
+            counterpart_key = REVIEWED_DUPLICATES.get(section, {}).get(
+                _name_from_block(block).lower()
+            )
+            counterpart = by_name.get(counterpart_key)
+            if counterpart is not None:
+                duplicate_id, retained_id = guide_id(block), guide_id(counterpart)
+                if (duplicate_id and duplicate_id == retained_id) or (
+                    duplicate_id, retained_id
+                ) in REVIEWED_GUIDE_ALIASES:
+                    continue
+            kept.append(block)
+        kept_sections[section] = kept
+        removed_counts[section] = len(blocks) - len(kept)
+    return kept_sections, removed_counts
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Sync live into main.m3u")
     parser.add_argument(
@@ -422,6 +523,20 @@ def main() -> int:
     roku_kept, seen, roku_dup = dedupe_blocks_by_name(roku_blocks, seen)
     pluto_kept, seen, pluto_dup = dedupe_blocks_by_name(pluto_blocks, seen)
     plex_kept, seen, plex_dup = dedupe_blocks_by_name(plex_blocks, seen)
+
+    # Run after name deduplication, so only counterparts actually being written
+    # can suppress an entry. This also supports a later keeper in Backup.
+    reviewed, removed = remove_reviewed_duplicates({
+        LIVE_SECTION: live_kept,
+        BACKUP_SECTION: backup_kept,
+        THETVAPP_SECTION: tvapp_kept,
+    })
+    live_kept = reviewed[LIVE_SECTION]
+    backup_kept = reviewed[BACKUP_SECTION]
+    tvapp_kept = reviewed[THETVAPP_SECTION]
+    live_dup += removed[LIVE_SECTION]
+    backup_dup += removed[BACKUP_SECTION]
+    tvapp_dup += removed[THETVAPP_SECTION]
 
     # Build fresh M3U: header + live + Backup + TheTVApp + Xumo + LocalNow + Tubi + Roku + Pluto TV + Plex
     out_lines = [
