@@ -320,12 +320,12 @@ def renew_playlist(text, *, fetch=None, limit=None, channel_ids=None, pilot=Fals
             raise PlutoRefreshError("Duplicate requested Pluto channel IDs")
         if any(cid not in available for cid in selected):
             raise PlutoRefreshError("Requested Pluto channel is absent from the playlist")
-        if pilot and any(sum(row[0] == cid for row in entries) != 1 for cid in selected):
-            raise PlutoRefreshError("Pilot channel occurs more than once in the playlist")
     else:
         selected = available[:limit] if limit else available
     if not selected:
         raise PlutoRefreshError("No Pluto channels were found")
+    if pilot and any(sum(row[0] == cid for row in entries) != 1 for cid in selected):
+        raise PlutoRefreshError("Pilot channel occurs more than once in the playlist")
     previous = _previous_streams(previous_text) if not pilot else {}
     fetch = fetch or _fetch
     server, query, summary = _boot(fetch, selected[0])

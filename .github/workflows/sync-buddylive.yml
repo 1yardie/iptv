@@ -19,7 +19,7 @@ permissions:
 
 # All pilot runs publish to one branch; normal syncs publish to their selected ref.
 concurrency:
-  group: playlist-${{ inputs.mode == 'pluto-pilot' && 'pluto-pilot' || github.ref }}
+  group: playlist-${{ inputs.mode == 'pluto-pilot' && 'pluto-pilot' || github.ref_name }}
   cancel-in-progress: false
 
 jobs:
