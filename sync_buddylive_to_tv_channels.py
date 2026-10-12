@@ -5,10 +5,12 @@ Sync live (tv.m3u + Backup.m3u + TheTVApp.m3u8 + Xumo + LocalNow + Tubi + Roku +
 - Keeps only channels whose display name does NOT start with '[' and is not Fanduel
 - Skips Fanduel (by name or tvg-id), BBC America SD/HD, BET HD, and any stream URL containing moveonjoy
 - Deduplicates by display name (first occurrence wins); later sources only add channels not already present
+- Omits reviewed TheTVApp SD/HD duplicates when their live-section counterpart is present
 - Writes main.m3u: live + Backup + TheTVApp + Xumo + LocalNow + Tubi + Roku + Pluto TV + Plex sections
 """
 import argparse
 import errno
+import re
 import sys
 import time
 import urllib.error
@@ -34,6 +36,65 @@ TUBI_SECTION = "# === Tubi ==="
 ROKU_SECTION = "# === Roku ==="
 PLUTO_SECTION = "# === Pluto TV ==="
 PLEX_SECTION = "# === Plex ==="
+
+# Reviewed TheTVApp channel names mapped to their retained live display names.
+# This is source-specific: preserve other variants, affiliates, and regional feeds.
+# Bravo is intentionally excluded: TheTVApp is Eastern and live is Pacific.
+THETVAPP_LIVE_DUPLICATES = {
+    "a&e": "a&e tv",
+    "acc network": "acc network",
+    "animal planet": "animal planet",
+    "bbc world news": "bbc world news",
+    "big ten network": "big ten network",
+    "bloomberg tv": "bloomberg tv",
+    "boomerang": "boomerang",
+    "cbs sports network": "cbs sports network",
+    "cmt": "cmt",
+    "cnn": "cnn",
+    "comedy central": "comedy central",
+    "cooking channel": "cooking channel",
+    "crime & investigation": "crime & investigation network",
+    "destination america": "destination america",
+    "e!": "e! entertainment",
+    "espn2": "espn2",
+    "espnews": "espnews",
+    "espnu": "espnu",
+    "fox news channel": "fox news",
+    "fox sports 1": "fox sports 1",
+    "fuse": "fuse",
+    "fx movie": "fx movie channel",
+    "fxx": "fxx",
+    "fyi": "fyi tv",
+    "golf channel": "golf channel",
+    "hallmark": "hallmark channel",
+    "history": "history channel",
+    "investigation discovery": "investigation discovery",
+    "lifetime": "lifetime",
+    "lmn": "lifetime movie network",
+    "mlb network": "mlb network",
+    "mtv": "mtv",
+    "nat geo wild": "nat geo wild",
+    "national geographic": "nat geo",
+    "newsmax tv": "newsmax tv",
+    "nick jr": "nick jr",
+    "outdoor channel": "outdoor channel",
+    "own": "oprah winfrey network",
+    "oxygen true crime": "oxygen true crime",
+    "science": "science channel",
+    "sec network": "sec network",
+    "showtime 2": "showtime 2",
+    "syfy": "syfy",
+    "tbs": "tbs",
+    "tcm": "turner classic movies",
+    "the weather channel": "the weather channel",
+    "tnt": "tnt",
+    "travel channel": "travel channel",
+    "trutv": "trutv",
+    "tv one": "tv one",
+    "usa network": "usa network",
+    "vh1": "vh1",
+    "vice": "vice tv",
+}
 
 # Preserve verified direct feeds when upstream playlists are refreshed.
 STREAM_URL_OVERRIDES = {
@@ -223,6 +284,20 @@ def dedupe_blocks_by_name(
     return kept, seen, skipped_dup
 
 
+def remove_thetvapp_live_duplicates(
+    blocks: list[list[str]], live_blocks: list[list[str]]
+) -> tuple[list[list[str]], int]:
+    """Drop reviewed TheTVApp duplicates only if their live counterpart was kept."""
+    live_names = {_name_from_block(block).lower() for block in live_blocks}
+    kept = []
+    for block in blocks:
+        name = _name_from_block(block).lower()
+        base_name = re.sub(r"(?:\s+(?:hd|sd))+$", "", name).rstrip(".")
+        if THETVAPP_LIVE_DUPLICATES.get(base_name) not in live_names:
+            kept.append(block)
+    return kept, len(blocks) - len(kept)
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Sync live into main.m3u")
     parser.add_argument(
@@ -337,7 +412,9 @@ def main() -> int:
     seen: set[str] = set()
     live_kept, seen, live_dup = dedupe_blocks_by_name(live_blocks, seen)
     backup_kept, seen, backup_dup = dedupe_blocks_by_name(backup_blocks, seen)
+    tvapp_blocks, tvapp_live_dup = remove_thetvapp_live_duplicates(tvapp_blocks, live_kept)
     tvapp_kept, seen, tvapp_dup = dedupe_blocks_by_name(tvapp_blocks, seen)
+    tvapp_dup += tvapp_live_dup
     xumo_kept, seen, xumo_dup = dedupe_blocks_by_name(xumo_blocks, seen)
     localnow_kept, seen, localnow_dup = dedupe_blocks_by_name(localnow_blocks, seen)
     tubi_kept, seen, tubi_dup = dedupe_blocks_by_name(tubi_blocks, seen)
