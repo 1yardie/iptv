@@ -1518,6 +1518,438 @@
       "name": "Western Bound",
       "tvg_id": "6a1610bebdf296985fd95603-62316e8eb9d292cb4ad7499f",
       "reason": "original_recovered"
+    },
+    {
+      "section": "live",
+      "name": "AMC",
+      "tvg_id": "AMC.HD.us2",
+      "reason": "audit_http_failure"
+    },
+    {
+      "section": "live",
+      "name": "CBS Sports Network",
+      "tvg_id": "CBS.Sports.Network.HD.us2",
+      "reason": "audit_http_failure"
+    },
+    {
+      "section": "live",
+      "name": "Chicago Sports Network",
+      "tvg_id": "CHSN.Chicago.Sports.Network.us2",
+      "reason": "audit_http_failure"
+    },
+    {
+      "section": "live",
+      "name": "DAZN 1 Germany",
+      "tvg_id": "DAZN.1.de",
+      "reason": "audit_http_failure"
+    },
+    {
+      "section": "live",
+      "name": "Golf Channel",
+      "tvg_id": "Golf.Channel.HD.us2",
+      "reason": "audit_http_failure"
+    },
+    {
+      "section": "live",
+      "name": "NBC Sports Bay Area",
+      "tvg_id": "NBC.Sports.Bay.Area.HD.us2",
+      "reason": "audit_http_failure"
+    },
+    {
+      "section": "live",
+      "name": "NHL Network",
+      "tvg_id": "NHL.Network.HD.us2",
+      "reason": "audit_http_failure"
+    },
+    {
+      "section": "live",
+      "name": "Premier Sports 1",
+      "tvg_id": "Premier.Sports.1.HD.ie",
+      "reason": "audit_http_failure"
+    },
+    {
+      "section": "live",
+      "name": "Premier Sports 2",
+      "tvg_id": "Premier.Sports.2.HD.ie",
+      "reason": "audit_http_failure"
+    },
+    {
+      "section": "live",
+      "name": "Spectrum SportsNet LA Dodgers",
+      "tvg_id": "Spectrum.SportsNet.LA.Dodgers.HD.us2",
+      "reason": "audit_http_failure"
+    },
+    {
+      "section": "live",
+      "name": "Spectrum SportsNet Lakers",
+      "tvg_id": "Spectrum.SportsNet.Lakers.HD.us2",
+      "reason": "audit_http_failure"
+    },
+    {
+      "section": "live",
+      "name": "Sportsnet 360",
+      "tvg_id": "Sportsnet.360.HD.ca2",
+      "reason": "audit_http_failure"
+    },
+    {
+      "section": "live",
+      "name": "Sportsnet East",
+      "tvg_id": "Sportsnet.East.ca2",
+      "reason": "audit_http_failure"
+    },
+    {
+      "section": "live",
+      "name": "Sportsnet One",
+      "tvg_id": "Sportsnet.One.ca2",
+      "reason": "audit_http_failure"
+    },
+    {
+      "section": "live",
+      "name": "SportsNet Pittsburgh",
+      "tvg_id": "SportsNet.Pittsburgh.HD.us2",
+      "reason": "audit_http_failure"
+    },
+    {
+      "section": "live",
+      "name": "TNT Sports 1",
+      "tvg_id": "TNT.Sports.1.HD.uk",
+      "reason": "audit_http_failure"
+    },
+    {
+      "section": "live",
+      "name": "TNT Sports 3",
+      "tvg_id": "TNT.Sports.3.HD.uk",
+      "reason": "audit_http_failure"
+    },
+    {
+      "section": "live",
+      "name": "TNT Sports 4",
+      "tvg_id": "TNT.Sports.4.HD.uk",
+      "reason": "audit_http_failure"
+    },
+    {
+      "section": "live",
+      "name": "Travel Channel",
+      "tvg_id": "The.Travel.Channel.HD.us2",
+      "reason": "audit_http_failure"
+    },
+    {
+      "section": "Backup",
+      "name": "NBC (WNBC) NY",
+      "tvg_id": "WNBC-DT.us_locals1",
+      "reason": "audit_http_failure"
+    },
+    {
+      "section": "Backup",
+      "name": "NBC (WNBC) New York",
+      "tvg_id": "WNBC-DT.us_locals1",
+      "reason": "audit_network_failure"
+    },
+    {
+      "section": "Backup",
+      "name": "NBC WNBC NY Locals",
+      "tvg_id": "WNBC-DT.us_locals1",
+      "reason": "audit_access_denied"
+    },
+    {
+      "section": "Backup",
+      "name": "NBC WNBC NY",
+      "tvg_id": "WNBC-DT.us_locals1",
+      "reason": "audit_access_denied"
+    },
+    {
+      "section": "Backup",
+      "name": "AMC HD",
+      "tvg_id": "AMC.HD.us2",
+      "reason": "audit_access_denied"
+    },
+    {
+      "section": "Backup",
+      "name": "Animal Planet HD",
+      "tvg_id": "Animal.Planet.HD.(Pacific).us2",
+      "reason": "audit_access_denied"
+    },
+    {
+      "section": "Backup",
+      "name": "BET",
+      "tvg_id": "BET.HD.us2",
+      "reason": "audit_access_denied"
+    },
+    {
+      "section": "Backup",
+      "name": "Bravo",
+      "tvg_id": "Bravo.HD.us2",
+      "reason": "audit_access_denied"
+    },
+    {
+      "section": "Backup",
+      "name": "Cartoon Network",
+      "tvg_id": "Cartoon.Network.HD.us2",
+      "reason": "audit_access_denied"
+    },
+    {
+      "section": "Backup",
+      "name": "CINEMAX",
+      "tvg_id": "5.StarMAX.HD.East.us2",
+      "reason": "audit_access_denied"
+    },
+    {
+      "section": "Backup",
+      "name": "MoreMax",
+      "tvg_id": "MoreMax.HD.us2",
+      "reason": "audit_access_denied"
+    },
+    {
+      "section": "Backup",
+      "name": "CNBC",
+      "tvg_id": "CNBC.HD.us2",
+      "reason": "audit_access_denied"
+    },
+    {
+      "section": "Backup",
+      "name": "Comedy Central HD",
+      "tvg_id": "Comedy.Central.HD.(Pacific).us2",
+      "reason": "audit_access_denied"
+    },
+    {
+      "section": "Backup",
+      "name": "Discovery Channel",
+      "tvg_id": "Discovery.Channel.HD.us2",
+      "reason": "audit_access_denied"
+    },
+    {
+      "section": "Backup",
+      "name": "Discovery Channel HD",
+      "tvg_id": "Discovery.Channel.HD.us2",
+      "reason": "audit_access_denied"
+    },
+    {
+      "section": "Backup",
+      "name": "Discovery Family",
+      "tvg_id": "Discovery.Family.Channel.HD.us2",
+      "reason": "audit_access_denied"
+    },
+    {
+      "section": "Backup",
+      "name": "Disney Jr",
+      "tvg_id": "Disney.Junior.HD.us2",
+      "reason": "audit_access_denied"
+    },
+    {
+      "section": "Backup",
+      "name": "Disney XD",
+      "tvg_id": "Disney.XD.HD.us2",
+      "reason": "audit_access_denied"
+    },
+    {
+      "section": "Backup",
+      "name": "FOX DEPORTES USA",
+      "tvg_id": "Fox.Deportes.HD.us2",
+      "reason": "audit_access_denied"
+    },
+    {
+      "section": "Backup",
+      "name": "FXX East",
+      "tvg_id": "FXX.HD.us2",
+      "reason": "audit_access_denied"
+    },
+    {
+      "section": "Backup",
+      "name": "HBO Comedy",
+      "tvg_id": "HBO.Comedy.HD.us2",
+      "reason": "audit_access_denied"
+    },
+    {
+      "section": "Backup",
+      "name": "HBO Hits",
+      "tvg_id": "HBO.Hits.us2",
+      "reason": "audit_access_denied"
+    },
+    {
+      "section": "Backup",
+      "name": "Lifetime East",
+      "tvg_id": "Lifetime.HD.us2",
+      "reason": "audit_access_denied"
+    },
+    {
+      "section": "Backup",
+      "name": "Lifetime West",
+      "tvg_id": "Lifetime.HD.us2",
+      "reason": "audit_access_denied"
+    },
+    {
+      "section": "Backup",
+      "name": "MTV2",
+      "tvg_id": "MTV2:.Music.Television.HD.us2",
+      "reason": "audit_access_denied"
+    },
+    {
+      "section": "Backup",
+      "name": "Nat Geo Wild East",
+      "tvg_id": "National.Geographic.HD.us2",
+      "reason": "audit_access_denied"
+    },
+    {
+      "section": "Backup",
+      "name": "Nickelodeon",
+      "tvg_id": "Nickelodeon.HD.us2",
+      "reason": "audit_access_denied"
+    },
+    {
+      "section": "Backup",
+      "name": "Showtime",
+      "tvg_id": "Paramount+.with.Showtime.HD.us2",
+      "reason": "audit_access_denied"
+    },
+    {
+      "section": "Backup",
+      "name": "STARZ HD",
+      "tvg_id": "Starz.HD.us2",
+      "reason": "audit_access_denied"
+    },
+    {
+      "section": "Backup",
+      "name": "STARZ Encore Family",
+      "tvg_id": "Starz.Encore.Family.SD.us2",
+      "reason": "audit_access_denied"
+    },
+    {
+      "section": "Backup",
+      "name": "TLC",
+      "tvg_id": "TLC.HD.(Pacific).us2",
+      "reason": "audit_access_denied"
+    },
+    {
+      "section": "Backup",
+      "name": "Travel Channel East",
+      "tvg_id": "The.Travel.Channel.HD.us2",
+      "reason": "audit_access_denied"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Bravo SD",
+      "tvg_id": "bravo-usa-eastern-feed",
+      "reason": "audit_network_failure"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Bravo HD",
+      "tvg_id": "bravo-usa-eastern-feed",
+      "reason": "audit_network_failure"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "Cinemax HD",
+      "tvg_id": "cinemax-eastern-feed",
+      "reason": "audit_network_failure"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "HBO 2 East SD",
+      "tvg_id": "hbo-2-eastern-feed",
+      "reason": "audit_network_failure"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "HBO 2 East HD",
+      "tvg_id": "hbo-2-eastern-feed",
+      "reason": "audit_network_failure"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "IFC SD",
+      "tvg_id": "independent-film-channel-us",
+      "reason": "audit_network_failure"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "IFC HD",
+      "tvg_id": "independent-film-channel-us",
+      "reason": "audit_network_failure"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "MoreMAX SD",
+      "tvg_id": "moremax-eastern",
+      "reason": "audit_network_failure"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "MoreMAX HD",
+      "tvg_id": "moremax-eastern",
+      "reason": "audit_network_failure"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "MotorTrend HD SD",
+      "tvg_id": "motor-trend-hd",
+      "reason": "audit_network_failure"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "MotorTrend HD HD",
+      "tvg_id": "motor-trend-hd",
+      "reason": "audit_network_failure"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "NFL Red Zone HD",
+      "tvg_id": "nfl-redzone",
+      "reason": "audit_network_failure"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "NHL Network SD",
+      "tvg_id": "nhl-network-usa",
+      "reason": "audit_network_failure"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "NHL Network HD",
+      "tvg_id": "nhl-network-usa",
+      "reason": "audit_network_failure"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "TLC HD",
+      "tvg_id": "tlc-usa-eastern",
+      "reason": "audit_network_failure"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "WNBC (New York) NBC East SD",
+      "tvg_id": "nbc-wnbc-new-york-ny",
+      "reason": "audit_network_failure"
+    },
+    {
+      "section": "TheTVApp",
+      "name": "WNBC (New York) NBC East HD",
+      "tvg_id": "nbc-wnbc-new-york-ny",
+      "reason": "audit_network_failure"
+    },
+    {
+      "section": "Xumo",
+      "name": "SWAC TV",
+      "tvg_id": "99951594",
+      "reason": "audit_http_failure"
+    },
+    {
+      "section": "LocalNow",
+      "name": "21 Jump Street",
+      "tvg_id": "LN_A2206C2C-DD1C-423A-9290-99E6B308C3CB",
+      "reason": "audit_http_failure"
+    },
+    {
+      "section": "LocalNow",
+      "name": "Non-Stop '90s",
+      "tvg_id": "LN_E2B93420-EB36-4052-B789-2AD8286E402B",
+      "reason": "audit_http_failure"
+    },
+    {
+      "section": "LocalNow",
+      "name": "WENY News Elmira NY",
+      "tvg_id": "LN_8C596C9F-FA44-4976-ABB0-C80758E73727",
+      "reason": "audit_http_failure"
     }
   ],
   "replace": [
