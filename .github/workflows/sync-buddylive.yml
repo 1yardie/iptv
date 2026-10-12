@@ -1,40 +1,127 @@
-# Every 3 hours: sync live + Backup + TheTVApp + Xumo + LocalNow + Tubi + Roku + Pluto TV + Plex into main.m3u
+# Refresh source playlists and Pluto playback URLs every three hours.
 name: Sync live to tv-channels
 on:
   schedule:
-    - cron: "0 */3 * * *"
+    - cron: "17 */3 * * *"
   workflow_dispatch:
+    inputs:
+      mode:
+        description: Update main playlist or publish a three-channel Pluto pilot
+        type: choice
+        required: true
+        default: sync
+        options:
+          - sync
+          - pluto-pilot
+
+permissions:
+  contents: write
+
+# All pilot runs publish to one branch; normal syncs publish to their selected ref.
+concurrency:
+  group: playlist-${{ inputs.mode == 'pluto-pilot' && 'pluto-pilot' || github.ref_name }}
+  cancel-in-progress: false
 
 jobs:
   sync:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    timeout-minutes: 35
     steps:
-      - name: Checkout
+      - name: Select operation
+        id: operation
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          REQUESTED_MODE: ${{ inputs.mode }}
+          REF_TYPE: ${{ github.ref_type }}
+        run: |
+          if [ "$REF_TYPE" != branch ]; then
+            echo "::error::Select a branch for playlist publication."
+            exit 1
+          fi
+          if [ "$EVENT_NAME" = schedule ]; then
+            mode=sync
+          else
+            mode="$REQUESTED_MODE"
+          fi
+          case "$mode" in
+            sync|pluto-pilot) echo "mode=$mode" >> "$GITHUB_OUTPUT" ;;
+            *) echo "::error::Choose sync or pluto-pilot explicitly."; exit 1 ;;
+          esac
+
+      - name: Checkout selected branch
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Sync live into main.m3u
-        run: python3 sync_buddylive_to_tv_channels.py --http-timeout 120 --http-retries 5
-
-      - name: Show changes (if any)
+      - name: Fetch source playlists
+        if: steps.operation.outputs.mode == 'sync'
         run: |
-          git status
-          git diff --stat main.m3u || true
+          if ! python3 sync_buddylive_to_tv_channels.py \
+              --m3u "$RUNNER_TEMP/source.m3u" --http-timeout 60 --http-retries 3; then
+            echo "::warning::Source sync failed; renewing Pluto in the last published playlist."
+            cp main.m3u "$RUNNER_TEMP/source.m3u"
+          fi
 
-      - name: Commit and push if changed
+      - name: Renew Pluto playback URLs
+        if: steps.operation.outputs.mode == 'sync'
+        run: |
+          python3 pluto_refresh.py --input "$RUNNER_TEMP/source.m3u" \
+            --previous main.m3u --output "$RUNNER_TEMP/renewed.m3u" \
+            --summary "$RUNNER_TEMP/pluto-summary.json"
+          cp "$RUNNER_TEMP/renewed.m3u" main.m3u
+
+      - name: Generate Pluto pilot
+        if: steps.operation.outputs.mode == 'pluto-pilot'
+        run: |
+          python3 pluto_refresh.py --input main.m3u \
+            --output "$RUNNER_TEMP/pluto-pilot.m3u" \
+            --summary "$RUNNER_TEMP/pluto-summary.json" --pilot \
+            --channel-id 5efbd29e4aa26700076c0d06 \
+            --channel-id 5ca671f215a62078d2ec0abf \
+            --channel-id 60a3d889a5b3690008dc7fe8
+          git diff --exit-code --quiet -- main.m3u
+
+      - name: Report renewal results
+        run: |
+          echo '### Pluto renewal' >> "$GITHUB_STEP_SUMMARY"
+          echo '```json' >> "$GITHUB_STEP_SUMMARY"
+          cat "$RUNNER_TEMP/pluto-summary.json" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Manifest checks do not confirm sustained playback in TiviMate.' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit and publish playlist
+        env:
+          MODE: ${{ steps.operation.outputs.mode }}
+          SOURCE_BRANCH: ${{ github.ref_name }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add main.m3u
-          if git diff --staged --quiet; then
-            echo "No changes to main.m3u; skipping commit and push."
+          if [ "$MODE" = pluto-pilot ]; then
+            if git ls-remote --exit-code --heads origin refs/heads/pluto-pilot > /dev/null; then
+              git fetch origin refs/heads/pluto-pilot:refs/remotes/origin/pluto-pilot
+              git switch --create pluto-publication origin/pluto-pilot
+            else
+              git switch --create pluto-publication
+            fi
+            mkdir -p streams
+            cp "$RUNNER_TEMP/pluto-pilot.m3u" streams/pluto-pilot.m3u
+            playlist=streams/pluto-pilot.m3u
+            destination=pluto-pilot
+            message="chore: renew three-channel Pluto pilot"
           else
-            git commit -m "chore: sync live into main.m3u (live/Backup/TheTVApp/Xumo/LocalNow/Tubi/Roku/Pluto/Plex)"
-            git push
+            playlist=main.m3u
+            destination="$SOURCE_BRANCH"
+            message="chore: sync playlists and renew Pluto playback URLs"
+          fi
+          git add -- "$playlist"
+          if git diff --staged --quiet; then
+            echo "No playlist changes to publish."
+          else
+            git commit -m "$message"
+            git push origin "HEAD:refs/heads/$destination"
           fi
