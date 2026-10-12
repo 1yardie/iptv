@@ -16,5 +16,3 @@ sync logs the channel name and uses its last reviewed fallback URL. These checks
 do not guarantee long-term availability or playback on every device. TiviMate
 must reload the playlist to receive changed URLs. Pluto renewal is not added by
 these rules.
-
-Run the offline checks with `python3 -m unittest discover -s tests`.
