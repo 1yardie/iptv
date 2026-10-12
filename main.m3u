@@ -503,7 +503,7 @@ https://cache0.wonvt.st/live/1bex0aj18f1l6i1q5egjg/master.m3u8
 https://cache0.wonvt.st/live/1ewxgzu023dos60vlh62k/master.m3u8
 
 #EXTINF:-1 tvg-chno="137" tvg-id="Nicktoons.us2" tvg-name="Nicktoons" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30420_dark_360w_270h.png" group-title="TV",Nicktoons
-http://41.205.93.154/NICKTOONS/index.m3u8
+http://tvsen7.aynascope.net/nicktoons/index.m3u8
 
 #EXTINF:-1 tvg-chno="138" tvg-id="One.America.News.Network.HD.us2" tvg-name="One America News" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s83953_dark_360w_270h.png" group-title="TV",One America News
 http://23.237.104.106:8080/USA_OAN/index.m3u8
