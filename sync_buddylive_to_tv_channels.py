@@ -170,7 +170,7 @@ REVIEWED_DUPLICATES = {
 }
 
 # Exact reviewed guide aliases; a changed or missing guide ID keeps the entry
-# for review. Nicktoons' retained US East source currently provides 432p video.
+# for review.
 REVIEWED_GUIDE_ALIASES = {
     ("plex.tv.CBS.Sports.Golazo.Network.plex", "CBS.Sports.Golazo.Network.us2"),
     ("FS1.Fox.Sports.1.HD.us2", "FS1.HD.us2"),
@@ -207,7 +207,7 @@ STREAM_URL_OVERRIDES = {
     "nbc bay area news": "https://xumo-drct-ch110-as8cj.fast.nbcuni.com/live/master.m3u8",
     "nbc comedy vault": "https://xumo-xumoent-vc-105-z0vpm.fast.nbcuni.com/live/master.m3u8",
     "nbc lx home": "https://xumo-drct-ch486-uqd91.fast.nbcuni.com/live/master.m3u8",
-    "nicktoons": "http://tvsen7.aynascope.net/nicktoons/index.m3u8",
+    "nicktoons": "http://41.205.93.154/NICKTOONS/index.m3u8",
     "noticias telemundo ahora": "https://xumo-xumoent-ch827-uj0ch.fast.nbcuni.com/live/master.m3u8",
     "oxygen true crime archives": "https://ch250-xumo-xumoent.fast.vsnt.net/live/master.m3u8",
     "real housewives vault": "https://xumo-xumoent-vc-123-8gq0q.fast.nbcuni.com/live/master.m3u8",
