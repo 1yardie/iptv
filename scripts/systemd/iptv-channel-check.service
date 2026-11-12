@@ -1,0 +1,10 @@
+[Unit]
+Description=Check IPTV channel reachability and write local reports
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 "%h/.local/share/iptv-channel-checker/check_channels.py" --output "%h/.local/state/iptv-channel-checker"
+TimeoutStartSec=50min
+UMask=0077
+Nice=10
+NoNewPrivileges=yes
