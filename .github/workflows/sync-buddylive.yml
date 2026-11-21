@@ -58,21 +58,16 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Fetch source playlists
-        if: steps.operation.outputs.mode == 'sync'
-        run: |
-          if ! python3 sync_buddylive_to_tv_channels.py \
-              --m3u "$RUNNER_TEMP/source.m3u" --http-timeout 60 --http-retries 3; then
-            echo "::warning::Source sync failed; renewing Pluto in the last published playlist."
-            cp main.m3u "$RUNNER_TEMP/source.m3u"
-          fi
+      - name: Test provider isolation
+        run: python3 -m unittest discover -s tests -v
 
-      - name: Renew Pluto playback URLs
+      - name: Refresh providers independently and renew Pluto
         if: steps.operation.outputs.mode == 'sync'
         run: |
-          python3 pluto_refresh.py --input "$RUNNER_TEMP/source.m3u" \
-            --previous main.m3u --output "$RUNNER_TEMP/renewed.m3u" \
-            --summary "$RUNNER_TEMP/pluto-summary.json"
+          python3 sync_buddylive_to_tv_channels.py \
+            --m3u "$RUNNER_TEMP/renewed.m3u" --previous main.m3u \
+            --summary "$RUNNER_TEMP/source-summary.json" --renew-pluto \
+            --http-timeout 60 --http-retries 3
           cp "$RUNNER_TEMP/renewed.m3u" main.m3u
 
       - name: Generate Pluto pilot
@@ -86,13 +81,33 @@ jobs:
             --channel-id 60a3d889a5b3690008dc7fe8
           git diff --exit-code --quiet -- main.m3u
 
-      - name: Report renewal results
+      - name: Report pilot renewal results
+        if: steps.operation.outputs.mode == 'pluto-pilot'
         run: |
           echo '### Pluto renewal' >> "$GITHUB_STEP_SUMMARY"
           echo '```json' >> "$GITHUB_STEP_SUMMARY"
           cat "$RUNNER_TEMP/pluto-summary.json" >> "$GITHUB_STEP_SUMMARY"
           echo '```' >> "$GITHUB_STEP_SUMMARY"
           echo 'Manifest checks do not confirm sustained playback in TiviMate.' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Report provider results
+        if: always() && steps.operation.outputs.mode == 'sync'
+        run: |
+          if [ -f "$RUNNER_TEMP/source-summary.md" ]; then
+            cat "$RUNNER_TEMP/source-summary.md" >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Save provider report
+        continue-on-error: true
+        if: always() && steps.operation.outputs.mode == 'sync'
+        uses: actions/upload-artifact@v4
+        with:
+          name: provider-refresh-report
+          path: |
+            ${{ runner.temp }}/source-summary.json
+            ${{ runner.temp }}/source-summary.md
+          if-no-files-found: ignore
+          retention-days: 14
 
       - name: Commit and publish playlist
         env:
@@ -125,3 +140,16 @@ jobs:
             git commit -m "$message"
             git push origin "HEAD:refs/heads/$destination"
           fi
+
+      # Report a partial refresh as a failure only AFTER healthy updates are pushed.
+      - name: Flag incomplete provider refresh
+        if: steps.operation.outputs.mode == 'sync'
+        run: |
+          python3 - "$RUNNER_TEMP/source-summary.json" <<'PYTHON'
+          import json, sys
+          with open(sys.argv[1], encoding="utf-8") as report:
+              summary = json.load(report)
+          if summary["status"] != "complete":
+              print("::error::Published available updates, but some providers were not refreshed. See the provider report.")
+              raise SystemExit(1)
+          PYTHON
