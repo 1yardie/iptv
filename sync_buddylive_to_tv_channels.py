@@ -12,15 +12,19 @@ Sync live (tv.m3u + Backup.m3u + TheTVApp.m3u8 + Xumo + LocalNow + Tubi + Roku +
 """
 import argparse
 import errno
+import http.client
+import json
 import re
 import sys
 import time
 import urllib.error
 import urllib.request
+from urllib.parse import urlsplit
 from datetime import datetime, timezone
 from pathlib import Path
 
 from playlist_updates import ReviewedUpdates
+from pluto_refresh import PlutoRefreshError, renew_playlist
 from provider_refresh import LocalNowResolver, resolve_xumo_localnow
 
 LIVE_URL = "https://raw.githubusercontent.com/BuddyChewChew/My-Streams/refs/heads/main/tv.m3u"
@@ -225,28 +229,181 @@ STREAM_URL_OVERRIDES = {
 }
 
 
-def parse_m3u_blocks(text: str) -> list[tuple[str, list[str]]]:
-    """Parse M3U into (display_name, block_lines). Block = EXTINF + optional # lines + URL line."""
-    lines = text.splitlines()
-    blocks = []
-    i = 0
-    while i < len(lines):
-        line = lines[i]
-        if line.strip().startswith("#EXTINF"):
-            last_comma = line.rfind(",")
-            name = (line[last_comma + 1 :].strip() if last_comma >= 0 else "").strip()
-            block = [line]
-            i += 1
-            while i < len(lines) and not lines[i].strip().startswith("http"):
-                block.append(lines[i])
-                i += 1
-            if i < len(lines):
-                block.append(lines[i])
-                i += 1
-            blocks.append((name, block))
+class InvalidPlaylist(ValueError):
+    """A safe validation error, without response contents or stream URLs."""
+
+
+def parse_m3u_blocks(text: str, *, allow_empty: bool = False) -> list[tuple[str, list[str]]]:
+    """Validate entries before accepting a provider response or retained section."""
+    lines = text.lstrip("\ufeff \t\r\n").splitlines()
+    if not lines or not lines[0].startswith("#EXTM3U"):
+        raise InvalidPlaylist("Missing M3U header")
+    blocks, block = [], None
+    for raw in lines[1:]:
+        line = raw.strip()
+        if not line:
+            continue
+        if line.startswith("#EXTINF:"):
+            if block is not None:
+                raise InvalidPlaylist("Channel entry has no stream URL")
+            if "," not in line or not line.rsplit(",", 1)[1].strip():
+                raise InvalidPlaylist("Channel entry has no display name")
+            block = [raw]
+        elif line.startswith("#"):
+            if block is not None:
+                block.append(raw)
         else:
-            i += 1
+            parsed = urlsplit(line.split("|", 1)[0])
+            if parsed.scheme not in ("http", "https") or not parsed.hostname:
+                raise InvalidPlaylist("Invalid channel stream entry")
+            if block is None:
+                # Some sources contain a duplicate bare URL after a complete entry.
+                # It has no channel metadata and the previous parser ignored it too.
+                continue
+            block.append(raw)
+            blocks.append((block[0].rsplit(",", 1)[1].strip(), block))
+            block = None
+    if block is not None:
+        raise InvalidPlaylist("Channel entry has no stream URL")
+    if not blocks and not allow_empty:
+        raise InvalidPlaylist("Playlist contains no channels")
     return blocks
+
+
+def previous_sections(text: str) -> dict[str, list[list[str]]]:
+    """Read only known provider sections; never attribute the whole file to one source."""
+    if not text:
+        return {}
+    if not text.lstrip("\ufeff \t\r\n").startswith("#EXTM3U"):
+        raise InvalidPlaylist("Previous playlist has no M3U header")
+    chunks, current = {}, None
+    markers = {f"# === {name} ===" for name in SOURCE_SECTIONS.values()}
+    for line in text.splitlines():
+        marker = line.strip()
+        if marker.startswith("# === "):
+            current = marker if marker in markers else None
+            if current is not None:
+                if current in chunks:
+                    raise InvalidPlaylist("Previous playlist has duplicate source sections")
+                chunks[current] = []
+        elif current is not None:
+            chunks[current].append(line)
+    return {
+        marker: [block for _, block in parse_m3u_blocks(
+            "#EXTM3U\n" + "\n".join(lines), allow_empty=True)]
+        for marker, lines in chunks.items()
+    }
+
+
+def safe_error(exc: Exception) -> str:
+    if isinstance(exc, urllib.error.HTTPError):
+        return f"HTTP {exc.code}"
+    if isinstance(exc, InvalidPlaylist):
+        return str(exc)
+    if isinstance(exc, TimeoutError) or (
+        isinstance(exc, urllib.error.URLError) and isinstance(exc.reason, TimeoutError)
+    ):
+        return "Request timed out"
+    # urllib and provider exceptions can contain token-bearing URLs.
+    return type(exc).__name__
+
+
+def compose_playlist(sections: dict[str, list[list[str]]], timestamp: str) -> str:
+    lines = ["#EXTM3U", f"# Last sync attempted: {timestamp}", ""]
+    for marker, blocks in sections.items():
+        lines.append(marker)
+        for block in blocks:
+            lines.extend(block)
+            lines.append("")
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def refresh_sources(previous: dict, fetch) -> tuple[dict, dict]:
+    """Fetch every provider, retaining only a failed provider's published entries."""
+    sections, providers, seen = {}, [], set()
+    for url, name in SOURCE_SECTIONS.items():
+        marker = f"# === {name} ==="
+        try:
+            blocks, skipped = fetch(url)
+            if not blocks:
+                raise InvalidPlaylist("No channels remain after filtering")
+            result = dict(provider=name, status="updated", filtered=skipped)
+        except (OSError, ValueError, http.client.HTTPException) as exc:
+            blocks = previous.get(marker, [])
+            result = dict(provider=name, status="retained" if marker in previous else "unavailable",
+                          filtered=0, error=safe_error(exc))
+            print(f"{name}: {result['status']} ({result['error']})", file=sys.stderr)
+        duplicate_count = 0
+        if marker == THETVAPP_SECTION:
+            blocks, duplicate_count = remove_thetvapp_live_duplicates(blocks, sections[LIVE_SECTION])
+        kept, seen, duplicates = dedupe_blocks_by_name(blocks, seen)
+        sections[marker] = kept
+        result.update(channels=len(kept), duplicates=duplicates + duplicate_count)
+        providers.append(result)
+
+    reviewed, removed = remove_reviewed_duplicates({
+        marker: sections[marker] for marker in (LIVE_SECTION, BACKUP_SECTION, THETVAPP_SECTION)
+    })
+    sections.update(reviewed)
+    for result in providers:
+        marker = f"# === {result['provider']} ==="
+        result["channels"] = len(sections[marker])
+        result["duplicates"] += removed.get(marker, 0)
+    return sections, dict(providers=providers)
+
+
+def renew_pluto_independently(sections: dict, previous: dict, previous_text: str,
+                             summary: dict, *, renew=renew_playlist) -> str:
+    source = compose_playlist(sections, summary["attempted_at"])
+    try:
+        output, result = renew(source, previous_text=previous_text)
+        result["status"] = "partial" if result["failed_channels"] else "updated"
+    except PlutoRefreshError as exc:
+        # A Pluto bootstrap/rate-limit failure must not discard other providers.
+        # Keep the previously published Pluto section and its playback options.
+        if PLUTO_SECTION in previous:
+            sections[PLUTO_SECTION] = previous[PLUTO_SECTION]
+            for provider in summary["providers"]:
+                if provider["provider"] == "Pluto TV":
+                    provider["channels"] = len(previous[PLUTO_SECTION])
+        output = compose_playlist(sections, summary["attempted_at"])
+        result = dict(status="retained" if PLUTO_SECTION in previous else "unrenewed",
+                      error=str(exc), retained_previous_entries=len(previous.get(PLUTO_SECTION, [])))
+        print("Pluto renewal: " + result["status"] + " (" + str(exc) + ")", file=sys.stderr)
+    summary["pluto_renewal"] = result
+    return output
+
+
+def finish_summary(summary: dict, output: str) -> None:
+    summary["total_channels"] = len(parse_m3u_blocks(output, allow_empty=True))
+    updated = sum(row["status"] == "updated" for row in summary["providers"])
+    summary["status"] = "complete" if updated == len(summary["providers"]) else "partial" if updated else "failed"
+    if summary.get("pluto_renewal", {}).get("status", "updated") != "updated":
+        if summary["status"] == "complete":
+            summary["status"] = "partial"
+    summary["publishable"] = summary["total_channels"] > 0
+    if not summary["publishable"]:
+        summary["status"] = "failed"
+
+
+def write_summary(path: Path, summary: dict) -> None:
+    path.write_text(json.dumps(summary, indent=2) + "\n", encoding="utf-8")
+    lines = ["### Provider refresh", "", f"Result: **{summary['status']}**. Channels: {summary['total_channels']}.",
+             "", "| Provider | Source refresh | Channels | Details |", "| --- | --- | ---: | --- |"]
+    for row in summary["providers"]:
+        lines.append(f"| {row['provider']} | {row['status']} | {row['channels']} | {row.get('error', '')} |")
+    if "pluto_renewal" in summary:
+        result = summary["pluto_renewal"]
+        lines += ["", "### Pluto playback renewal", "", f"Result: **{result['status']}**.",
+                  f"Updated entries: {result.get('updated_entries', 0)}. "
+                  f"Failed checks: {len(result.get('failed_channels', []))}. "
+                  f"Retained previous entries: {result.get('retained_previous_entries', 0)}."]
+        if result.get("error"):
+            lines.append(result["error"])
+    lines += ["", "Retained sources were not refreshed; their URLs may still be expired. "
+              "Successful sources are published before the workflow flags an incomplete refresh.",
+              "Playlist refreshes and manifest checks do not confirm sustained TV playback."]
+    path.with_suffix(".md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def _transient_network_error(exc: BaseException) -> bool:
@@ -433,6 +590,9 @@ def main() -> int:
         default=Path("main.m3u"),
         help="Path to M3U file (e.g. main.m3u)",
     )
+    parser.add_argument("--previous", type=Path, help="Last published playlist (defaults to --m3u)")
+    parser.add_argument("--summary", type=Path, help="Write token-free JSON and Markdown refresh reports")
+    parser.add_argument("--renew-pluto", action="store_true", help="Renew Pluto without blocking other sources")
     parser.add_argument(
         "--dry-run",
         action="store_true",
@@ -462,6 +622,9 @@ def main() -> int:
     args = parser.parse_args()
 
     m3u_path = args.m3u
+    previous_path = args.previous or m3u_path
+    previous_text = previous_path.read_text(encoding="utf-8-sig") if previous_path.exists() else ""
+    previous = previous_sections(previous_text)
     ignore_names = {"fanduel", "bbc america sd", "bbc america hd", "bet hd"}
 
     def provider_fetch(url: str, headers=None) -> str:
@@ -491,153 +654,29 @@ def main() -> int:
         updates=updates,
     )
 
-    # Fetch and filter live (tv.m3u)
-    try:
-        live_blocks, live_skipped = fetch_and_filter(LIVE_URL, ignore_names, **fetch_kw)
-    except Exception as e:
-        print(f"Error fetching {LIVE_URL}: {e}", file=sys.stderr)
+    sections, summary = refresh_sources(
+        previous, lambda url: fetch_and_filter(url, ignore_names, **fetch_kw)
+    )
+    summary["attempted_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    output = compose_playlist(sections, summary["attempted_at"])
+    if args.renew_pluto:
+        output = renew_pluto_independently(sections, previous, previous_text, summary)
+    finish_summary(summary, output)
+    if args.summary:
+        write_summary(args.summary, summary)
+    if not summary["publishable"]:
+        print("No usable channels; output was not replaced.", file=sys.stderr)
         return 1
-
-    # Fetch and filter Backup.m3u
-    try:
-        backup_blocks, backup_skipped = fetch_and_filter(BACKUP_URL, ignore_names, **fetch_kw)
-    except Exception as e:
-        print(f"Error fetching {BACKUP_URL}: {e}", file=sys.stderr)
-        return 1
-
-    # Fetch and filter TheTVApp.m3u8
-    try:
-        tvapp_blocks, tvapp_skipped = fetch_and_filter(THETVAPP_URL, ignore_names, **fetch_kw)
-    except Exception as e:
-        print(f"Error fetching {THETVAPP_URL}: {e}", file=sys.stderr)
-        return 1
-
-    # Fetch and filter Xumo playlist
-    try:
-        xumo_blocks, xumo_skipped = fetch_and_filter(XUMO_URL, ignore_names, **fetch_kw)
-    except Exception as e:
-        print(f"Error fetching {XUMO_URL}: {e}", file=sys.stderr)
-        return 1
-
-    # Fetch and filter LocalNow playlist
-    try:
-        localnow_blocks, localnow_skipped = fetch_and_filter(
-            LOCALNOW_URL, ignore_names, **fetch_kw
-        )
-    except Exception as e:
-        print(f"Error fetching {LOCALNOW_URL}: {e}", file=sys.stderr)
-        return 1
-
-    # Fetch and filter Tubi playlist
-    try:
-        tubi_blocks, tubi_skipped = fetch_and_filter(TUBI_URL, ignore_names, **fetch_kw)
-    except Exception as e:
-        print(f"Error fetching {TUBI_URL}: {e}", file=sys.stderr)
-        return 1
-
-    # Fetch and filter Roku playlist
-    try:
-        roku_blocks, roku_skipped = fetch_and_filter(ROKU_URL, ignore_names, **fetch_kw)
-    except Exception as e:
-        print(f"Error fetching {ROKU_URL}: {e}", file=sys.stderr)
-        return 1
-
-    # Fetch and filter Pluto TV playlist
-    try:
-        pluto_blocks, pluto_skipped = fetch_and_filter(PLUTO_URL, ignore_names, **fetch_kw)
-    except Exception as e:
-        print(f"Error fetching {PLUTO_URL}: {e}", file=sys.stderr)
-        return 1
-
-    # Fetch and filter Plex playlist
-    try:
-        plex_blocks, plex_skipped = fetch_and_filter(PLEX_URL, ignore_names, **fetch_kw)
-    except Exception as e:
-        print(f"Error fetching {PLEX_URL}: {e}", file=sys.stderr)
-        return 1
-
-    # Deduplicate by display name (first occurrence wins)
-    seen: set[str] = set()
-    live_kept, seen, live_dup = dedupe_blocks_by_name(live_blocks, seen)
-    backup_kept, seen, backup_dup = dedupe_blocks_by_name(backup_blocks, seen)
-    tvapp_blocks, tvapp_live_dup = remove_thetvapp_live_duplicates(tvapp_blocks, live_kept)
-    tvapp_kept, seen, tvapp_dup = dedupe_blocks_by_name(tvapp_blocks, seen)
-    tvapp_dup += tvapp_live_dup
-    xumo_kept, seen, xumo_dup = dedupe_blocks_by_name(xumo_blocks, seen)
-    localnow_kept, seen, localnow_dup = dedupe_blocks_by_name(localnow_blocks, seen)
-    tubi_kept, seen, tubi_dup = dedupe_blocks_by_name(tubi_blocks, seen)
-    roku_kept, seen, roku_dup = dedupe_blocks_by_name(roku_blocks, seen)
-    pluto_kept, seen, pluto_dup = dedupe_blocks_by_name(pluto_blocks, seen)
-    plex_kept, seen, plex_dup = dedupe_blocks_by_name(plex_blocks, seen)
-
-    # Run after name deduplication, so only counterparts actually being written
-    # can suppress an entry. This also supports a later keeper in Backup.
-    reviewed, removed = remove_reviewed_duplicates({
-        LIVE_SECTION: live_kept,
-        BACKUP_SECTION: backup_kept,
-        THETVAPP_SECTION: tvapp_kept,
-    })
-    live_kept = reviewed[LIVE_SECTION]
-    backup_kept = reviewed[BACKUP_SECTION]
-    tvapp_kept = reviewed[THETVAPP_SECTION]
-    live_dup += removed[LIVE_SECTION]
-    backup_dup += removed[BACKUP_SECTION]
-    tvapp_dup += removed[THETVAPP_SECTION]
-
-    # Build fresh M3U: header + live + Backup + TheTVApp + Xumo + LocalNow + Tubi + Roku + Pluto TV + Plex
-    out_lines = [
-        "#EXTM3U",
-        f"# Last synced: {datetime.now(timezone.utc).isoformat(timespec='seconds')}Z",
-        "",
-    ]
-    out_lines.append(LIVE_SECTION)
-    for block in live_kept:
-        out_lines.extend(block)
-        out_lines.append("")
-    out_lines.append(BACKUP_SECTION)
-    for block in backup_kept:
-        out_lines.extend(block)
-        out_lines.append("")
-    out_lines.append(THETVAPP_SECTION)
-    for block in tvapp_kept:
-        out_lines.extend(block)
-        out_lines.append("")
-    out_lines.append(XUMO_SECTION)
-    for block in xumo_kept:
-        out_lines.extend(block)
-        out_lines.append("")
-    out_lines.append(LOCALNOW_SECTION)
-    for block in localnow_kept:
-        out_lines.extend(block)
-        out_lines.append("")
-    out_lines.append(TUBI_SECTION)
-    for block in tubi_kept:
-        out_lines.extend(block)
-        out_lines.append("")
-    out_lines.append(ROKU_SECTION)
-    for block in roku_kept:
-        out_lines.extend(block)
-        out_lines.append("")
-    out_lines.append(PLUTO_SECTION)
-    for block in pluto_kept:
-        out_lines.extend(block)
-        out_lines.append("")
-    out_lines.append(PLEX_SECTION)
-    for block in plex_kept:
-        out_lines.extend(block)
-        out_lines.append("")
-    out_text = "\n".join(out_lines)
-    if not out_text.endswith("\n"):
-        out_text += "\n"
-
-    total = len(live_kept) + len(backup_kept) + len(tvapp_kept) + len(xumo_kept) + len(localnow_kept) + len(tubi_kept) + len(roku_kept) + len(pluto_kept) + len(plex_kept)
+    for row in summary["providers"]:
+        print(f"{row['provider']}: {row['status']}, {row['channels']} channels")
     if args.dry_run:
-        print(f"Would write {total} channels to {m3u_path} (live: {len(live_kept)}, Backup: {len(backup_kept)}, TheTVApp: {len(tvapp_kept)}, Xumo: {len(xumo_kept)}, LocalNow: {len(localnow_kept)}, Tubi: {len(tubi_kept)}, Roku: {len(roku_kept)}, Pluto: {len(pluto_kept)}, Plex: {len(plex_kept)}; skipped fetch: live {live_skipped}, Backup {backup_skipped}, TheTVApp {tvapp_skipped}, Xumo {xumo_skipped}, LocalNow {localnow_skipped}, Tubi {tubi_skipped}, Roku {roku_skipped}, Pluto {pluto_skipped}, Plex {plex_skipped}; skipped dup: live {live_dup}, Backup {backup_dup}, TheTVApp {tvapp_dup}, Xumo {xumo_dup}, LocalNow {localnow_dup}, Tubi {tubi_dup}, Roku {roku_dup}, Pluto {pluto_dup}, Plex {plex_dup})")
-        print(f"Output would be {len(out_lines)} lines")
+        print(f"Would write {summary['total_channels']} channels ({summary['status']}) to {m3u_path}")
         return 0
-
-    m3u_path.write_text(out_text, encoding="utf-8")
-    print(f"Synced {total} channels into {m3u_path} (live: {len(live_kept)}, Backup: {len(backup_kept)}, TheTVApp: {len(tvapp_kept)}, Xumo: {len(xumo_kept)}, LocalNow: {len(localnow_kept)}, Tubi: {len(tubi_kept)}, Roku: {len(roku_kept)}, Pluto: {len(pluto_kept)}, Plex: {len(plex_kept)}; skipped fetch: live {live_skipped}, Backup {backup_skipped}, TheTVApp {tvapp_skipped}, Xumo {xumo_skipped}, LocalNow {localnow_skipped}, Tubi {tubi_skipped}, Roku {roku_skipped}, Pluto {pluto_skipped}, Plex {plex_skipped}; skipped dup: live {live_dup}, Backup {backup_dup}, TheTVApp {tvapp_dup}, Xumo {xumo_dup}, LocalNow {localnow_dup}, Tubi {tubi_dup}, Roku {roku_dup}, Pluto {pluto_dup}, Plex {plex_dup})")
+    # An interrupted write must not leave a truncated published playlist.
+    temporary = m3u_path.with_name(m3u_path.name + ".tmp")
+    temporary.write_text(output, encoding="utf-8")
+    temporary.replace(m3u_path)
+    print(f"Synced {summary['total_channels']} channels ({summary['status']}) into {m3u_path}")
     return 0
 
 
