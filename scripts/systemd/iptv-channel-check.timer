@@ -1,0 +1,11 @@
+[Unit]
+Description=Check IPTV channels every hour
+
+[Timer]
+OnCalendar=*-*-* *:12:00
+Persistent=true
+AccuracySec=30s
+Unit=iptv-channel-check.service
+
+[Install]
+WantedBy=timers.target
